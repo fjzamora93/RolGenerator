@@ -1,0 +1,44 @@
+* {
+    font-family: 'Papyrus', sans-serif;
+    background-color: #d2b48c; /* Color de fondo rústico */
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #8b4513; /* Color de texto para encabezados */
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+div > span {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f5deb3; /* Color de fondo de las "cajitas" */
+    border: 1px solid #cd853f; /* Borde de las "cajitas" */
+    border-radius: 5px;
+}
+
+div > strong {
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #8b4513; /* Color de fondo del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cd853f; /* Cambio de color al pasar el cursor por encima */
+}
