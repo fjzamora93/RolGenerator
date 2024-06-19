@@ -1,6 +1,7 @@
 body {
-    background-color: #3e3e3e;
+    background-color: #bbbaba;
     color: #f5f5f5;
+    
     
 }
 
@@ -11,7 +12,7 @@ body {
 }
 
 #scenario-form {
-    background-color: #2b2b2b;
+    background-color: #d2c6c6;
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;

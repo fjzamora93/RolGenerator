@@ -2,8 +2,13 @@
 
 
 <div class="container">
+
+    <form id="scenario-form">
+        <label for="nivel"> <h3> Nivel del item: </h3> *Max lvl 20 </label><br>
+        <input [(ngModel)]="nivel" type="number" id="nivel" name="nivel" min="1" max="20"><br>
+    </form>
     
-    <app-items></app-items>
+    <app-items [nivel]="nivel"></app-items>
 
     <form id="scenario-form">
         <label for="character-name">Character Name:</label><br>

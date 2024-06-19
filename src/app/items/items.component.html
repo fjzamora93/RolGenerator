@@ -1,20 +1,19 @@
 
 <h3>Generador aleatorio de objetos</h3>
 
+
 <div>
-    Nombre: <span> {{ selectedItem.nombre }} </span>
+    Nombre: <span> {{ tipoDeOjbeto }} {{ sobrenombre }} </span>
+</div>
+
+
+
+<div>
+    Material: <span> {{ material }} </span>
 </div>
 
 <div>
-    Descripción: <span>{{ selectedItem.descripcion }} </span>
-</div>
-
-<div>
-    Material: <span> {{ selectedItem.material }} </span>
-</div>
-
-<div>
-    Propiedades: <span>{{ selectedItem.propiedades }} </span>
+    Propiedades: <span>{{ efectoMagico }} </span>
 </div>
 
 <button (click)="onClick()"> Autogenerate! </button>
