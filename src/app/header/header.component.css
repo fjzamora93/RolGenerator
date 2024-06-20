@@ -1,4 +1,19 @@
-#banner {
+/* #banner {
     background: url("/img/banner-images/banner-image-1.jpg") no-repeat center top;
     background-size:cover;
+} */
+
+#poster{
+    margin-left: 20px;
+    display : inline;
+    float: left;
+ 
+    max-width: 50%;
+    min-width: 300px;
+
+}
+
+#poster-acompo{
+
+    display: inline;
 }
