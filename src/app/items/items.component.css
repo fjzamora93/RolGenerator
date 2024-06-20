@@ -1,44 +1,53 @@
-* {
-    font-family: 'Papyrus', sans-serif;
-    background-color: #d2b48c; /* Color de fondo rústico */
-    margin: 0;
-    padding: 20px;
-}
-
-h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color: #8b4513; /* Color de texto para encabezados */
-}
-
-div {
-    margin-bottom: 10px;
-}
-
-div > span {
-    display: inline-block;
-    padding: 10px;
-    background-color: #f5deb3; /* Color de fondo de las "cajitas" */
-    border: 1px solid #cd853f; /* Borde de las "cajitas" */
-    border-radius: 5px;
-}
-
-div > strong {
-    font-weight: bold;
-}
-
 button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #fff;
-    background-color: #8b4513; /* Color de fondo del botón */
-    border: none;
-    border-radius: 5px;
+    display: block;
+    margin: 10px;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s;
-}
+    background-color: #a8b2bc;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  
+  button:hover {
+    color: #fff;
+    background-color: #677b8f;
+    border-color: #1f2e3d;
+  }
+  
+  button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, .5);
+  }
+  
+  button:active {
+    background-color: #0056b3;
+    border-color: #004a99;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  }
 
-button:hover {
-    background-color: #cd853f; /* Cambio de color al pasar el cursor por encima */
-}
+  form{
+    padding: 20px;
+  }
+
+  span{
+    margin: 20px;
+    color: black;
+    top: 70%;
+    position:top;
+    left: 0;
+    width: 100%;
+    display: block;
+  }
+
+  span>span{
+    padding-top: 10px;
+    height: 70px;
+    background-color: aliceblue;
+    font-weight: 100;
+  }

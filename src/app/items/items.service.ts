@@ -46,12 +46,13 @@ const tiposDeObjetos = [
   ];
 
 const sobrenombres = [   
-    "común", "común", "común", "común", "común", "común", "común", "común", "común", "común", "común", "común", 
-    "vulgar", "vulgar", "vulgar", "vulgar", "vulgar", "vulgar", "vulgar", "vulgar", "vulgar", "vulgar", "vulgar", 
-    "peculiar", "peculiar", "peculiar", "peculiar", "peculiar", 
+    "(común)", "(común)", "(común)", "(común)", "(común)", "(común)", "(común)", 
+    "(objeto desgastado)", "(objeto desgastado)", "(objeto desgastado)", "(objeto desgastado)", 
+    "(vulgar)",  "(vulgar)", "(vulgar)", "(vulgar)", "(vulgar)", "(vulgar)", 
+    "(peculiar)", "(peculiar)", "(peculiar)", "(peculiar)", "(peculiar)", 
     "costumbrista", "costumbrista", "costumbrista", 
-    "especial", "especial", "especial", "especial", "especial", 
-    "inusual", "inusual", "inusual", "inusual", 
+    "(especial)", "(especial)", "(especial)", "(especial)", "(especial)", "(especial)", 
+    "(inusual)", "(inusual)", "(inusual)", "(inusual)", "(inusual)", "(inusual)", 
     "con recubrimiento mohoso", "con recubrimiento mohoso",  "con recubrimiento mohoso",  "con moho", "con moho", "con moho", 
     "en desuso", "en desuso", "en desuso", "en desuso", "en desuso", 
     "con óxido", "con óxido", "con óxido", "con óxido", "con óxido", "con óxido", 

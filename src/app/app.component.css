@@ -1,9 +1,4 @@
-body {
-    background-color: #bbbaba;
-    color: #f5f5f5;
-    
-    
-}
+
 
 .container {
     width: 80%;
@@ -11,12 +6,6 @@ body {
     text-align: center;
 }
 
-#scenario-form {
-    background-color: #d2c6c6;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
 
 input[type=text], select {
     width: 100%;

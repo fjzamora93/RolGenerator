@@ -1,19 +1,53 @@
 
-<h3>Generador aleatorio de objetos</h3>
-
-
-<div>
-    Nombre: <span> {{ tipoDeOjbeto }} {{ sobrenombre }} </span>
-</div>
 
 
 
-<div>
-    Material: <span> {{ material }} </span>
-</div>
+<!--Clients-->
+<section id="clients" class="scrollto clearfix">
+    <div class="row clearfix">
 
-<div>
-    Propiedades: <span>{{ efectoMagico }} </span>
-</div>
+        <div class="col-3">
 
-<button (click)="onClick()"> Autogenerate! </button>
+            <div class="section-heading">
+    
+                <h2 class="section-title">Generador de objetos</h2>
+                <p class="section-subtitle"> Genera de forma aleatoria un objeto. A mayor puntuación / nivel, mejores oportunidades de encontrar objetos especiales (máximo D20) </p>
+
+                <form>
+                    <input [(ngModel)]="nivel" type="number" id="nivel" name="nivel" min="1" max="20"><br> 
+                </form>
+
+                
+                
+                
+                
+                
+            </div>
+
+        </div>
+
+        <div class="col-2-3">
+
+            <a href="#item" class="col-3">
+                <button (click)="onClick()"> Autogener elemento </button>
+                <img src="img/company-images/company-logo9.png" alt="Company"/>
+                <div class="client-overlay"><span> Nombre: <span> {{ tipoDeOjbeto }} {{ sobrenombre }} </span></span></div>
+            </a>
+
+            <a href="#item" class="col-3" id="#item">
+                <button (click)="inspeccionar()"> Inspeccionar material </button>
+                <img src="img/company-images/company-logo1.png" alt="Company"/>
+                <div class="client-overlay"><span>Material: <span> {{ material }} </span></span></div>
+            </a>
+
+            <a href="#item" class="col-3">
+                <button (click)="detectar()"> Escrutar propiedades</button>
+                <img src="img/company-images/company-logo6.png" alt="Company"/>
+                <div class="client-overlay"><span>Propiedades: <span>{{ efectoMagico }} </span></span></div>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+<!--End of Clients-->
