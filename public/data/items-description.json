@@ -1,0 +1,323 @@
+[
+    {
+        "id": "1",
+        "descripcion": "Un objeto común y corriente, no parece tener nada en especial... ¿o tal vez sí?"
+    },
+    {
+        "id": "2",
+        "descripcion": "Un artilugio algo peculiar. Emite un leve destello azulado al trasluz, como si estuviera diciendo algo."
+    },
+    {
+        "id": "3",
+        "descripcion": "Parece un objeto algo viejo y desgastado... quizás todavía sirva, aunque lo más probable es que no."
+    },
+    {
+        "id": "4",
+        "descripcion": "Inusualmente ligero para su tamaño, casi como si flotase al tomarlo el objeto con las manos."
+    },
+    {
+        "id": "5",
+        "descripcion": "Un extraño halo misterioso recubre al artilugio, es como si tuviese vida."
+    },
+    {
+        "id": "6",
+        "descripcion": "Este objeto emite un sonido casi imperceptible, como un susurro en una lengua olvidada."
+    },
+    {
+        "id": "7",
+        "descripcion": "El objeto parece tener una textura única, a veces suave como la seda, otras veces áspera como la roca."
+    },
+    {
+        "id": "8",
+        "descripcion": "Hay algo en este objeto que atrae la mirada, aunque no se puede decir exactamente qué es."
+    },
+    {
+        "id": "9",
+        "descripcion": "Un objeto que siempre parece estar a una temperatura diferente a la del entorno, frío o caliente sin razón aparente."
+    },
+    {
+        "id": "10",
+        "descripcion": "Este artilugio tiene un equilibrio inusual, parece moverse ligeramente cuando no lo estás mirando."
+    },
+    {
+        "id": "11",
+        "descripcion": "Un objeto que deja una ligera fragancia en el aire, algo familiar pero difícil de identificar."
+    },
+    {
+        "id": "12",
+        "descripcion": "El objeto parece resonar con una energía invisible, a veces vibrando levemente sin motivo aparente."
+    },
+    {
+        "id": "13",
+        "descripcion": "Aunque parece sólido, al tocarlo da la impresión de ser parcialmente etéreo, como si no estuviera del todo en este mundo."
+    },
+    {
+        "id": "14",
+        "descripcion": "Este objeto tiene una forma indefinida, cambiando ligeramente según el ángulo desde el que se mire."
+    },
+    {
+        "id": "15",
+        "descripcion": "Un artilugio con patrones que parecen moverse y cambiar, aunque cuando te fijas mejor, permanecen estáticos."
+    }, {
+        "id": "16",
+        "descripcion": "El objeto emite una leve vibración, como si estuviera respirando suavemente."
+    },
+    {
+        "id": "17",
+        "descripcion": "Un artilugio que parece cambiar de color según la luz que lo ilumina, nunca es el mismo dos veces."
+    },
+    {
+        "id": "18",
+        "descripcion": "Parece tener una pequeña inscripción en un idioma desconocido, apenas visible a simple vista."
+    },
+    {
+        "id": "19",
+        "descripcion": "Al tocarlo, sientes una extraña sensación de déjà vu, como si ya lo hubieras tenido antes."
+    },
+    {
+        "id": "20",
+        "descripcion": "Un objeto que parece atraer o repeler polvo sin ninguna explicación lógica."
+    },
+    {
+        "id": "21",
+        "descripcion": "Al sostenerlo, el objeto parece tener un peso que varía sin razón aparente, a veces ligero, a veces pesado."
+    },
+    {
+        "id": "22",
+        "descripcion": "Un objeto con una superficie que parece reflejar más de lo que realmente debería, mostrando destellos de lugares lejanos."
+    },
+    {
+        "id": "23",
+        "descripcion": "Emite un ligero zumbido que apenas se percibe, y sólo cuando está en completa oscuridad."
+    },
+    {
+        "id": "24",
+        "descripcion": "Un artilugio que parece estar caliente al tacto, pero no emite ningún calor visible."
+    },
+    {
+        "id": "25",
+        "descripcion": "Tiene una forma curiosa, que no parece seguir ninguna geometría conocida, y es difícil de describir."
+    },
+    {
+        "id": "26",
+        "descripcion": "Al mirarlo de cerca, el objeto parece contener diminutos puntos de luz, como estrellas en miniatura."
+    },
+    {
+        "id": "27",
+        "descripcion": "Este objeto parece emitir una ligera brisa, aunque no se puede discernir su origen."
+    },
+    {
+        "id": "28",
+        "descripcion": "Tiene un pequeño sonido metálico cuando se mueve, como si tuviera partes móviles internas que no se pueden ver."
+    },
+    {
+        "id": "29",
+        "descripcion": "Un artilugio que parece absorber la luz a su alrededor, volviéndose más oscuro cuanto más se observa."
+    },
+    {
+        "id": "30",
+        "descripcion": "Parece tener un aroma cambiante, a veces dulce y otras veces acre, sin razón aparente."
+    }, {
+        "id": "31",
+        "descripcion": "Un objeto que parece emitir un leve susurro cuando te acercas lo suficiente."
+    },
+    {
+        "id": "32",
+        "descripcion": "Tiene una textura extraña, que parece cambiar entre suave y rugosa sin previo aviso."
+    },
+    {
+        "id": "33",
+        "descripcion": "Un artilugio que parece pulsar con una luz tenue que parpadea intermitentemente."
+    },
+    {
+        "id": "34",
+        "descripcion": "Al mirarlo fijamente, parece que el tiempo a su alrededor se ralentiza por un instante."
+    },
+    {
+        "id": "35",
+        "descripcion": "Parece estar hecho de un material desconocido, ni metal ni madera, algo intermedio."
+    },
+    {
+        "id": "36",
+        "descripcion": "Este objeto tiene un leve aroma a tierra húmeda, como después de la lluvia."
+    },
+    {
+        "id": "37",
+        "descripcion": "Parece tener pequeñas marcas, como si hubiera sido manipulado muchas veces antes."
+    },
+    {
+        "id": "38",
+        "descripcion": "El objeto parece tener una ligera carga estática, haciendo que los pelos se ericen al tocarlo."
+    },
+    {
+        "id": "39",
+        "descripcion": "Emite un reflejo inusual, como si estuviera recubierto de una capa de agua invisible."
+    },
+    {
+        "id": "40",
+        "descripcion": "Tiene un patrón que cambia ligeramente cada vez que lo observas desde un ángulo diferente."
+    },
+    {
+        "id": "41",
+        "descripcion": "Un artilugio que parece resonar con una frecuencia muy baja, apenas perceptible al oído humano."
+    },
+    {
+        "id": "42",
+        "descripcion": "Parece que su superficie absorbe la luz, volviéndose más oscuro cuando se ilumina directamente."
+    },
+    {
+        "id": "43",
+        "descripcion": "Este objeto tiene un equilibrio perfecto, como si fuera imposible hacerlo caer."
+    },
+    {
+        "id": "44",
+        "descripcion": "Un objeto con una ligera capa de polvo, aunque parece repelerlo activamente."
+    },
+    {
+        "id": "45",
+        "descripcion": "Al sostenerlo, sientes un leve zumbido que parece provenir del interior del objeto."
+    },
+    {
+        "id": "46",
+        "descripcion": "Tiene un ligero resplandor que sólo es visible en completa oscuridad."
+    },
+    {
+        "id": "47",
+        "descripcion": "Un artilugio que parece más pesado de lo que su tamaño sugiere."
+    },
+    {
+        "id": "48",
+        "descripcion": "Al acercarlo al oído, se escucha un murmullo muy bajo, como voces lejanas."
+    },
+    {
+        "id": "49",
+        "descripcion": "Parece estar ligeramente tibio al tacto, independientemente de la temperatura ambiente."
+    },
+    {
+        "id": "50",
+        "descripcion": "El objeto emite una suave fragancia floral que cambia ligeramente con el tiempo."
+    },
+    {
+        "id": "51",
+        "descripcion": "Tiene una superficie que parece moverse como olas en el agua, aunque es sólida."
+    },
+    {
+        "id": "52",
+        "descripcion": "Un objeto que parece estar cubierto de una fina capa de escarcha, incluso en calor."
+    },
+    {
+        "id": "53",
+        "descripcion": "Emite un suave brillo que parece provenir de su interior, sin fuente visible."
+    },
+    {
+        "id": "54",
+        "descripcion": "Parece vibrar ligeramente cuando lo sostienes, como si tuviera un pequeño motor interno."
+    },
+    {
+        "id": "55",
+        "descripcion": "Al tocarlo, sientes una leve corriente eléctrica que no causa dolor pero es perceptible."
+    },
+    {
+        "id": "56",
+        "descripcion": "Tiene una inscripción que parece cambiar cada vez que intentas leerla."
+    },
+    {
+        "id": "57",
+        "descripcion": "Un artilugio que emite un suave tintineo al moverse, como campanillas en miniatura."
+    },
+    {
+        "id": "58",
+        "descripcion": "Su superficie parece reflejar imágenes de lugares que no están presentes."
+    },
+    {
+        "id": "59",
+        "descripcion": "El objeto parece hacerse más ligero o pesado dependiendo de quién lo sostenga."
+    },
+    {
+        "id": "60",
+        "descripcion": "Tiene un color que parece cambiar ligeramente dependiendo del estado de ánimo del observador."
+    },
+    {
+        "id": "61",
+        "descripcion": "Al sostenerlo, se siente una ligera vibración, como si estuviera pidiendo atención."
+    },
+    {
+        "id": "62",
+        "descripcion": "Un objeto que parece emitir una suave melodía que cambia con el viento."
+    },
+    {
+        "id": "63",
+        "descripcion": "Tiene una textura suave que se siente casi líquida al tacto, aunque es sólido."
+    },
+    {
+        "id": "64",
+        "descripcion": "Parece ser más frío al tocarlo, sin importar la temperatura del entorno."
+    },
+    {
+        "id": "65",
+        "descripcion": "Un artilugio que emite un suave resplandor cuando se encuentra en la oscuridad."
+    },
+    {
+        "id": "66",
+        "descripcion": "El objeto parece absorber los sonidos, haciendo que el entorno sea más silencioso."
+    },
+    {
+        "id": "67",
+        "descripcion": "Tiene una forma indefinida que parece cambiar ligeramente cada vez que lo miras."
+    },
+    {
+        "id": "68",
+        "descripcion": "Emite un suave zumbido que sólo es audible en silencio absoluto."
+    },
+    {
+        "id": "69",
+        "descripcion": "Un objeto que parece generar una ligera corriente de aire a su alrededor."
+    },
+    {
+        "id": "70",
+        "descripcion": "Parece tener un leve campo magnético que atrae pequeños objetos metálicos."
+    },
+    {
+        "id": "71",
+        "descripcion": "El objeto tiene una textura que parece cambiar entre áspera y suave al tacto."
+    },
+    {
+        "id": "72",
+        "descripcion": "Emite una luz pulsante que parece seguir el ritmo de un latido invisible."
+    },
+    {
+        "id": "73",
+        "descripcion": "Un artilugio que parece cambiar de peso dependiendo de la posición en la que se sostenga."
+    },
+    {
+        "id": "74",
+        "descripcion": "Tiene un color iridiscente que cambia según el ángulo de la luz."
+    },
+    {
+        "id": "75",
+        "descripcion": "Parece emitir una leve fragancia que recuerda a un bosque después de la lluvia."
+    },
+    {
+        "id": "76",
+        "descripcion": "El objeto tiene una superficie que parece reflejar más de lo que debería."
+    },
+    {
+        "id": "77",
+        "descripcion": "Un artilugio que parece estar ligeramente húmedo al tacto, aunque no lo está."
+    },
+    {
+        "id": "78",
+        "descripcion": "Tiene una leve emisión de luz que parece provenir de su interior."
+    },
+    {
+        "id": "79",
+        "descripcion": "Parece emitir un sonido muy bajo, como un zumbido constante y lejano."
+    },
+    {
+        "id": "80",
+        "descripcion": "El objeto tiene un patrón de lo más aburrido... casi te hace tener ganas de dejarlo tirado en cualquier lugar."
+    }
+]
+
+
+

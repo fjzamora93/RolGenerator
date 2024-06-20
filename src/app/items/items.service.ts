@@ -1,10 +1,11 @@
 import { Inject, Injectable } from '@angular/core';
 import ITEMS_LIST from '../../../public/data/items.json';
+import ITEMS_DESCRIPTION from '../../../public/data/items-description.json';
 
 
 @Injectable({ providedIn: 'root' }) 
 export class ItemService {
-  
+  public itemDescription: object[] = ITEMS_DESCRIPTION;
   public itemList: object[] = ITEMS_LIST; //! SIN USO, VIENE DEL JSON
 
   public tiposDeObjetos: string[] = tiposDeObjetos;

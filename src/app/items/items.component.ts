@@ -2,9 +2,8 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { ItemService } from './items.service';
 import { FormsModule } from '@angular/forms';
 
-interface Item {
-    id: number;
-    nombre: string;
+interface DescripcionObject {
+    id: string;
     descripcion: string;
   }
 
@@ -24,18 +23,20 @@ export class ItemsComponent {
     constructor(private dataList: ItemService){};
 
     tipoDeOjbeto?: string;
+    itemDescription?: any;
     sobrenombre?: string;
     material?: string;
     efectoMagico?: string;
 
-    onClick(){
+    buscar(){
         let randNums = this.calcularPorcentaje();
 
         this.tipoDeOjbeto = this.dataList.tiposDeObjetos[randNums[0]];
         this.sobrenombre = this.dataList.sobrenombres[randNums[1]];
+        this.itemDescription = (this.dataList.itemDescription[randNums[4]] as any).descripcion;
         
-        
-        console.log(this.sobrenombre)
+
+        console.log(this.itemDescription)
     }
 
     inspeccionar(){
@@ -56,10 +57,13 @@ export class ItemsComponent {
         const maxIndiceMaterial = Math.floor((porcentaje / 100) * this.dataList.materiales.length);
         const efectoMagico = Math.floor((porcentaje / 100) * this.dataList.efectosMagicos.length);
         
-        let randNums = [Math.floor(Math.random() * this.dataList.tiposDeObjetos.length),
+        let randNums = [
+                    Math.floor(Math.random() * this.dataList.tiposDeObjetos.length),
                     Math.floor(Math.random() * maxIndiceSobrenombre),
                     Math.floor(Math.random() * maxIndiceMaterial),
-                    Math.floor(Math.random() * efectoMagico)];
+                    Math.floor(Math.random() * efectoMagico),
+                    Math.floor(Math.random() * this.dataList.itemDescription.length)
+                ];
         return randNums;
     }
 

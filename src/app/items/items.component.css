@@ -1,3 +1,9 @@
+:host{
+    margin: 0;
+}
+
+
+
 button {
     display: block;
     margin: 10px;
@@ -5,7 +11,7 @@ button {
     color: #212529;
     text-align: center;
     cursor: pointer;
-    background-color: #a8b2bc;
+    background-color: #e4e09f;
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -16,38 +22,93 @@ button {
   
   button:hover {
     color: #fff;
-    background-color: #677b8f;
-    border-color: #1f2e3d;
+    background-color: #c2a048;
+    border-color: rgb(66, 60, 34);
   }
   
   button:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, .5);
+    box-shadow: 0 0 0 0.2rem rgba(82, 80, 16, 0.5);
   }
   
   button:active {
-    background-color: #0056b3;
-    border-color: #004a99;
+    background-color: #8f7531;
+    border-color: #e4e09f;
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  }
+
+  .descripcion{
+    display: block;
+    padding-top: 10px;
+    height: 70px;
+    max-width: 80vw;
+    background-color: rgb(219, 216, 205);
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    top: -100px;
+    margin: auto;
+    padding: 20px;
   }
 
   form{
     padding: 20px;
   }
 
-  span{
-    margin: 20px;
-    color: black;
-    top: 70%;
-    position:top;
-    left: 0;
-    width: 100%;
-    display: block;
+  #icono{
+    width:120px;
+    height:100px;
   }
 
-  span>span{
-    padding-top: 10px;
-    height: 70px;
-    background-color: aliceblue;
-    font-weight: 100;
+  input{
+    font-size: 2em;
   }
+
+  input[type="number"] {
+    width: 200px;  /* Adjust this value to your preference */
+    height: 50px;
+  }
+
+  span{
+    background-color: rgb(219, 216, 205);
+    font-weight: 100;
+    border: 2px inset rgb(122, 117, 102);
+  }
+
+  .item-info{
+    margin: auto;
+    text-transform: uppercase;
+    color: black;
+    top: 100%;
+    position:top;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    height: 70px;
+    
+  }
+
+
+  @media (max-width: 1000px) {
+    
+    a{
+        display:block;
+    }
+
+    button{
+        display: inline;
+        float: right;
+    }
+    .icono{
+        margin-top: 100px;
+        display: inline;
+        
+    }
+    .descripcion{
+        text-align: left;
+        height: auto;
+    }
+
+    }
+  

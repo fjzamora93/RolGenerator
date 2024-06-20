@@ -9,18 +9,13 @@
         <div class="col-3">
 
             <div class="section-heading">
-    
-                <h2 class="section-title">Generador de objetos</h2>
-                <p class="section-subtitle"> Genera de forma aleatoria un objeto. A mayor puntuación / nivel, mejores oportunidades de encontrar objetos especiales (máximo D20) </p>
 
+                <h2 class="section-title">Generador de objetos</h2>
                 <form>
                     <input [(ngModel)]="nivel" type="number" id="nivel" name="nivel" min="1" max="20"><br> 
                 </form>
+                <p class="section-subtitle"> Genera de forma aleatoria un objeto. A mayor puntuación / nivel, mejores oportunidades de encontrar objetos especiales (máximo D20) </p>
 
-                
-                
-                
-                
                 
             </div>
 
@@ -28,26 +23,31 @@
 
         <div class="col-2-3">
 
-            <a href="#item" class="col-3">
-                <button (click)="onClick()"> Autogener elemento </button>
-                <img src="img/company-images/company-logo9.png" alt="Company"/>
-                <div class="client-overlay"><span> Nombre: <span> {{ tipoDeOjbeto }} {{ sobrenombre }} </span></span></div>
+            <a  class="col-3">
+                <button (click)="buscar()"> Buscar un objeto </button>
+                <img src="img/company-images/inventory.png" alt="Company" id="icono" (click)="buscar()"/>
+                <div class="client-overlay"> <span class="item-info"> {{ tipoDeOjbeto }} {{ sobrenombre }} </span></div>
             </a>
 
-            <a href="#item" class="col-3" id="#item">
+            <a  class="col-3" id="#item">
                 <button (click)="inspeccionar()"> Inspeccionar material </button>
-                <img src="img/company-images/company-logo1.png" alt="Company"/>
-                <div class="client-overlay"><span>Material: <span> {{ material }} </span></span></div>
+                <img src="img/company-images/map.png" alt="Company" id="icono" (click)="inspeccionar()"/>
+                <div class="client-overlay"><span class="item-info"> {{ material }} </span></div>
             </a>
 
-            <a href="#item" class="col-3">
+            <a class="col-3">
                 <button (click)="detectar()"> Escrutar propiedades</button>
-                <img src="img/company-images/company-logo6.png" alt="Company"/>
-                <div class="client-overlay"><span>Propiedades: <span>{{ efectoMagico }} </span></span></div>
+                <img src="img/company-images/investigar.png" alt="Company" id="icono" (click)="detectar()"/>
+                <div class="client-overlay"> <span class="item-info">{{ efectoMagico }} </span></div>
             </a>
 
+            
         </div>
-
     </div>
+
+    <span class="descripcion">
+        " {{ itemDescription }} ""
+    </span>
+
 </section>
 <!--End of Clients-->
