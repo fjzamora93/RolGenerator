@@ -4,8 +4,8 @@
   "newProjectRoot": "projects",
   "projects": {
     "RolGenerator": {
-      "projectType": "application",
-      "schematics": {},
+    "projectType": "application",
+    "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",

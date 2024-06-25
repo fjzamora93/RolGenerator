@@ -6,14 +6,14 @@ import { ItemsComponent } from './items/items.component';
 import { FormsModule } from '@angular/forms';
 
 import * as datos from '../../public/data/items.json'
+import { NpcComponent } from "./npc/npc.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, ItemsComponent, FormsModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-//   encapsulation: ViewEncapsulation.None  
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    imports: [RouterOutlet, HeaderComponent, FooterComponent, ItemsComponent, FormsModule, NpcComponent]
 })
 export class AppComponent {
   title = 'RolGenerator';

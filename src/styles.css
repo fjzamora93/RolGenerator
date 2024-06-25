@@ -755,24 +755,6 @@ h6 {
     text-align: right;
 }
 
-/* Section Headings */
-
-.section-heading {
-    padding: 0 0 15px 0;
-}
-
-.section-subtitle {
-    font-size: 18px;
-    padding-top: 0;
-}
-
-.section-heading h3 {
-    font-size: 14px;
-    font-weight: bold;
-    color: #ccc;
-    letter-spacing: 2px;
-    padding-bottom: 0;
-}
 
 /*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
@@ -789,14 +771,6 @@ h6 {
 
 #banner h1 {
     padding-top: 5%;
-}
-
-#banner .section-heading:before {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 5px;
-    margin-top: 30px;
 }
 
 
@@ -2073,10 +2047,6 @@ blockquote {
         display:none;
     }
 
-    .row {
-        padding: 15px !important;
-    }
-
     .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38, .row {
         width: 100%;
     }
@@ -2167,9 +2137,7 @@ blockquote {
     }
 
 
-    .row {
-        padding: 15px 0 !important;
-    }
+   
 
     .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-61, .col-38, .row {
         width: 100%;

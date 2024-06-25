@@ -1,0 +1,99 @@
+:host div{
+    padding-left: 20px;
+}
+
+button {
+    display: block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    cursor: pointer;
+    background-color: #e4e09f;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #c2a048;
+    border-color: rgb(66, 60, 34);
+}
+
+button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(82, 80, 16, 0.5);
+}
+
+button:active {
+    background-color: #8f7531;
+    border-color: #e4e09f;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+#button-reveal{
+    display:inline;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#button-reveal:hover{
+    opacity:0.7;
+}
+
+#npc-gen {
+    display: inline;
+}
+
+#img-npc {
+    display: inline;
+    height: 400px;
+    width: auto;
+    vertical-align: middle;
+    float: left;
+}
+
+
+.item-info {
+    background-color: rgb(219, 216, 205);
+    font-weight: 100;
+    border: 2px inset rgb(122, 117, 102);
+    font-style: italic;
+    color: black;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    min-height: 50px;
+    max-width: 600px;
+    height: auto;
+}
+
+.personajes-info {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 20px;
+    align-items: start;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    #img-npc {
+        display: none;
+    }
+
+    .personajes-info {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    
+    .descripcion {
+        text-align: left;
+        height: auto;
+    }
+}
