@@ -9,7 +9,7 @@ import { ScenarioDetailComponent } from './scenario-detail/scenario-detail.compo
   styleUrl: './scenario.component.css'
 })
 export class ScenarioComponent {
-    selectedScenario? :string;
+    selectedScenario? :string = '1';
 
     onSelectScenario(event : Event){
         const seleccion = event.target as HTMLImageElement;

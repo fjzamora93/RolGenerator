@@ -1,6 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
 import NPC from '../../../public/data/npc.json';
-import ITEMS_DESCRIPTION from '../../../public/data/items-description.json';
 
 import { Personaje } from './npc.interface';
 

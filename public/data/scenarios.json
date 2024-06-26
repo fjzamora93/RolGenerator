@@ -1,0 +1,44 @@
+[
+    {
+        "id": "0",
+        "nombre": "La aldea y el bosque",
+        "escenografia": "La aldea está rodeada de un denso bosque que se extiende hasta donde alcanza la vista. Las casas de madera crujen bajo el peso de los años, y el aire está lleno del aroma de pino y tierra húmeda. Se pueden escuchar los cantos de los pájaros durante el día y el aullido de los lobos por la noche. La luz del sol se filtra a través de las copas de los árboles, creando un juego de sombras en el suelo del bosque.",
+        "conflicto": "Unas criaturas misteriosas han comenzado a aparecer en el bosque, atacando a los aldeanos y sus animales. Nadie sabe de dónde vienen ni qué quieren, y el miedo ha empezado a cundir entre los habitantes. El subtexto aquí es el miedo a lo desconocido y la lucha por la supervivencia en un entorno hostil.",
+        "argumento": "Hace una semana, un grupo de cazadores desapareció en el bosque. Desde entonces, las criaturas han comenzado a atacar. Se rumorea que los cazadores encontraron algo antiguo y peligroso. Los jugadores deben descubrir qué desencadenó estos eventos y cómo pueden detener a las criaturas antes de que destruyan la aldea por completo."
+    }
+    ,
+    {
+        "id": "1",
+        "nombre": "El infierno",
+        "escenografia": "Un paisaje desolado de fuego y azufre, con ríos de lava y montañas humeantes. El aire está lleno del hedor de azufre y el sonido de los lamentos de las almas condenadas. Las sombras danzan a la luz de las llamas eternas, y el calor es sofocante, haciendo que cada aliento sea una lucha.",
+        "conflicto": "Los demonios están en guerra constante por el control de este dominio infernal. Una poderosa entidad ha sido liberada de su prisión y busca subyugar a todos bajo su mandato. El subtexto es la lucha por el poder y la desesperación de los seres atrapados en este tormento eterno.",
+        "argumento": "Un ritual fallido en el mundo de los vivos ha abierto un portal al infierno, permitiendo que una entidad antigua y maligna escape. Los jugadores son los únicos capaces de sellar el portal y detener la invasión demoníaca que amenaza con destruir ambos mundos. Deben encontrar los artefactos necesarios para el ritual y enfrentarse a la entidad en su propio terreno."
+    },{
+        "id": "2",
+        "nombre": "El castillo encantado",
+        "escenografia": "Un imponente castillo gótico se alza en la cima de una colina, envuelto en una niebla perpetua. Los pasillos están llenos de retratos cuyos ojos parecen seguir a los visitantes, y el eco de pasos fantasmales resuena en las paredes de piedra. Candelabros antiguos parpadean con luces tenues, y un frío inexplicable llena el aire.",
+        "conflicto": "El castillo está maldito, atrapando las almas de todos aquellos que mueren en su interior. Un espíritu vengativo busca liberar su ira sobre cualquier intruso. El subtexto es la tragedia de los espíritus atrapados y la lucha para liberar sus almas.",
+        "argumento": "Hace siglos, una traición sangrienta ocurrió dentro de estos muros, y desde entonces, el castillo ha estado maldito. Los jugadores deben descubrir la historia detrás de la maldición, encontrar los restos del traidor y realizar un ritual de purificación para liberar las almas atrapadas y poner fin a la maldición."
+    }, {
+        "id": "3",
+        "nombre": "Steampunk City: La ciudad del futuro",
+        "escenografia": "Una ciudad vibrante y bulliciosa llena de engranajes, máquinas de vapor y aeronaves que surcan los cielos. Los edificios son una mezcla de hierro forjado y vidrio, con tuberías y chimeneas que emiten vapor. El aire está lleno del zumbido constante de las máquinas y el aroma del aceite y el metal calentado.",
+        "conflicto": "La ciudad está al borde de una revolución industrial y social. Los trabajadores oprimidos planean un levantamiento contra los industriales ricos y corruptos que gobiernan la ciudad. El subtexto es la lucha de clases y el deseo de igualdad y justicia.",
+        "argumento": "Una serie de sabotajes ha sacudido la ciudad, con explosiones que han destruido fábricas y dejado muchos muertos. Los jugadores deben infiltrarse en ambas facciones para descubrir la verdad detrás de los ataques, decidir en qué bando están y tratar de evitar una guerra civil que podría destruir la ciudad."
+    },
+    {
+        "id": "4",
+        "nombre": "Arcadia: De mitos y héroes",
+        "escenografia": "Un paisaje idílico de colinas verdes, bosques sagrados y ríos cristalinos. Templos antiguos y estatuas de héroes mitológicos salpican el terreno, y el canto de las ninfas y los coros celestiales llenan el aire. La luz del sol brilla de manera dorada, creando una sensación de paz y armonía.",
+        "conflicto": "Una antigua profecía habla del regreso de un titán que destruirá Arcadia. Los dioses han comenzado a perder su poder y los monstruos mitológicos han despertado. El subtexto es el equilibrio entre el bien y el mal y la responsabilidad de los héroes de proteger su tierra.",
+        "argumento": "Los jugadores descubren que la profecía está empezando a cumplirse. Deben buscar los artefactos divinos, enfrentar a criaturas legendarias y ganar el favor de los dioses para detener al titán y salvar Arcadia de la destrucción inminente."
+    },
+    {
+        "id": "5",
+        "nombre": "Fantasía medieval",
+        "escenografia": "Un reino vasto y variado, con castillos majestuosos, aldeas pintorescas y vastos campos de batalla. Los mercados están llenos de comerciantes y juglares, y las tabernas resuenan con canciones y cuentos. La presencia de la magia es palpable, con magos y criaturas místicas en cada rincón.",
+        "conflicto": "El reino está al borde de una guerra civil, con varios señores feudales luchando por el trono. La magia oscura está en aumento, corrompiendo a las criaturas y a los humanos por igual. El subtexto es la lucha por el poder y las consecuencias del abuso de la magia.",
+        "argumento": "Un rey ha sido asesinado y no hay un heredero claro al trono. Los jugadores son enviados en una misión para encontrar el antiguo cetro real, un artefacto que puede decidir el verdadero heredero y traer la paz al reino. En su viaje, deben enfrentarse a traiciones, magia oscura y sus propias dudas sobre quién merece realmente gobernar."
+    }
+
+]

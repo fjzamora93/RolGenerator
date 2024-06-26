@@ -1,5 +1,5 @@
-import { Component, Input, Output, EventEmitter, OnChanges } from '@angular/core';
-
+import { Component, Input, Output, EventEmitter, OnChanges, SimpleChanges } from '@angular/core';
+import { ScenarioService, Scenario } from './scenario.service';
 @Component({
   selector: 'app-scenario-detail',
   standalone: true,
@@ -9,11 +9,17 @@ import { Component, Input, Output, EventEmitter, OnChanges } from '@angular/core
 })
 export class ScenarioDetailComponent implements OnChanges{
     @Input() escenario?: string; // de momento parece que es una cadena de texto
-    @Output() scenarioEmitter = new EventEmitter<string>();
+    escenarioSeleccionado? : Scenario; 
+    constructor(private escenarioService: ScenarioService){};
 
-    ngOnChanges(){
-        console.log("GENERANDO", this.escenario);
-        this.scenarioEmitter.emit();
+    ngOnChanges(changes: SimpleChanges){
+        let indice = +this.escenario!;
+        if (changes['escenario']){
+            this.escenarioSeleccionado = this.escenarioService.scenarioList[indice];
+        }else{
+            console.log('No hay selección')
+        }
+        
     }
 
 }
