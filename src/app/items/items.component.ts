@@ -28,6 +28,12 @@ export class ItemsComponent {
     material?: string;
     efectoMagico?: string;
 
+    allRandom(){
+        this.buscar();
+        this.inspeccionar();
+        this.detectar();
+    }
+
     buscar(){
         let randNums = this.calcularPorcentaje();
 

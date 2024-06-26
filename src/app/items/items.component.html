@@ -1,53 +1,44 @@
 
 
+<div class="row">
 
-
-<!--Clients-->
-<section id="clients" class="scrollto clearfix">
-    <div class="row clearfix">
-
-        <div class="col-3">
-
-            <div class="section-heading">
-
-                <h2 class="section-title">Generador de objetos</h2>
-                <form>
-                    <input [(ngModel)]="nivel" type="number" id="nivel" name="nivel" min="1" max="20"><br> 
-                </form>
-                <p class="section-subtitle"> Genera de forma aleatoria un objeto. A mayor puntuación / nivel, mejores oportunidades de encontrar objetos especiales (máximo D20) </p>
-
-                
-            </div>
-
-        </div>
-
-        <div class="col-2-3">
-
-            <a  class="col-3">
-                <button (click)="buscar()"> Buscar un objeto </button>
-                <img src="img/company-images/inventory.png" alt="Company" id="icono" (click)="buscar()"/>
-                <div class="client-overlay"> <span class="item-info"> {{ tipoDeOjbeto }} {{ sobrenombre }} </span></div>
-            </a>
-
-            <a  class="col-3" id="#item">
-                <button (click)="inspeccionar()"> Inspeccionar material </button>
-                <img src="img/company-images/map.png" alt="Company" id="icono" (click)="inspeccionar()"/>
-                <div class="client-overlay"><span class="item-info"> {{ material }} </span></div>
-            </a>
-
-            <a class="col-3">
-                <button (click)="detectar()"> Escrutar propiedades</button>
-                <img src="img/company-images/investigar.png" alt="Company" id="icono" (click)="detectar()"/>
-                <div class="client-overlay"> <span class="item-info">{{ efectoMagico }} </span></div>
-            </a>
-
-            
-        </div>
+    <div class="section-heading">
+        <h2 class="section-heading">Generador de objetos</h2>
+        <form>
+            <input [(ngModel)]="nivel" type="number" id="nivel" name="nivel" min="1" max="20"><br> 
+            <button (click)="allRandom()"> Todo aleatorio </button>
+        </form>
+        <p class="section-subtitle"> Genera de forma aleatoria un objeto. A mayor puntuación / nivel, mejores oportunidades de encontrar objetos especiales (máximo D20) </p> 
     </div>
 
+    <div class="item-container">
+        <div class="item-field">
+            <img src="img/company-images/inventory.png" alt="icon" class="icon" (click)="buscar()"/>
+            <button (click)="buscar()"> Buscar un objeto </button>
+            <div class="client-overlay">
+                <span class="item-info"> {{ tipoDeOjbeto }} {{ sobrenombre }} </span>
+            </div>
+        </div>
+    
+        <div class="item-field">
+            <img src="img/company-images/map.png" alt="icon" class="icon" (click)="inspeccionar()"/>
+            <button (click)="inspeccionar()"> Inspeccionar material </button>
+            <div class="client-overlay">
+                <span class="item-info"> {{ material }} </span>
+            </div>
+        </div>
+    
+        <div class="item-field">
+            <img src="img/company-images/investigar.png" alt="icon" class="icon" (click)="detectar()"/>
+            <button (click)="detectar()"> Escrutar propiedades </button>
+            <div class="client-overlay">
+                <span class="item-info"> {{ efectoMagico }} </span>
+            </div>
+        </div>
+    </div>
+    
     <span class="descripcion">
-        " {{ itemDescription }} ""
+        " {{ itemDescription }} "
     </span>
 
-</section>
-<!--End of Clients-->
+</div>
