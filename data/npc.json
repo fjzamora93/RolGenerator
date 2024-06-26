@@ -1,10 +1,418 @@
-[
+[   
     {
-        "id" : "1",
-        "nombre" : "Ariel",
-        "edad": "25",
-        "descripcion" : "descripcion física",
-        "personalidad" : "Descripción de un trasfondo",
-        "trasfondo" : "Trasfondo del personaje"
+        "nombre": "Uriel",
+        "fisico" : "Joven atlético de rostro afable y lleno de energía",
+        "personalidad" : "A pesar de su edad, parece alguien ingénuo y sin muchas expectativas.",
+        "presente": "Actualmente trabaja en una floristería a un par de calles, suele tener un trato cercano con los clientes.",
+        "pasado": "En su infancia vivió un evento traumático del que no le gusta hablar, aunque se sabe que perdió a toda su familia.",
+        "motivacion": "Tras una larga conversación, te das cuenta de que su mirada oculta las cicatrices de un pasado remoto."
+    },
+    
+
+    {
+        "nombre": "Rubi",
+        "fisico" : "Señora de mediana edad de melena enmarañada y rostro cansado",
+        "personalidad" : "Su forma de expresarse tiende a ser más bien cortante, aunque transmite cierta honestenidad.",
+        "presente": "Regenta una posada de las posadas más caras del lugar, aunque su ropa no parece acorde a su posición.",
+        "pasado": "Hace años era una persona influyente, presume de haberse codeado con la alta sociedad.",
+        "motivacion": "No sabes por qué, pero hay algo dentro de ti que te está diciendo a gritos que todo lo que te ha contado se trata de pura fachada."
+    },
+
+    {
+        "nombre": "Caty",
+        "fisico" : "Mujer de unos treinta años, rubia y de constitución más bien robusta.",
+        "personalidad" : "Habla con tono pausado y voz amable, como si quisiera tranquilizar siempre a todos los demás.",
+        "presente": "Se dedica a cuidar a todo el mundo a su alrededor, aunque no sabes si por oficio o por vocación.",
+        "pasado": "Tras un incidente que no recuerda, perdió la memoria y ahora trata de recuperarla.",
+        "motivacion": "Sus palabras son cálidas y tranquilizadoras. Da la sensación de que, si se lo pidiéseis, os ayudaría en lo que fuera."
+    },
+    {
+        "nombre": "Odin",
+        "fisico": "Joven de constitución atlética y tatuajes tribales.",
+        "personalidad": "Su comportamiento es errático y a veces violento.",
+        "presente": "Lleva una vida solitaria en la ciudad, lejos de su pequeño pueblo natal.",
+        "pasado": "Decidió mudarse a la ciudad, dejando atrás su vida anterior.",
+        "motivacion": "A veces, se le ve hablando solo en callejones oscuros, lo que sugiere que oculta algo."
+    },
+    {
+        "nombre": "Vera",
+        "fisico": "Mujer de cabello largo y lacio con una mirada perdida.",
+        "personalidad": "Su tono de voz es siempre calmado, casi hipnótico.",
+        "presente": "Pasa mucho tiempo en solitario en su pequeña casa, después de haber viajado por varios países.",
+        "pasado": "Decidió asentarse en una pequeña casa tras muchos viajes.",
+        "motivacion": "Hay noches en que su casa emite extraños ruidos, lo que despierta la curiosidad de los vecinos."
+    },
+    {
+        "nombre": "Kian",
+        "fisico": "Hombre de mediana edad con cicatrices en el rostro.",
+        "personalidad": "Tiene una actitud serena, pero sus ojos siempre están alerta.",
+        "presente": "Ahora vive con un nombre diferente, tras haber cambiado de identidad.",
+        "pasado": "Tuvo un accidente que lo cambió para siempre y decidió cambiar de identidad.",
+        "motivacion": "Se asegura de no dejar huellas en ningún lugar que visita, sugiriendo que esconde algo importante."
+    },
+    {
+        "nombre": "Liora",
+        "fisico": "Joven de figura esbelta y movimientos gráciles.",
+        "personalidad": "Siempre parece estar en un estado de alerta constante.",
+        "presente": "Vive de forma nómada, buscando siempre la libertad.",
+        "pasado": "Creció en una comunidad cerrada, de la que decidió escapar en busca de libertad.",
+        "motivacion": "Lleva consigo un libro antiguo con símbolos extraños, que guarda celosamente."
+    },
+    {
+        "nombre": "Taro",
+        "fisico": "Hombre de complexión robusta y mirada dura.",
+        "personalidad": "Habla poco y parece siempre estar evaluando a los demás.",
+        "presente": "Tiene habilidades que pocos conocen, adquiridas en un entorno hostil.",
+        "pasado": "Creció en un entorno hostil, lo que le llevó a aprender a defenderse.",
+        "motivacion": "Sus manos están siempre frías, incluso en verano, lo que intriga a quienes lo conocen."
+    },
+    {
+        "nombre": "Sela",
+        "fisico": "Mujer de mediana edad con ojos siempre sombreados.",
+        "personalidad": "Habla en susurros y nunca levanta la voz.",
+        "presente": "Lleva una vida discreta en la ciudad, tras haber huido de un monasterio aislado.",
+        "pasado": "Pasó años en un monasterio aislado, de donde huyó para vivir en la ciudad.",
+        "motivacion": "En su casa, hay un altar con velas siempre encendidas, que sugiere una conexión con su pasado."
+    }, 
+    {
+        "nombre": "Miko",
+        "fisico": "Joven de aspecto delgado y ojos siempre dilatados.",
+        "personalidad": "Habla poco y siempre parece estar en otro mundo.",
+        "presente": "Busca respuestas a través de medios poco convencionales después de un accidente que lo dejó sin memoria.",
+        "pasado": "Después de perder la memoria en un accidente, se dedicó a investigar métodos alternativos para recuperar sus recuerdos.",
+        "motivacion": "A veces se encuentra en lugares donde nadie más se atreve a ir, mostrando un valor temerario."
+    },
+    {
+        "nombre": "Niam",
+        "fisico": "Hombre de complexión media y ojos que nunca parpadean.",
+        "personalidad": "Su presencia es perturbadora, aunque siempre educado.",
+        "presente": "Lleva una vida aparentemente tranquila, aunque proviene de una familia conocida por sus prácticas extrañas.",
+        "pasado": "Decidió distanciarse de su familia y vivir una vida normal, aunque algo no cuadra.",
+        "motivacion": "Se dice que a veces desaparece durante días sin dejar rastro, lo que despierta sospechas entre sus vecinos."
+    },
+    {
+        "nombre": "Orin",
+        "fisico": "Hombre de aspecto robusto y mirada intensa.",
+        "personalidad": "Siempre parece estar planeando algo, pero nunca lo revela.",
+        "presente": "Dedicado a la horticultura, pasa sus días en un invernadero, tras haber vivido en varias ciudades.",
+        "pasado": "Vivió en diversas ciudades antes de encontrar paz en la horticultura.",
+        "motivacion": "Sus plantas parecen crecer de manera inquietantemente rápida, lo que intriga a quienes lo conocen."
+    },
+    {
+        "nombre": "Mira",
+        "fisico": "Joven de cabello corto y ojos vivos.",
+        "personalidad": "Se muestra alegre, pero su sonrisa nunca llega a sus ojos.",
+        "presente": "Su casa está llena de artefactos extraños, recogidos durante sus viajes tras trabajar en un circo ambulante.",
+        "pasado": "Trabajó en un circo ambulante y decidió explorar diferentes culturas.",
+        "motivacion": "Algunos objetos en su colección parecen moverse por sí solos, creando un ambiente misterioso."
+    },
+    {
+        "nombre": "Zan",
+        "fisico": "Hombre alto con una sombra perpetua bajo sus ojos.",
+        "personalidad": "Habla con un tono monocorde que genera incomodidad.",
+        "presente": "Trabaja en emergencias médicas, aunque creció en una familia muy unida.",
+        "pasado": "Decidió estudiar medicina tras una infancia en una familia muy unida.",
+        "motivacion": "A veces murmura cosas en latín cuando está solo, lo que añade un aura de misterio a su persona."
+    },
+    {
+        "nombre": "Nela",
+        "fisico": "Mujer de mediana edad con una expresión melancólica.",
+        "personalidad": "Siempre parece estar en un estado de nostalgia profunda.",
+        "presente": "Sus obras de arte son inquietantes, reflejando una pérdida importante que sufrió hace años.",
+        "pasado": "Perdió algo muy importante hace años y decidió volcarse en la pintura.",
+        "motivacion": "Al darte la vuelta, parece que siguen observándote, creando una sensación de inquietud."
+    },{
+        "nombre": "Miko",
+        "fisico": "Joven de aspecto delgado y ojos siempre dilatados.",
+        "personalidad": "Habla poco y siempre parece estar en otro mundo.",
+        "presente": "Busca respuestas a través de medios poco convencionales después de un accidente que lo dejó sin memoria.",
+        "pasado": "Después de perder la memoria en un accidente, se dedicó a investigar métodos alternativos para recuperar sus recuerdos.",
+        "motivacion": "A veces se encuentra en lugares donde nadie más se atreve a ir, mostrando un valor temerario."
+    },
+    {
+        "nombre": "Niam",
+        "fisico": "Hombre de complexión media y ojos que nunca parpadean.",
+        "personalidad": "Su presencia es perturbadora, aunque siempre educado.",
+        "presente": "Lleva una vida aparentemente tranquila, aunque proviene de una familia conocida por sus prácticas extrañas.",
+        "pasado": "Decidió distanciarse de su familia y vivir una vida normal, aunque algo no cuadra.",
+        "motivacion": "Se dice que a veces desaparece durante días sin dejar rastro, lo que despierta sospechas entre sus vecinos."
+    },
+    {
+        "nombre": "Orin",
+        "fisico": "Hombre de aspecto robusto y mirada intensa.",
+        "personalidad": "Siempre parece estar planeando algo, pero nunca lo revela.",
+        "presente": "Dedicado a la horticultura, pasa sus días en un invernadero, tras haber vivido en varias ciudades.",
+        "pasado": "Vivió en diversas ciudades antes de encontrar paz en la horticultura.",
+        "motivacion": "Sus plantas parecen crecer de manera inquietantemente rápida, lo que intriga a quienes lo conocen."
+    },
+    {
+        "nombre": "Mira",
+        "fisico": "Joven de cabello corto y ojos vivos.",
+        "personalidad": "Se muestra alegre, pero su sonrisa nunca llega a sus ojos.",
+        "presente": "Su casa está llena de artefactos extraños, recogidos durante sus viajes tras trabajar en un circo ambulante.",
+        "pasado": "Trabajó en un circo ambulante y decidió explorar diferentes culturas.",
+        "motivacion": "Algunos objetos en su colección parecen moverse por sí solos, creando un ambiente misterioso."
+    },
+    {
+        "nombre": "Zan",
+        "fisico": "Hombre alto con una sombra perpetua bajo sus ojos.",
+        "personalidad": "Habla con un tono monocorde que genera incomodidad.",
+        "presente": "Trabaja en emergencias médicas, aunque creció en una familia muy unida.",
+        "pasado": "Decidió estudiar medicina tras una infancia en una familia muy unida.",
+        "motivacion": "A veces murmura cosas en latín cuando está solo, lo que añade un aura de misterio a su persona."
+    },
+    {
+        "nombre": "Nela",
+        "fisico": "Mujer de mediana edad con una expresión melancólica.",
+        "personalidad": "Siempre parece estar en un estado de nostalgia profunda.",
+        "presente": "Es artista, pero sus obras de arte son inquietantes, reflejando una pérdida importante que sufrió hace años.",
+        "pasado": "Perdió algo muy importante hace años y decidió volcarse en la pintura.",
+        "motivacion": "A veces, los personajes de sus pinturas parecen observarte, creando una sensación de inquietud."
+    },{
+        "nombre": "Nera",
+        "fisico": "Mujer con una complexión delgada y ojos hundidos.",
+        "personalidad": "Su risa nerviosa y mirada perdida sugieren un desequilibrio.",
+        "presente": "Aunque se deja ver fuera del bosque, se ha acostumbrado a vivir sola en una cabaña.",
+        "pasado": "Dicen que hace un tiempo estuvo en un sanatorio, pero eso es un episodio que prefiere no recordar.",
+        "motivacion": "A veces susurra cosas ininteligibles, como si hablara con alguien que no está presente."
+    },
+    
+    {
+        "nombre": "Zoren",
+        "fisico": "Hombre alto y delgado con ojos penetrantes.",
+        "personalidad": "Se muestra siempre encantador, aunque parece calculador.",
+        "presente": "Ofrece 'servicios especiales' a quienes pueden pagarlos, usando habilidades adquiridas como ilusionista en circos.",
+        "pasado": "Trabajó como ilusionista en circos antes de decidir usar sus habilidades para otros fines.",
+        "motivacion": "Los que se atreven a mirarlo fijamente aseguran haber visto algo inhumano en sus ojos."
+    },
+    {
+        "nombre": "Dalia",
+        "fisico": "Mujer de cabello largo y oscuro, siempre vestida de negro.",
+        "personalidad": "Habla en voz baja y pausada, lo que crea una atmósfera tensa.",
+        "presente": "Vive en un antiguo caserón lleno de secretos, tras decidir no seguir el oscuro legado de su familia.",
+        "pasado": "Proviene de una familia con un oscuro legado, aunque decidió no seguir sus pasos.",
+        "motivacion": "Se ha visto luz en su casa a altas horas de la noche, acompañada de murmullos."
+    },
+    {
+        "nombre": "Ivan",
+        "fisico": "Hombre corpulento con tatuajes visibles en su cuello.",
+        "personalidad": "Se muestra siempre serio y reservado.",
+        "presente": "Lleva una vida tranquila, lejos de la ciudad, después de años en prisión.",
+        "pasado": "Pasó años en prisión y decidió empezar de nuevo lejos de la ciudad.",
+        "motivacion": "Se rumorea que realiza rituales en el bosque cercano, manteniendo vivo su pasado oscuro."
+    },
+    {
+        "nombre": "Lyra",
+        "fisico": "Joven de cabello rizado y sonrisa encantadora.",
+        "personalidad": "Habla de forma dulce, pero su mirada es inquietante.",
+        "presente": "Explora el mundo exterior con un afán contagioso por los minerales y las gemas.",
+        "pasado": "Creció en una comunidad cerrada y misteriosa antes de decidir explorar el mundo exterior.",
+        "motivacion": "A veces susurra en un idioma antiguo que nadie puede entender, dejando a todos intrigados."
+    },
+    {
+        "nombre": "Jared",
+        "fisico": "Hombre de mediana edad con una cicatriz en el rostro.",
+        "personalidad": "Su voz es suave, pero su risa suena forzada.",
+        "presente": "Ha publicado varios libros sobre lo paranormal, porque en realidad sigue muy afligido por la pérdida de un familiar muy querido.",
+        "pasado": "Perdió a su familia en circunstancias extrañas y decidió dedicarse a investigar lo paranormal.",
+        "motivacion": "Sus vecinos aseguran que a veces escuchan gritos provenientes de su casa, añadiendo misterio a su vida."
+    },
+    {
+        "nombre": "Leda",
+        "fisico": "Mujer de complexión fuerte y cabello corto.",
+        "personalidad": "Se muestra siempre decidida y confiada.",
+        "presente": "Lleva una vida normal, aunque evita ciertos lugares y personas.",
+        "pasado": "Creció en un orfanato donde ocurrieron cosas extrañas y decidió nunca hablar de su pasado.",
+        "motivacion": "Se dice que tiene una colección de objetos con propiedades inquietantes, que guarda celosamente."
+    },{
+        "nombre": "Dara",
+        "fisico": "Joven de figura delgada y movimientos gráciles.",
+        "personalidad": "Siempre parece estar en otro mundo, soñadora y dispersa.",
+        "presente": "Ha publicado varias obras, pero aún busca su gran historia.",
+        "pasado": "Tras una infancia llena de fantasías y cuentos, decidió dedicarse a la escritura.",
+        "motivacion": "Su mente parece ser un laberinto del que pocos pueden escapar."
+    },
+    {
+        "nombre": "Eran",
+        "fisico": "Hombre robusto con manos grandes y callosas.",
+        "personalidad": "Se muestra siempre dispuesto a ayudar, aunque de manera ruda.",
+        "presente": "Aún está adaptándose a su nueva vida urbana.",
+        "pasado": "Creció en una granja y desde joven trabajó duro. Decidió mudarse a la ciudad para buscar mejores oportunidades.",
+        "motivacion": "Su apariencia fuerte oculta una gran sensibilidad."
+    },
+    {
+        "nombre": "Ilan",
+        "fisico": "Joven con una figura atlética y ojos llenos de vida.",
+        "personalidad": "Siempre está sonriendo y parece que nada puede abatirlo.",
+        "presente": "Ha tenido éxito, pero su pasado aún lo persigue.",
+        "pasado": "Después de un fracaso personal, decidió reinventarse y empezar de nuevo.",
+        "motivacion": "Su optimismo podría ser una máscara para algo más profundo."
+    },
+    {
+        "nombre": "Kara",
+        "fisico": "Mujer de complexión fuerte y mirada desafiante.",
+        "personalidad": "Se muestra siempre independiente y segura de sí misma.",
+        "presente": "Al hablar de sí mismo, parece que ha logrado mucho, pero siempre busca más.",
+        "pasado": "Tras una vida de constantes desafíos, decidió enfrentarlos con todas sus fuerzas.",
+        "motivacion": "No hay señales claras de que esté ocultando algo."
+    },
+    {
+        "nombre": "Luca",
+        "fisico": "Hombre de mediana edad con un aire misterioso.",
+        "personalidad": "Siempre parece estar observando todo desde las sombras.",
+        "presente": "Ahora vive una vida solitaria, pero tranquila.",
+        "pasado": "Después de una traición, decidió mantenerse al margen de las relaciones personales.",
+        "motivacion": "Su comportamiento sugiere que tiene secretos."
+    },
+    {
+        "nombre": "Eldar",
+        "fisico": "Hombre de mirada intensa y cicatrices en las manos.",
+        "personalidad": "Su voz es calmada, pero su mirada parece esconder algo oscuro.",
+        "presente": "Ahora vive aislado, en constante meditación.",
+        "pasado": "Creció en una familia religiosa que lo expulsó. Decidió encontrar su propio camino espiritual.",
+        "motivacion": "Hay noches en las que su rostro se transforma en una mueca aterradora."
+    }, {
+        "nombre": "Bela",
+        "fisico": "Mujer alta y esbelta con una sonrisa enigmática.",
+        "personalidad": "Suele hablar en metáforas, lo que hace difícil entender sus intenciones.",
+        "presente": "Sus canciones han tenido un éxito moderado, aunque parecen esconder un mensaje más profundo.",
+        "pasado": "Después de perderlo todo en un incendio, decidió dedicarse a la música para expresar su dolor.",
+        "motivacion": "La profundidad de sus palabras sugiere una historia no contada."
+    },
+    {
+        "nombre": "Jara",
+        "fisico": "Joven de aspecto frágil y cabello desordenado.",
+        "personalidad": "Habla de forma directa y sin rodeos, lo que puede resultar intimidante.",
+        "presente": "Aún está en ese viaje, sin un destino claro.",
+        "pasado": "Huyó de su hogar a temprana edad. Decidió buscar su lugar en el mundo.",
+        "motivacion": "No parece haber nada que sugiera una doble intención."
+    },
+    {
+        "nombre": "Lior",
+        "fisico": "Hombre fornido con cicatrices visibles en sus brazos.",
+        "personalidad": "Se muestra siempre protector y atento a los demás.",
+        "presente": "Ha encontrado una especie de paz en su nueva vida.",
+        "pasado": "Después de servir en el ejército, decidió dedicarse a ayudar a los necesitados.",
+        "motivacion": "No hay indicios de que esté ocultando nada en particular... y eso resulta aún más sospechoso."
+    },
+    {
+        "nombre": "Nela",
+        "fisico": "Mujer de mediana edad con cabello gris y ojos tristes.",
+        "personalidad": "Siempre muestra una sonrisa amable, aunque parece forzada.",
+        "presente": "Ha hecho muchas cosas buenas, pero parece que aún sufre en silencio.",
+        "pasado": "Después de perder a su hijo, decidió dedicar su vida a la caridad.",
+        "motivacion": "Su tristeza sugiere que guarda algo en lo más profundo."
+    },
+    {
+        "nombre": "Gabi",
+        "fisico": "Joven con una expresión siempre alerta y mirada rápida.",
+        "personalidad": "Es muy reservado y parece analizar todo lo que dices.",
+        "presente": "Ha aprendido a sobrevivir por sus propios medios.",
+        "pasado": "Tras una infancia difícil en la calle, decidió que nunca más dependería de nadie.",
+        "motivacion": "Es imposible saber si está diciendo la verdad o no."
+    },
+    {
+        "nombre": "Yona",
+        "fisico": "Hombre de estatura media y mirada penetrante.",
+        "personalidad": "Habla poco, pero sus palabras siempre son acertadas.",
+        "presente": "Ha encontrado algunas respuestas, pero no todas.",
+        "pasado": "Después de un trágico accidente que lo dejó sin familia, decidió buscar respuestas en la filosofía.",
+        "motivacion": "Su serenidad esconde una tormenta interna."
+    },
+    {
+        "nombre": "Zara",
+        "fisico": "Joven de cabello color miel y sonrisa encantadora.",
+        "personalidad": "Se muestra siempre optimista, aunque parece esconder algo.",
+        "presente": "Ha conseguido mucho, pero parece que algo falta en su vida.",
+        "pasado": "Tras varios intentos fallidos en el amor, decidió centrarse en su carrera profesional.",
+        "motivacion": "Hay una melancolía en sus ojos que sugiere un secreto."
+    },{
+        "nombre": "Samuel",
+        "fisico": "Joven adulto que parece haber envejecido prematuramente, a juzgar por las ojeras y las cicatrices de su cara.",
+        "personalidad": "Se expresa siempre con un aire desenfadado, como si pretendiese que no le preocupa nada.",
+        "presente": "Aún está intentando decidir cuál será el próximo paso en su vida.",
+        "pasado": "No recuerda nada de su infancia, simplemente un día se despertó y ya estaba 'allí'... ¿a dónde se referirá con 'allí'?.",
+        "motivacion": "A juzgar por su forma de hablar, te das cuenta de que es muy difícil separar la verdad de lo que se está inventando. ¿Pero qué está tramando?"
+    },
+    {
+        "nombre": "Elias",
+        "fisico": "Hombre delgado con barba desordenada y ojos inquietos.",
+        "personalidad": "Su comportamiento siempre parece calculado, pero con una pizca de desdén.",
+        "presente": "Anda rebuscando de un lugar a otro, pero parece que aún no ha encontrado lo que buscaba.",
+        "pasado": "Después de años en el extranjero, decidió regresar a su ciudad natal para reencontrarse con su pasado.",
+        "motivacion": "Es difícil decir qué es lo que realmente busca."
+    },
+    {
+        "nombre": "Mara",
+        "fisico": "Joven de cabellos oscuros y ojos penetrantes.",
+        "personalidad": "Siempre se muestra serena, pero con una mirada que parece juzgarlo todo.",
+        "presente": "Ahora vive una vida sencilla, pero no parece arrepentirse.",
+        "pasado": "Proviene de una familia adinerada que cayó en desgracia. Decidió independizarse para empezar de cero.",
+        "motivacion": "No hay nada en su comportamiento que sugiera otra cosa que no sea lo que ves."
+    },{
+        "nombre": "Aldric",
+        "fisico": "Hombre mayor con una barba blanca cuidadosamente recortada y gafas sobre la nariz.",
+        "personalidad": "Siempre tranquilo y reflexivo, parece estar perdido en sus pensamientos la mayor parte del tiempo.",
+        "presente": "Actualmente reside en una biblioteca, rodeado de pergaminos y libros antiguos.",
+        "pasado": "Desde joven mostró un interés insaciable por el conocimiento. Ha dedicado su vida a estudiar y preservar la historia y la sabiduría.",
+        "motivacion": "Su mayor deseo es desentrañar los misterios que yacen ocultos en textos antiguos y artefactos olvidados."
+    },
+    {
+        "nombre": "Elara",
+        "fisico": "Mujer de mediana edad con cabello recogido y un delantal manchado de hierbas.",
+        "personalidad": "Amable y maternal, siempre dispuesta a escuchar y ayudar a los demás con sus problemas.",
+        "presente": "Posee una pequeña botica en el centro del pueblo, donde mezcla pociones y prepara remedios para curar enfermedades comunes.",
+        "pasado": "Aprendió el arte de la herbolaria y la alquimia de su abuela, quien era famosa por sus curaciones milagrosas.",
+        "motivacion": "Su mayor anhelo es descubrir nuevas fórmulas y remedios que puedan aliviar el sufrimiento de la gente."
+    },
+    {
+        "nombre": "Silvana",
+        "fisico": "Mujer ágil y escurridiza, vestida con ropas oscuras y una capa que oculta sus movimientos.",
+        "personalidad": "Astuta y sigilosa, con una sonrisa pícara que refleja su amor por el riesgo y la emoción del robo.",
+        "presente": "Se mueve por las sombras de la ciudad, robando a los ricos y distribuyendo entre los pobres.",
+        "pasado": "Creció en la calle, aprendiendo a sobrevivir con maestría y habilidades que la convirtieron en la mejor ladrona de la región.",
+        "motivacion": "Su mayor ambición es acumular suficiente riqueza para retirarse en una isla paradisíaca, lejos de la ley y de sus perseguidores."
+    },
+    {
+        "nombre": "Kaela",
+        "fisico": "Mujer alta y fuerte, con piel curtida y cabello atado en una coleta para mayor comodidad.",
+        "personalidad": "Persona valiente y decidida, con una mirada que revela su destreza en la caza y su amor por la naturaleza.",
+        "presente": "En su tiempo libre recorre los bosques y montañas en busca de bestias salvajes para cazar, asegurando la supervivencia de su aldea.",
+        "pasado": "Desde joven aprendió las artes de la caza y la supervivencia de su padre, un legendario cazador de la región.",
+        "motivacion": "Su mayor deseo es proteger a su comunidad."
+    },
+    {
+        "nombre": "Cedric",
+        "fisico": "Hombre mayor con una mirada compasiva y un aura de serenidad que irradia confianza.",
+        "personalidad": "Devoto y piadoso, siempre encuentra consuelo en las palabras sagradas y en la ayuda a los necesitados.",
+        "presente": "Es el líder espiritual de una pequeña capilla en las afueras del pueblo, donde ofrece consejo y guía espiritual a los fieles.",
+        "pasado": "Desde joven fue instruido en los caminos de la fe por su abuelo, un respetado clérigo de la orden religiosa local.",
+        "motivacion": "Su mayor anhelo es propagar la paz y el amor divino entre los creyentes, siendo un faro de esperanza en tiempos de adversidad."
+    },
+    {
+        "nombre": "Liliana",
+        "fisico": "Joven bailarina con gracia y encanto en cada movimiento, vestida con telas fluidas que danzan con ella.",
+        "personalidad": "Apasionada y expresiva, su danza es una forma de comunicar emociones profundas y contar historias sin palabras.",
+        "presente": "Actúa en el teatro local, donde cautiva al público con sus actuaciones llenas de energía y elegancia.",
+        "pasado": "Desde niña mostró un talento natural para la danza, entrenando bajo la tutela de maestros renombrados en la ciudad.",
+        "motivacion": "Su mayor sueño es convertirse en una bailarina famosa (¿quién lo iba a decir...?), reconocida por su habilidad para transportar a los espectadores a mundos de fantasía y emoción."
+    },
+    {
+        "nombre": "Gareth",
+        "fisico": "Hombre alto y musculoso, con una armadura robusta y una espada afilada siempre a su lado.",
+        "personalidad": "De personalidad seria y centrada, muestra una determinación férrea y un compromiso inquebrantable con su honor y deber.",
+        "presente": "Se dedica al arte de la guerra en el ejército, donde destaca por su valentía y estrategia.",
+        "pasado": "Desde joven fue entrenado en las artes de la guerra por su padre, un veterano de numerosas campañas militares.",
+        "motivacion": "Su mayor deseo es proteger  a su gente, defendiendo la justicia y combatiendo la injusticia donde sea que se encuentre."
+    },
+    {
+        "nombre": "Elena",
+        "fisico": "Mujer joven con una expresión astuta y una sonrisa cautivadora, vestida con telas exquisitas y joyas brillantes.",
+        "personalidad": "Perspicaz y persona carismática, siempre busca la mejor oferta y tiene un talento innato para las negociaciones.",
+        "presente": "Dirige una próspera tienda en el mercado central, donde comercia con bienes de todo el reino.",
+        "pasado": "Desde joven aprendió los secretos del comercio de su abuelo, un reconocido mercader que viajaba por tierras lejanas.",
+        "motivacion": "Su mayor ambición es expandir su imperio comercial, acumulando riquezas y poder que le aseguren un lugar entre los más influyentes de la región."
     }
+
 ]
+ 
