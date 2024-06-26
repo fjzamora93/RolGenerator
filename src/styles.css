@@ -21,8 +21,8 @@ a {
 
 .row {
     max-width: 1245px;
-    margin: 0 auto;
-    padding: 75px 0;
+    margin: auto;
+    padding: 25px 0;
     position: relative;
 }
 

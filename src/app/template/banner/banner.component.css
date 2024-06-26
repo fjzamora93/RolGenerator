@@ -3,9 +3,10 @@
     flex-wrap: nowrap;
   }
   
-  #poster {
+#poster {
     max-width: 40vw;
-    height: auto; /* maintain aspect ratio */
+    height: auto; 
+   
   }
   
 #banner-description{

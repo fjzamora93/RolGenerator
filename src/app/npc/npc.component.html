@@ -1,43 +1,40 @@
-
 <div class="row">
-    <div class="section-heading" id="npc-gen">
+    <div class="section-heading">
         <h2 class="section-title">Generador de NPC - Personajes</h2>
+        <p class="section-subtitle">Genera de forma aleatoria un NPC o un personaje dentro de la historia.</p>
         <button (click)="generate()"> Randominzar NPC  </button>
-        <p class="section-subtitle">Genera de forma aleatoria un NPC o un personaje dentro de la historia. </p>
-    </div>
-
-    <div class="personajes-info">
-        <img src="img/company-images/person.png" alt="Company" id="img-npc" (click)="generate()"/>
-        <div>
-            <span class="item-info">
-                <img (click)="revelar($event)" id="button-reveal" src="img/company-images/investigar.png"/>
-                <span><b>Nombre: </b> {{ personaje?.nombre }} </span>
-            </span>
-
-            <span class="item-info">
-                <img (click)="revelar($event)" id="button-reveal" src="img/company-images/investigar.png"/>
-                <span>{{ personaje?.fisico }}</span>
-            </span>
-            
-            <span class="item-info">
-                <img (click)="revelar($event)" id="button-reveal" src="img/company-images/investigar.png"/>
-                <span>{{ personaje?.presente }}</span>
-            </span>
-                
-            <span class="item-info">
-                <img (click)="revelar($event)" id="button-reveal" src="img/company-images/investigar.png"/>
-                <span>{{ personaje?.pasado }}</span>
-            </span>
-
-            <span class="item-info">
-                <img (click)="revelar($event)" id="button-reveal" src="img/company-images/investigar.png"/>
-                <span>{{ personaje?.motivacion }}</span>
-            </span> 
-
-        </div>
         
     </div>
 
+    <div class="personajes-info">
+        <img src="img/company-images/person.png" alt="Company" class="img-npc" (click)="generate()"/>
+        <div class="info-container">
+            <span class="item-info">
+                <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>
+                <span class="texto-descripcion"><b>Nombre: </b>{{ personaje?.nombre }}</span>
+            </span>
+
+            <span class="item-info">
+                <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>
+                <span class="texto-descripcion">{{ personaje?.fisico }}</span>
+            </span>
+
+            <span class="item-info">
+                <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>
+                <span class="texto-descripcion">{{ personaje?.presente }}</span>
+            </span>
+
+            <span class="item-info">
+                <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>
+                <span class="texto-descripcion">{{ personaje?.pasado }}</span>
+            </span>
+
+            <span class="item-info">
+                <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>
+                <span class="texto-descripcion">{{ personaje?.motivacion }}</span>
+            </span>
+        </div>
+    </div>
 </div>
 
 

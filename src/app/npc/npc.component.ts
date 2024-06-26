@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChildren, ElementRef, QueryList } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { NpcService } from './npc.service';
 import { Personaje } from './npc.interface';
@@ -13,7 +13,11 @@ import { Personaje } from './npc.interface';
 })
 
 export class NpcComponent {
-    constructor (private npc: NpcService){};
+    constructor (
+        private npc: NpcService, 
+        private el: ElementRef //Esto se utiliza para referirse a sí mismo
+    ){};
+
     personaje?: Personaje = this.npc.personaje;
 
     generate(){
@@ -22,9 +26,21 @@ export class NpcComponent {
     }
 
     revelar(event: Event) {
+        const descripciones = this.el.nativeElement.querySelectorAll('.texto-descripcion');
         const button = event.target as HTMLImageElement;
         const itemToLeft = button!.nextElementSibling as HTMLElement;
-        itemToLeft.style.display = itemToLeft.style.display === 'none' ? 'inline' : 'none';
+        if (!itemToLeft.textContent?.trim()){ //Es decir, si NO hay contenido (ignorando espacios)
+            this.generate()
+            descripciones.forEach((element: HTMLElement) => {
+                element.style.display = 'none';
+                itemToLeft.style.display = 'inline';
+              });
+        } else {
+            itemToLeft.style.display = itemToLeft.style.display === 'none' ? 'inline' : 'none';
+       
+        }
+        
+
       }
 
 }
