@@ -1,0 +1,205 @@
+[{
+    "nombre" : "El Sagrado Corazón",
+    "historia": "Fundado tras una serie de trágicos eventos, los monjes que lo habitan dedican sus vidas a rezar por las almas perdidas. Cada rincón del lugar parece guardar una memoria de dolor, y los cantos fúnebres resuenan en sus muros, recordando constantemente los tiempos oscuros que dieron origen a este refugio espiritual.",
+    "descripcion" : "La tristeza impregna cada rincón del monasterio. Los monjes caminan en silencio por los pasillos oscuros, y el viento que sopla a través de las ventanas rotas parece llevar consigo lamentos de épocas pasadas",
+    "evento1" : "Un monje está sentado en un banco del jardín, mirando melancólicamente las flores marchitas. No hay más que tristeza en su rostro",
+    "evento2" : "En la lejanía, se escuchan susurros ininteligibles que parecen provenir de las paredes del monasterio, creando una atmósfera inquietante.",
+    "noticia" : "Un visitante misterioso llega al monasterio, buscando refugio y revelando una peligrosa misión que necesita la ayuda de los monjes",
+    "visitante" : {
+        "descripcion": "Sir Galahad es alto y fornido, con el cabello oscuro y ojos profundos que parecen ocultar secretos antiguos. Tiene marcas de batalla en su rostro, que contrastan con su expresión serena y determinada.", 
+        "personalidad": "Además, es una persona reservada y contemplativa, conocida por su honor y valentía. Sin embargo, su corazón está cansado de tanto conflicto y busca paz y redención espiritual en el monasterio.",
+        "motivo": "Busca un lugar de retiro espiritual para meditar y encontrar paz interior después de años de tanta hostilidad. Ha oído hablar de la serenidad del monasterio y desea encontrar un refugio tranquilo donde pueda reflexionar sobre su pasado y buscar redención en su alma."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Abad Tiberius, es un hombre mayor con una presencia imponente.", 
+        "personalidad" : "Tiene una mirada penetrante que parece leer los pensamientos de quienes lo rodean. ",
+        "motivo" : "Es conocido por su sabiduría y sus sermones inspiradores, pero algunos susurran que tiene conocimientos secretos y antiguos que guarda celosamente."
+      }
+},
+
+{   
+    "nombre" : "La Trinidad",
+    "historia": "Construido en un valle aislado, la abadía es un santuario de tranquilidad. Durante siglos, ha sido un lugar de retiro para aquellos que buscan paz interior y reflexión. Sus jardines y fuentes proporcionan un entorno sereno, donde los monjes meditan y encuentran armonía, lejos del bullicio del mundo exterior.",
+    "descripcion" : "Una profunda tranquilidad envuelve el monasterio. El canto suave de los monjes resuena en la capilla, mezclándose con el murmullo de un arroyo cercano, creando una atmósfera de paz y serenidad.",
+    "evento1" : "Los monjes caminando lentamente por el claustro, parecen disfrutar de la tranquilidad del entorno mientras recitan oraciones en voz baja.",
+    "evento2" : "Una vela, que está a escasos metros de vosotros, se apaga sin explicación, dejando la estancia en la oscuridad total por unos momentos antes de que la luz regrese misteriosamente.",
+    "noticia" : "Un manuscrito antiguo y perdido es descubierto en la biblioteca, revelando secretos olvidados y atrayendo la atención de estudiosos de todo el reino.",
+    "visitante" : {
+        "descripcion": "Lady Isolde es delicada y de tez pálida, con cabello largo y oscuro que enmarca un rostro sereno pero siempre atento. ",
+        "personalidad" : "Además, es una persona muy erudita conocida por su aguda mente y amor por la historia y la literatura. Muestra una personalidad decidida en sus investigaciones y no se detendrá ante ningún desafío en su búsqueda del saber. Sin embargo, sus ojos guardan el brillo de quien ha visto más de lo que revela.",
+        "motivo": "Su curiosidad intelectual lleva a esta persona a explorar sus pasillos y bibliotecas en busca de conocimiento perdido y secretos ancestrales, ¿pero el qué exactamente?."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Hermano Ambrose es un monje de mediana edad y tez más bien paliducha. ",
+        "personalidad" : "Ya habíais visto antes a esta persona en los corredores del monasterio con una expresión sombría.",
+        "motivo" : "Se rumorea que tiene un pasado misterioso del que nunca habla, y su habilidad con las hierbas medicinales y los venenos ha generado algunas sospechas entre los habitantes del monasterio."
+      }
+    
+},
+
+{   
+    "nombre" : "Corpus Cristi",
+    "historia": "La abadía tiene una historia oscura y está rodeada de terror. Antaño, fue escenario de misteriosas desapariciones y eventos sobrenaturales. Los registros antiguos hablan de sombras que se movían por los pasillos y susurros en la oscuridad. Hoy en día, pocos se atreven a visitarla, más allá de los que allí habitan, y aquellos que lo hacen, lo abandonan rápidamente, llevándose consigo historias de encuentros inquietantes",
+    "descripcion" : "Las sombras se alargan en los pasillos, y los susurros inaudibles parecen seguir a quienes se aventuran en su interior. La sensación de ser observado nunca desaparece.",
+    "evento1" : "Un grupo de monjes se sobresalta por el crujido de una puerta antigua, atribuyéndolo a viejas leyendas de terror del monasterio.",
+    "evento2" : "Un libro antiguo cae de una estantería sin que nadie lo toque, abriéndose en una página con una advertencia críptica escrita en un idioma que os es completamente desconocido.",
+    "noticia" : "Un grupo de monjes enferma gravemente por una extraña enfermedad, y la comunidad debe buscar desesperadamente una cura antes de que sea demasiado tarde.",
+    "visitante" : {
+        "descripcion": "Friar Lucas, un joven acólito en busca de convertirse en monje, ha viajado desde lejos para experimentar la vida monástica. ",
+        "personalidad" : "Siempre lleva una expresión serena y una postura humilde. Además, es una persona dedicada y piadosa, mostrando una profunda devoción por la fe y un deseo ferviente de servir a Dios. Se comporta de manera respetuosa y servicial los monjes más ancianos, buscando constantemente mejorar su entendimiento espiritual. Sin embargo, parece llevar consigo el peso de un secreto que lo impulsa hacia la búsqueda espiritual.",
+        "motivo": "Ha viajado desde lejos para experimentar la vida monástica. Desea participar activamente en las prácticas religiosas y rituales del monasterio, aprender las enseñanzas espirituales de los venerables monjes y fortalecer su fe."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Hermana Emilia es la encargada de los jardines del monasterio.",
+        "personalidad" : "Tiene una conexión especial con las plantas y las flores, pero pocos saben que también posee un conocimiento profundo de las hierbas venenosas y sus usos. ",
+        "motivo" : "Su presencia tranquila y serena oculta una determinación y habilidades que algunos podrían considerar peligrosas."
+      }
+    
+},
+
+
+
+{   
+    "nombre" : "Finisterre",
+    "historia": "Este monasterio está marcado por la incertidumbre desde su fundación. Los documentos históricos son escasos y confusos, llenos de contradicciones. Los monjes actuales viven en un estado de constante búsqueda, intentando desentrañar los misterios de su propia existencia y la de su hogar, sin nunca llegar a una conclusión definitiva.",
+    "descripcion" : "Los corredores laberínticos y las puertas que se abren a habitaciones desconocidas crean una sensación de desorientación constante.",
+    "evento1" : "Los monjes se reúnen en la biblioteca, discutiendo en voz baja sobre un pasaje ambiguo en un manuscrito antiguo, creando un aire de incertidumbre.",
+    "evento2" : "Las campanas del monasterio comienzan a sonar. Esto no debería resultar extraño, salvo porque ya os pareció haberlas escuchado hace unos minuto, y sin embargo, tanto el ritmo y el número de campanadas es exactamente igual. ",
+    "noticia" : "Una violenta tormenta causa daños significativos al monasterio, y los monjes deben trabajar juntos para reparar las estructuras antes de que lleguen las lluvias de otoño... ¿o es por algo más?",
+    "visitante" : {
+        "descripcion": "Lord Aldric es alto y elegante, con cabello rubio y ojos azules que reflejan su mente analítica. ",
+        "personalidad" : "Tiene una postura erguida y gestos precisos que denotan su refinamiento. Además, es visionario y meticuloso, conocido por su habilidad para visualizar y crear estructuras impresionantes. Es apasionado por la arquitectura y busca constantemente inspiración en las obras maestras del pasado. Sin embargo, su mirada a veces se pierde en pensamientos ocultos, como si estuviera persiguiendo algo más que la perfección arquitectónica.",
+        "motivo": "Hay cierto aire de fascinación en esta persona. Cada detalle de las columnas talladas y los vitrales antiguos fascina, como si no dejase de encontrar la perfección en cada esquina"
+    },
+     
+    "habitante" : {
+        "descripcion" : "Padre Anselmo es el bibliotecario del monasterio, custodio de antiguos manuscritos y textos sagrados.",
+        "personalidad" : "Esquiva la mirada y se mueve de manera nerviosa. Muchas de las frases que comienza ni siquiera las llega a acabar.",
+        "motivo" : "Su devoción por el conocimiento es innegable, pero su obsesión por algunos textos prohibidos y su insistencia en mantener la biblioteca cerrada para ciertos visitantes ha despertado la curiosidad y la desconfianza de algunos."
+      }
+    
+},
+{   
+    "nombre" : "Santa María de las Flores",
+    "historia": "Fundado en un lugar inesperado, ha revelado a lo largo de los años tesoros ocultos y conocimientos perdidos. Sus visitantes suelen encontrarse con hallazgos inesperados y maravillas arquitectónicas que desafían la comprensión, dejando una impresión duradera de asombro y admiración.",
+    "descripcion" : "Da la sensación de que al cruzar cada esquina, uno puede encontrarse con una magnífica biblioteca oculta o una sala secreta llena de tesoros artísticos",
+    "evento1" : "Un monje encuentra una flor silvestre creciendo entre las piedras del patio, su expresión de sorpresa al descubrir algo tan hermoso en un lugar tan austero.",
+    "evento2" : "Un monje, mientras barre el patio, se detiene de repente y mira fijamente al suelo, luego susurra algo incomprensible antes de alejarse rápidamente",
+    "noticia" : "Un monje joven desaparece misteriosamente durante la noche, y sus compañeros inician una búsqueda que les lleva a descubrir pasadizos secretos bajo el monasterio.",
+    "visitante" : {
+        "descripcion": "Lady Elara es grácil y de aspecto delicado, con cabello castaño claro y ojos verdes llenos de curiosidad y asombro. Siempre lleva consigo un cuaderno de poemas y una expresión serena",
+        "personalidad" : "Además, resulta ser una persona creativa y sensible, encontrando inspiración en la naturaleza y en la calma del monasterio. ",
+        "motivo": "Sus versos reflejan su conexión con el mundo natural y su capacidad para capturar la belleza en palabras. Sin embargo, detrás de su apariencia, parece guardar la melancolía de quien ha visto la fugacidad de la vida."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Hermano Gregor es el encargado de la cocina del monasterio.",
+        "personalidad" : "Tiene la cara redonda y se mueve de manera torpe pero simpática.",
+        "motivo" : "Es conocido por su habilidad para preparar comidas deliciosas que reconfortan el alma, pero hay rumores de que experimenta con ingredientes inusuales y tiene conocimientos de alquimia que podrían no ser del todo ortodoxos"
+      }
+    
+},
+{   
+    "nombre" : "La Santa Cruzada",
+    "historia": "Nacido en tiempos de guerra y conflicto, ha sido un bastión de resistencia. Los monjes, en lugar de solo orar, se entrenaban en las artes marciales, defendiendo su hogar con ferocidad. Las cicatrices de batallas pasadas aún se ven en sus muros, testimonio de la furia y el coraje de sus habitantes.",
+    "descripcion" : "El monasterio está impregnado de ira contenida. Las marcas de batalla en las paredes y los restos de objetos rotos sugieren un pasado lleno de conflictos y tensiones no resueltas.",
+    "evento1" : "Un monje, visiblemente frustrado, golpea con suavidad una mesa de trabajo después de fallar en la transcripción de un manuscrito, reflejando su ira contenida.",
+    "evento2" : "Un grupo de monjes cantando en la capilla se detiene abruptamente y todos miran hacia la misma esquina oscura, como si hubieran visto algo aterrador.",
+    "noticia" : "Un noble rico y su séquito visitan el monasterio, trayendo consigo lujo y tensión mientras buscan negociar una donación significativa. ",
+    "visitante" : {
+        "descripcion": "Erwin es anciano, con barba larga y blanca, y lleva un sombrero puntiagudo y una túnica azul oscuro adornada con símbolos místicos.",
+        "personalidad" : "Sus ojos brillan con sabiduría y una chispa de magia. Además, se muestra como alguien sabio y enigmático. Es paciente y tranquilo, pero siempre alerta ante las posibilidades ocultas que pueden revelarse ante él.",
+        "motivo":"Aparentemente se encuentra allí únicamente en búsqueda de conocimientos sobre palntas medicinales y remedios naturales. "
+    },
+     
+    "habitante" : {
+        "descripcion" : "Hermano Tobias es el encargado de mantener los altares y velas del monasterio",
+        "personalidad" : "Tiene una mirada penetrante y siempre parece estar en la sombra, observando a los visitantes con una mezcla de interés y desconfianza.",
+        "motivo" : ". Algunos creen que sabe más de lo que revela y que guarda secretos oscuros en los rincones del monasterio."
+      }
+    
+},
+{   
+    "nombre" : "Cirilia",
+    "historia": "El monasterio refleja una opulencia pasada. Los muros están decorados con frescos dorados, y las habitaciones están llenas de tapices ricos y muebles de lujo, recordando la antigua gloria del lugar.",
+    "descripcion" : "Fundado por un noble adinerado, el monasterio es un ejemplo de opulencia. Durante siglos, ha acumulado riquezas y artefactos invaluables. Sus salones están adornados con obras de arte y sus bibliotecas albergan manuscritos raros. Este lugar no solo era un refugio espiritual, sino también un símbolo de poder y riqueza.",
+    "evento1" : "Un monje observa con admiración los tapices dorados y las decoraciones del salón principal, como si esperase encontrar allí algo.",
+    "evento2" : "Un cuervo se posa en una ventana abierta, y al mirarlo directamente a los ojos, parece susurrar un mensaje oscuro antes de volar de repente ",
+    "noticia" : "El abad del monasterio es encontrado muerto en circunstancias sospechosas, y los monjes deben resolver el misterio mientras mantienen la calma en la comunidad.",
+    "visitante" : {
+        "descripcion": "Lady Elinor es audaz y de cabello dorado que brilla bajo el sol, con ojos azules llenos de curiosidad y una sonrisa brillante.",
+        "personalidad" : "Es una persona amistosa y tiene un talento natural para conectar con la gente, disfrutando de cada oportunidad para aprender y experimentar algo nuevo. Sin embargo, detrás de su fachada de alegría y curiosidad, parece llevar consigo la sombra de una experiencia pasada que la ha marcado profundamente.",
+        "motivo": "Llega al lugar justo a tiempo para participar en un festival de música y danza celebrado en honor a un santo patrón del monasterio. Disfruta de la atmósfera festiva, del intercambio cultural y de la oportunidad de vivir una experiencia única en un lugar tan especial."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Madre Agnes es la encargada de la enfermería del monasterio.",
+        "personalidad" : "Este miembro de la comunidad es conocido por sus habilidades curativas y su compasión hacia los enfermos",
+        "motivo" : "Su conocimiento de las hierbas medicinales y su habilidad para calmar el dolor han llevado a algunos a preguntarse si guarda secretos sobre el verdadero alcance de su poder."
+      }
+    
+},{   
+    "nombre" : "Heremita",
+    "historia": "El monasterio evoca una profunda nostalgia. Fundado por una comunidad que buscaba preservar sus tradiciones en tiempos de cambio, se ha convertido en un guardián del pasado. Los monjes viven siguiendo antiguas costumbres, y el lugar parece congelado en el tiempo, recordando a todos los visitantes un mundo que ya no existe, pero que vive en la memoria de sus muros.",
+    "descripcion" : "Una profunda nostalgia impregna el monasterio. Los ecos de tiempos mejores resuenan en los corredores vacíos, y los viejos retratos de monjes fallecidos miran con tristeza desde las paredes.",
+    "evento1" : "Un monje mayor enseña a los más jóvenes en la sala de estudio, compartiendo su conocimiento y sabiduría mientras copian textos antiguos.",
+    "evento2" : "Un monje pasa corriendo, con la cara pálida de miedo, y se esconde rápidamente en una celda, cerrando la puerta con un golpe sordo.",
+    "noticia" : "Un monje experimenta una visión divina y se convierte en objeto de reverencia y controversia, provocando debates sobre el significado de sus palabras y acciones.",
+    "visitante" : {
+        "descripcion": "Sir Cedric es fuerte y de porte noble, con cicatrices de batallas pasadas que marcan su rostro curtido. Su mirada es profunda y su presencia imponente, aunque ahora su expresión es de calma y serenidad. ",
+        "personalidad" : "Además, es valiente y honorable, habiendo pasado por numerosas batallas y visto mucho como mercenario. ",
+        "motivo": "Ahora busca paz y redención en el monasterio, reconciliando su pasado con la tranquilidad del presente. Sin embargo, detrás de su apariencia de calma, parece ocultar las sombras de decisiones difíciles tomadas en tiempos de guerra."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Padre Benedicto es el encargado de la administración del monasterio y las finanzas.",
+        "personalidad" : "Su manejo eficiente de los recursos y su capacidad para resolver disputas han sido fundamentales para mantener la paz dentro de los muros del monasterio.",
+        "motivo" : "Sin embargo, su habilidad para negociar acuerdos misteriosos y su influencia en decisiones importantes han generado especulaciones sobre sus verdaderas intenciones."
+      }
+    
+}, {   
+    "nombre" : "San Jordi",
+    "historia": "El monasterio es un monumento a la antigüedad. Establecido hace muchos siglos, ha sido testigo de innumerables eventos históricos. Sus crónicas, preservadas en pergaminos, cuentan historias de imperios caídos y épocas de grandeza. Cada piedra del monasterio parece susurrar historias de tiempos lejanos, conectando el presente con un pasado remoto.",
+    "descripcion" : "La antigüedad se percibe en cada piedra del monasterio. Las estructuras están cubiertas de musgo y las inscripciones en latín antiguo apenas son legibles, hablando de siglos de historia acumulada.",
+    "evento1" : "Un monje se detiene frente a un retrato antiguo de un abad fallecido, su expresión llena de nostalgia mientras recuerda historias del pasado.",
+    "evento2" : "Un gato negro cruza el camino del espectador, deteniéndose momentáneamente para mirarlo con ojos brillantes y luego desaparece entre las sombras.",
+    "noticia" : "Una celebración anual en honor al santo patrón del monasterio atrae a peregrinos y visitantes, llenando el lugar de vida, música y alegría.",
+    "visitante" : {
+        "descripcion": "Dama Rowena es elegante y de porte regio, con cabello negro como el azabache y ojos profundos que reflejan su fuerza interior. ",
+        "personalidad" : "Siempre viste con elegancia, llevando consigo una gracia natural que atrae la atención. Además, es fuerte y decidida, habiendo enfrentado muchas adversidades en su vida. Es inteligente y perspicaz, buscando constantemente crecer y aprender de las experiencias. ",
+        "motivo": "Su visita al monasterio es parte de su viaje personal hacia la paz y la comprensión espiritual. Sin embargo, detrás de su mirada serena, parece esconder la carga de un secreto del pasado que ha moldeado su destino."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Hermana Celestina es la encargada de los archivos históricos del monasterio.",
+        "personalidad" : "Su meticulosidad al catalogar documentos antiguos y su conocimiento de eventos pasados son admirados por todos. ",
+        "motivo" : "Su insistencia en mantener ciertos registros bajo llave ha provocado sospechas sobre qué podría estar tratando de ocultar."
+      }
+    
+}, {   
+    "nombre" : "El Dangarion",
+    "historia": "Conocido como un faro de sabiduría, el monasterio ha sido centro de aprendizaje y conocimiento. Los monjes, dedicados a la copia y preservación de textos antiguos, han acumulado una vasta colección de saberes. El lugar atrae a eruditos de todas partes, convirtiéndose en un punto de referencia para aquellos que buscan iluminar sus mentes y almas.",
+    "descripcion" : "La sabiduría reina en el monasterio. Las estanterías llenas de libros antiguos y los monjes dedicados a la lectura y la copia de manuscritos muestran un profundo compromiso con el conocimiento.",
+    "evento1" : "Un viento frío pasa por el claustro, llevando consigo un susurro que suena como un nombre, haciendo que los monjes se miren entre ellos con preocupación.",
+    "evento2" : "Un monje parece estar hablando solo en el jardín, pero cuando el espectador se acerca, el monje se gira bruscamente y dice que no debe escuchar.",
+    "noticia" : "Un incendio accidental estalla en la cocina del monasterio, amenazando con destruir una parte del edificio y poniendo a prueba la habilidad de los monjes para manejar emergencias.",
+    "visitante" : {
+        "descripcion": "Squire Hugo es joven y de constitución atlética, con cabello castaño corto y ojos brillantes llenos de determinación. ",
+        "personalidad" : "Siempre lleva una armadura ligera y tiene una postura erguida y una sonrisa amistosa. Además, es valiente y leal, conocido por su dedicación al deber y su deseo de convertirse en un caballero honorable.",
+        "motivo": "Sin embargo, bajo su apariencia juvenil y su actitud positiva, parece ocultar el peso de expectativas difíciles de cumplir y desafíos personales que aún debe superar."
+    },
+     
+    "habitante" : {
+        "descripcion" : "Hermano Marcus es el encargado de los rituales nocturnos del monasterio",
+        "personalidad" : "Su voz profunda y su presencia carismática lo convierten en un líder espiritual respetado.",
+        "motivo" : "Sin embargo, sus visiones durante la meditación y sus advertencias crípticas sobre el futuro han llevado a algunos a cuestionar si tiene conexiones con fuerzas más allá de nuestro entendimiento."
+      }
+    
+    }
+
+
+
+]
