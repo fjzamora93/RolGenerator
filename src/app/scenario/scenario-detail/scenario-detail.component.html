@@ -1,4 +1,22 @@
-<h3>{{ escenarioSeleccionado?.nombre }} </h3>
-<p>{{ escenarioSeleccionado?.escenografia }} </p>
-<p>{{ escenarioSeleccionado?.argumento }} </p>
-<p>{{ escenarioSeleccionado?.conflicto }} </p>
+<h3>{{ place?.nombre }} </h3>
+<p>{{ place?.historia }} </p>
+<p>{{ place?.descripcion }} </p>
+
+<h4> Evento 1 </h4>
+<p>{{ place?.evento1 }} </p>
+
+<h4> Evento 2 </h4>
+<p>{{ place?.evento2 }} </p>
+
+<h4> Una noticia inesperada </h4>
+<p>{{ place?.noticia }} </p>
+
+<h4>El visitante</h4>
+<p>{{ place?.visitante?.descripcion }} </p>
+<p>{{ place?.visitante?.personalidad }} </p>
+<p>{{ place?.visitante?.motivo }} </p>
+
+<h4>Una persona peculiar...</h4>
+<p>{{ place?.habitante?.descripcion }} </p>
+<p>{{ place?.habitante?.personalidad }} </p>
+<p>{{ place?.habitante?.motivo }} </p>

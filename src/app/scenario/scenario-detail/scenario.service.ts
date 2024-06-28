@@ -1,5 +1,11 @@
 import { Injectable } from '@angular/core';
-import ScenarioJSON from '../../../../public/data/scenarios.json'
+import ScenarioJSON from '../../../../public/data/scenarios.json';
+import MercadoJSON from '../../../../public/data/mercado.json';
+import TorreJSON from '../../../../public/data/torre.json';
+import MonasterioJSON from '../../../../public/data/monasterio.json';
+import MazeJSON from '../../../../public/data/monasterio.json';
+import PosadaJSON from '../../../../public/data/posada.json';
+import CuartelesJSON from '../../../../public/data/cuarteles.json';
 
 
 export interface Scenario{
@@ -10,9 +16,32 @@ export interface Scenario{
     argumento:string
 }
 
+export interface npc{
+    descripcion:string,
+    personalidad:string,
+    motivo:string,
+}
+
+export interface ScenarioPlace{
+    nombre: string;
+    historia: string;
+    descripcion: string;
+    evento1: string;
+    evento2: string;
+    noticia: string;
+    visitante: npc;
+    habitante: npc;
+}
+
 @Injectable({ providedIn: 'root' }) 
 export class ScenarioService{
     public scenarioList:Scenario[] = ScenarioJSON;
+    public mercadoList:ScenarioPlace[] = MercadoJSON;
+    public posadaList:ScenarioPlace[] = PosadaJSON;
+    public torreList:ScenarioPlace[] = TorreJSON;
+    public monasterioList:ScenarioPlace[] = MonasterioJSON;
+    public cuartelesList:ScenarioPlace[] = CuartelesJSON;
+    public mazeList:ScenarioPlace[] = MazeJSON;
 
 //TODO Generar de forma aleatoria las siguientes LISTAS:
 /**
