@@ -19,7 +19,8 @@ export class ScenarioDetailComponent implements OnChanges{
         }else{
             console.log('No hay selección')
         }
-        
     }
+
+    
 
 }
