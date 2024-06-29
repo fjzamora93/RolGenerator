@@ -1,0 +1,62 @@
+[
+    {
+        "punto_de_inicio": "Taberna del Dragón Dorado",
+        "descripcion_del_lugar": "Una taberna bulliciosa y acogedora, con mesas de madera desgastadas y una gran chimenea que ilumina la estancia con un cálido resplandor.",
+        "eventos_anteriores": "Los personajes estaban disfrutando de una cena y bebida, escuchando las historias de un viejo trovador que narraba leyendas locales.",
+        "otros_personajes": "Además del trovador, hay varios aldeanos, comerciantes y aventureros compartiendo historias y risas alrededor de las mesas."
+    },
+    {
+        "punto_de_inicio": "Plaza del Mercado",
+        "descripcion_del_lugar": "Una plaza llena de vida, con puestos de venta de frutas, verduras, tejidos y artículos artesanales. El aroma de especias y comida recién hecha flota en el aire.",
+        "eventos_anteriores": "Los personajes estaban comprando provisiones y admirando las exhibiciones de varios comerciantes locales.",
+        "otros_personajes": "La plaza está llena de gente: mercaderes vendiendo sus productos, niños corriendo y jugando, y clientes regateando precios."
+    },
+    {
+        "punto_de_inicio": "Puertas de la Ciudad",
+        "descripcion_del_lugar": "Una entrada imponente con grandes puertas de madera reforzadas con hierro, flanqueadas por torres de vigilancia y guardias atentos.",
+        "eventos_anteriores": "Los personajes acababan de llegar a la ciudad, mostrando sus permisos de entrada a los guardias y escuchando las últimas noticias sobre la región.",
+        "otros_personajes": "Guardias de la ciudad, viajeros y comerciantes entrando y saliendo, algunos mendigos pidiendo limosna cerca de la entrada."
+    },
+    {
+        "punto_de_inicio": "Templo de la Luz",
+        "descripcion_del_lugar": "Un templo majestuoso con altos vitrales que filtran la luz, creando un ambiente sereno y sagrado. El olor a incienso llena el aire.",
+        "eventos_anteriores": "Los personajes estaban buscando bendiciones y consejo de los sacerdotes, rezando y meditando en el santuario.",
+        "otros_personajes": "Sacerdotes realizando rituales, fieles rezando en silencio, y algunos peregrinos descansando en los bancos del templo."
+    },
+    {
+        "punto_de_inicio": "Biblioteca Arcana",
+        "descripcion_del_lugar": "Una gran sala con estanterías llenas de libros y pergaminos antiguos. El silencio es casi total, roto solo por el suave paso de los estudiosos.",
+        "eventos_anteriores": "Los personajes estaban investigando en los libros antiguos, buscando información sobre una leyenda o un objeto mágico.",
+        "otros_personajes": "Eruditos y magos consultando manuscritos, el bibliotecario organizando libros y algunos aprendices estudiando en mesas cercanas."
+    },
+    {
+        "punto_de_inicio": "Casa del Alcalde",
+        "descripcion_del_lugar": "Una gran mansión con jardines bien cuidados y guardias en la entrada. Dentro, las salas están decoradas con tapices y mobiliario lujoso.",
+        "eventos_anteriores": "Los personajes estaban esperando una audiencia con el alcalde para discutir un asunto urgente o una misión oficial.",
+        "otros_personajes": "Guardias vigilando la entrada, sirvientes moviéndose discretamente por las salas, y otros ciudadanos esperando su turno para ser atendidos."
+    },
+    {
+        "punto_de_inicio": "Gremio de Aventureros",
+        "descripcion_del_lugar": "Un edificio robusto con una gran sala común llena de trofeos y mapas. El ambiente es animado, con aventureros compartiendo historias y planes.",
+        "eventos_anteriores": "Los personajes estaban revisando el tablón de misiones, discutiendo posibles trabajos y escuchando las hazañas de otros aventureros.",
+        "otros_personajes": "Varios aventureros de diferentes razas y profesiones, el maestro del gremio dando instrucciones y algunos mercaderes ofreciendo suministros."
+    },
+    {
+        "punto_de_inicio": "Torre del Mago",
+        "descripcion_del_lugar": "Una torre alta y misteriosa, con laboratorios llenos de frascos, libros y artefactos mágicos. La atmósfera está cargada de energía arcana.",
+        "eventos_anteriores": "Los personajes estaban consultando con un mago sobre un objeto mágico o un problema sobrenatural.",
+        "otros_personajes": "El mago residente, algunos aprendices trabajando en experimentos y un familiar mágico observando desde una esquina."
+    },
+    {
+        "punto_de_inicio": "Cuartel de la Guardia",
+        "descripcion_del_lugar": "Un edificio fortificado con patios de entrenamiento y barracones. El lugar está siempre en actividad con guardias entrenando y patrullando.",
+        "eventos_anteriores": "Los personajes estaban informando a la guardia sobre un crimen o buscando ayuda para una misión peligrosa.",
+        "otros_personajes": "Guardias en entrenamiento, oficiales discutiendo tácticas y algunos prisioneros bajo custodia."
+    },
+    {
+        "punto_de_inicio": "Bosque Prohibido",
+        "descripcion_del_lugar": "Un bosque denso y oscuro, lleno de árboles antiguos y senderos ocultos. La sensación de estar observados es constante.",
+        "eventos_anteriores": "Los personajes estaban explorando el bosque en busca de hierbas raras o siguiendo pistas sobre un misterio.",
+        "otros_personajes": "El bosque parece desierto, pero se siente la presencia de criaturas ocultas y la posible vigilancia de druidas o espíritus del bosque."
+    }
+]

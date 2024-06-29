@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Sir Alden",
+        "descripcion_fisica": "Un hombre alto y robusto, con cabello canoso y ojos azules penetrantes. Lleva una armadura de placas brillante y una capa roja.",
+        "personalidad": "Valiente, leal y honorable. Siempre dispuesto a defender a los inocentes y luchar por la justicia.",
+        "ultimo_visto": "En el salón del castillo, discutiendo con el capitán de la guardia, hace dos días."
+    },
+    {
+        "nombre": "Lady Elara",
+        "descripcion_fisica": "Mujer de complexión delgada, con cabello largo y negro como la noche, y ojos verdes esmeralda. Viste elegantes túnicas de seda.",
+        "personalidad": "Misteriosa, inteligente y manipuladora. Siempre parece saber más de lo que revela.",
+        "ultimo_visto": "En la biblioteca del templo, leyendo antiguos manuscritos, la noche pasada."
+    },
+    {
+        "nombre": "Maestro Theren",
+        "descripcion_fisica": "Hombre de edad avanzada, con barba blanca y cabello despeinado. Lleva ropas simples de mago y un amuleto antiguo.",
+        "personalidad": "Sabio, reservado y a veces críptico. Siempre está dispuesto a compartir su conocimiento, pero rara vez toda la verdad.",
+        "ultimo_visto": "En su torre en el bosque, trabajando en un experimento alquímico, hace tres días."
+    },
+    {
+        "nombre": "Capitán Roderick",
+        "descripcion_fisica": "Hombre fornido y de mediana edad, con cabello corto y barba recortada. Viste una armadura de cuero endurecido y una capa verde.",
+        "personalidad": "Estricto, disciplinado y leal. Tiene un fuerte sentido del deber y siempre sigue las reglas.",
+        "ultimo_visto": "En los barracones de la ciudad, entrenando a los nuevos reclutas, ayer por la tarde."
+    },
+    {
+        "nombre": "Greta la Posadera",
+        "descripcion_fisica": "Mujer corpulenta con cabello rizado y pelirrojo, y ojos marrones. Siempre lleva un delantal manchado de harina.",
+        "personalidad": "Amable, acogedora y con una risa contagiosa. Siempre dispuesta a escuchar y ayudar a los viajeros.",
+        "ultimo_visto": "En la cocina de su posada, preparando la cena para los huéspedes, anoche."
+    },
+    {
+        "nombre": "El Joven Liam",
+        "descripcion_fisica": "Joven delgado y ágil, con cabello rubio y ojos claros. Lleva ropas sencillas y una capa gastada.",
+        "personalidad": "Curioso, ingenioso y valiente. Siempre en busca de aventuras y nuevos conocimientos.",
+        "ultimo_visto": "En el mercado, observando a los mercaderes y sus productos, esta mañana."
+    },
+    {
+        "nombre": "Madame Isolde",
+        "descripcion_fisica": "Mujer de mediana edad con cabello oscuro y ojos intensos. Viste con elegancia y lleva siempre un abanico decorativo.",
+        "personalidad": "Astuta, encantadora y calculadora. Conoce los secretos de muchos y sabe cómo utilizarlos a su favor.",
+        "ultimo_visto": "En el salón de baile de la mansión del duque, conversando con la nobleza, hace dos noches."
+    },
+    {
+        "nombre": "Baldric el Herrero",
+        "descripcion_fisica": "Hombre musculoso y robusto, con barba espesa y cabello corto. Siempre cubierto de hollín y lleva un delantal de cuero.",
+        "personalidad": "Trabajador, directo y de buen corazón. Prefiere la acción a las palabras y siempre está dispuesto a ayudar a sus vecinos.",
+        "ultimo_visto": "En su herrería, forjando nuevas espadas, ayer al mediodía."
+    },
+    {
+        "nombre": "Hermana Agnes",
+        "descripcion_fisica": "Mujer de aspecto severo, con cabello gris recogido bajo un velo y ojos oscuros. Viste el hábito de una monja.",
+        "personalidad": "Devota, estricta y compasiva. Dedica su vida a la fe y a cuidar de los enfermos y necesitados.",
+        "ultimo_visto": "En el hospital del convento, atendiendo a los enfermos, esta mañana."
+    },
+    {
+        "nombre": "Gareth el Mercader",
+        "descripcion_fisica": "Hombre de mediana edad, con una figura robusta y barba bien cuidada. Viste ropas finas y lleva varios anillos en los dedos.",
+        "personalidad": "Avaro, astuto y con un don para los negocios. Siempre en busca de la próxima gran oportunidad comercial.",
+        "ultimo_visto": "En su tienda en la plaza del mercado, negociando con un cliente, ayer por la tarde."
+    }
+]

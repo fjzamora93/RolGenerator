@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "La Sombra del Relojero",
+        "descripción": "La antigua ciudad de Aeloria se encuentra en decadencia...",
+        "detonante": "El reloj de la torre central, que ha marcado el tiempo durante siglos, se ha detenido inexplicablemente...",
+        "inicio": "Los personajes se reúnen en la plaza del reloj, donde los ciudadanos preocupados debaten sobre el significado de la detención del reloj...",
+        "objetivo": "Descubrir por qué el reloj se detuvo y restaurar su funcionamiento...",
+        "rumor1": "Se dice que un antiguo gremio de relojeros tiene la clave para reparar el reloj...",
+        "rumor2": "Algunos afirman que el reloj está maldito y que solo un sacrificio puede reactivarlo...",
+        "rumor3": "Un anciano susurra que el reloj guarda un secreto ancestral...",
+        "personajeInvolucrado": "Lord Cedric, un noble excéntrico y coleccionista de artefactos antiguos."
+    },
+    {
+        "nombre": "El Enigma de las Runas Olvidadas",
+        "descripción": "...",
+        "detonante": "...",
+        "inicio": "...",
+        "objetivo": "...",
+        "rumor1": "...",
+        "rumor2": "...",
+        "rumor3": "...",
+        "personajeInvolucrado": "..."
+    },
+    {
+        "nombre": "...",
+        "descripción": "...",
+        "detonante": "...",
+        "inicio": "...",
+        "objetivo": "...",
+        "rumor1": "...",
+        "rumor2": "...",
+        "rumor3": "...",
+        "personajeInvolucrado": "..."
+    },
+    {
+        "nombre": "...",
+        "descripción": "...",
+        "detonante": "...",
+        "inicio": "...",
+        "objetivo": "...",
+        "rumor1": "...",
+        "rumor2": "...",
+        "rumor3": "...",
+        "personajeInvolucrado": "..."
+    },
+    {
+        "nombre": "...",
+        "descripción": "...",
+        "detonante": "...",
+        "inicio": "...",
+        "objetivo": "...",
+        "rumor1": "...",
+        "rumor2": "...",
+        "rumor3": "...",
+        "personajeInvolucrado": "..."
+    }
+]

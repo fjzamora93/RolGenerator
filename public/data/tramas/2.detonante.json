@@ -1,0 +1,42 @@
+[
+    {
+        "detonante": "Alguien grita por la calle una noticia impactante",
+        "descripcion": "Un mensajero corre por la calle principal, gritando sobre un ataque reciente a una aldea cercana."
+    },
+    {
+        "detonante": "Encontráis un cartel clavado en la puerta de la iglesia",
+        "descripcion": "Un cartel anuncia una recompensa para quien recupere una reliquia sagrada robada del templo."
+    },
+    {
+        "detonante": "Una figura encapuchada entrega un mensaje encriptado",
+        "descripcion": "Un desconocido encapuchado entrega un mensaje cifrado que debe ser descifrado para entender su importancia."
+    },
+    {
+        "detonante": "Un extraño evento celestial ocurre",
+        "descripcion": "Un cometa cruza el cielo y los ancianos del pueblo insisten en que es una señal de un gran cambio."
+    },
+    {
+        "detonante": "Un noble llega al pueblo buscando ayuda",
+        "descripcion": "Un noble herido llega al pueblo, pidiendo ayuda para rescatar a su familia de una banda de bandidos."
+    },
+    {
+        "detonante": "Se descubre un cadáver con una extraña marca",
+        "descripcion": "El cuerpo de una persona desconocida, marcado con un símbolo extraño, es encontrado en la plaza del pueblo."
+    },
+    {
+        "detonante": "Un comerciante ofrece una recompensa por una mercancía perdida",
+        "descripcion": "Un comerciante desesperado ofrece una generosa recompensa a quien encuentre su caravana perdida."
+    },
+    {
+        "detonante": "Un niño corre pidiendo ayuda",
+        "descripcion": "Un niño llega corriendo al pueblo, pidiendo ayuda porque su aldea está siendo atacada por monstruos."
+    },
+    {
+        "detonante": "Una carta urgente llega de un viejo amigo",
+        "descripcion": "Una carta de un viejo amigo llega, pidiendo ayuda urgente y mencionando un gran peligro inminente."
+    },
+    {
+        "detonante": "Un anciano cuenta una profecía en la taberna",
+        "descripcion": "Un anciano misterioso en la taberna recita una profecía que sugiere que los personajes tienen un papel crucial en los eventos por venir."
+    }
+]
