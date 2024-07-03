@@ -2,6 +2,10 @@ Resource:
 https://www.iconfinder.com/search?q=medieval
 
 
+Imágenes de archivo:
+https://www.deviantart.com/ai-postcards/art/Medieval-Town-The-City-Hall-947723218
+
+
 # Plan y Propuesta de Arquitectura
 ## Componentes Principales
 

@@ -1,22 +1,36 @@
-<h3>{{ place?.nombre }} </h3>
-<p>{{ place?.historia }} </p>
-<p>{{ place?.descripcion }} </p>
 
-<h4> Evento 1 </h4>
-<p>{{ place?.evento1 }} </p>
+<div class="item-info">
+    <h3>{{ place?.nombre }} </h3>
+    <p>{{ place?.historia }} </p>
+    <p>{{ place?.descripcion }} </p>
+</div>
 
-<h4> Evento 2 </h4>
-<p>{{ place?.evento2 }} </p>
+<div class="item-info" appHideDetails>
+    <h4> Evento 1 </h4>
+    <p class="ocultar">{{ place?.evento1 }} </p>
+</div>
 
-<h4> Una noticia inesperada </h4>
-<p>{{ place?.noticia }} </p>
+<div class="item-info" appHideDetails> <!-- Recuerda que appHideDetails es una directiva para ocultar-->
+    <h4> Evento 2 </h4>
+    <p class="ocultar" >{{ place?.evento2 }} </p>
+</div>
 
-<h4>El visitante</h4>
-<p>{{ place?.visitante?.descripcion }} </p>
-<p>{{ place?.visitante?.personalidad }} </p>
-<p>{{ place?.visitante?.motivo }} </p>
+<div class="item-info"  appHideDetails>
+    <h4> Una noticia inesperada </h4>
+    <p class="ocultar">{{ place?.noticia }} </p>
+</div>
 
-<h4>Una persona peculiar...</h4>
-<p>{{ place?.habitante?.descripcion }} </p>
-<p>{{ place?.habitante?.personalidad }} </p>
-<p>{{ place?.habitante?.motivo }} </p>
+<div class="item-info" appHideDetails>
+    <h4>El visitante</h4>
+    <p>{{ place?.visitante?.descripcion }} </p>
+    <p>{{ place?.visitante?.personalidad }} </p>
+    <p class="ocultar">{{ place?.visitante?.motivo }} </p>
+</div>
+
+<div class="item-info" appHideDetails>
+    <h4>Una persona peculiar...</h4>
+    <p>{{ place?.habitante?.descripcion }} </p>
+    <p>{{ place?.habitante?.personalidad }} </p>
+    <p class="ocultar">{{ place?.habitante?.motivo }} </p>
+</div>
+

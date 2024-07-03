@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output, effect, signal } from '@angular/core';
 import { ScenarioDetailComponent } from './scenario-detail/scenario-detail.component';
+import { R3SelectorScopeMode } from '@angular/compiler';
 
 @Component({
   selector: 'app-scenario',
@@ -9,12 +10,13 @@ import { ScenarioDetailComponent } from './scenario-detail/scenario-detail.compo
   styleUrl: './scenario.component.css'
 })
 export class ScenarioComponent {
-    selectedScenario? :string = '1';
+
+    selectedScenario = signal('1');
 
     onSelectScenario(event : Event){
         const seleccion = event.target as HTMLImageElement;
-        this.selectedScenario = seleccion.alt;
-        console.log(this.selectedScenario);
+        this.selectedScenario.update(value => seleccion.alt);
+        console.log(this.selectedScenario)
     }
 
 }

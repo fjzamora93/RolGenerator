@@ -5,13 +5,13 @@
         <p class="section-subtitle">Genera de forma aleatoria un escenario. </p>
     </div>
     <div class="gallery">
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/gallery-image-6.jpg" alt="0"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/gallery-image-2.jpg" alt="1"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/gallery-image-3.jpg" alt="2"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/gallery-image-4.jpg" alt="3"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/gallery-image-5.jpg" alt="4"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/gallery-image-1.jpg" alt="5"/>
+        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-church-2.png" alt="church"/>
+        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-maze-1.png" alt="maze"/>
+        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-city-2.png" alt="cuarteles"/>
+        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-tower-1.png" alt="tower"/>
+        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-market-2.png" alt="market"/>
+        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-tabern-1.png" alt="inn"/>
     </div>
 
-    <app-scenario-detail [escenario]="selectedScenario"/>
+    <app-scenario-detail [escenario]="selectedScenario()"/>
 </div>

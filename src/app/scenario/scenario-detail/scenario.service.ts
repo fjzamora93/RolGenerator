@@ -7,15 +7,6 @@ import MazeJSON from '../../../../public/data/monasterio.json';
 import PosadaJSON from '../../../../public/data/posada.json';
 import CuartelesJSON from '../../../../public/data/cuarteles.json';
 
-
-export interface Scenario{
-    id:string,
-    nombre:string,
-    escenografia:string,
-    conflicto:string,
-    argumento:string
-}
-
 export interface npc{
     descripcion:string,
     personalidad:string,
@@ -35,13 +26,47 @@ export interface ScenarioPlace{
 
 @Injectable({ providedIn: 'root' }) 
 export class ScenarioService{
-    public scenarioList:Scenario[] = ScenarioJSON;
+    public scenarioSelected?: ScenarioPlace;
+  
     public mercadoList:ScenarioPlace[] = MercadoJSON;
     public posadaList:ScenarioPlace[] = PosadaJSON;
     public torreList:ScenarioPlace[] = TorreJSON;
     public monasterioList:ScenarioPlace[] = MonasterioJSON;
     public cuartelesList:ScenarioPlace[] = CuartelesJSON;
     public mazeList:ScenarioPlace[] = MazeJSON;
+
+
+    seleccionarEscenario(pickedScenario : string){
+        
+        switch (pickedScenario) {
+            case 'church':
+                this.scenarioSelected = this.monasterioList[Math.floor(Math.random() * this.monasterioList.length)]
+                break;
+            case 'maze':
+                this.scenarioSelected = this.mazeList[Math.floor(Math.random() * this.mazeList.length)]
+                break;
+            case 'cuarteles':
+                this.scenarioSelected = this.cuartelesList[Math.floor(Math.random() * this.cuartelesList.length)]
+                break;
+            case 'tower':
+                this.scenarioSelected = this.torreList[Math.floor(Math.random() * this.torreList.length)]
+                break;
+            case 'market':
+                this.scenarioSelected = this.mercadoList[Math.floor(Math.random() * this.mercadoList.length)]
+                break;
+            case 'inn':
+                this.scenarioSelected = this.posadaList[Math.floor(Math.random() * this.posadaList.length)]
+                break;
+            default:
+                this.scenarioSelected = this.cuartelesList[Math.floor(Math.random() * this.monasterioList.length)]
+        }
+        console.log(this.scenarioSelected);
+        return this.scenarioSelected;
+    }
+
+    randomize(){
+
+    }
 
 //TODO Generar de forma aleatoria las siguientes LISTAS:
 /**

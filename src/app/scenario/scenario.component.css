@@ -10,3 +10,7 @@
     height: 100%;
     object-fit: cover; /* this will ensure the images maintain their aspect ratio */
 }
+
+.gallery img:hover{
+    cursor: pointer;
+}

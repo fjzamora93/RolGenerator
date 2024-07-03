@@ -32,6 +32,24 @@ h4:hover {
     cursor: pointer;
 }
 
+.item-info {
+    background-color: rgb(219, 216, 205);
+    font-weight: 100;
+    border: 2px inset rgb(122, 117, 102);
+    font-style: italic;
+    color: black;
+    padding: 10px 10%;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    margin:10px;
+    display: block;
+}
+
+.ocultar {
+    display: none;
+}
+
 p:hover {
     color: #333;
     cursor: pointer;
