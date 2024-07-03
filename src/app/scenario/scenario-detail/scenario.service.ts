@@ -1,11 +1,13 @@
 import { Injectable } from '@angular/core';
-import ScenarioJSON from '../../../../public/data/scenarios.json';
+
 import MercadoJSON from '../../../../public/data/mercado.json';
 import TorreJSON from '../../../../public/data/torre.json';
 import MonasterioJSON from '../../../../public/data/monasterio.json';
-import MazeJSON from '../../../../public/data/monasterio.json';
 import PosadaJSON from '../../../../public/data/posada.json';
 import CuartelesJSON from '../../../../public/data/cuarteles.json';
+import MazeJSON from '../../../../public/data/maze.json';
+
+
 
 export interface npc{
     descripcion:string,
@@ -37,34 +39,61 @@ export class ScenarioService{
 
 
     seleccionarEscenario(pickedScenario : string){
-        
+        let listaSeleccionada!: ScenarioPlace[];
+        const rdNums :number[] = []
+
         switch (pickedScenario) {
             case 'church':
                 this.scenarioSelected = this.monasterioList[Math.floor(Math.random() * this.monasterioList.length)]
+                listaSeleccionada = this.monasterioList;
                 break;
             case 'maze':
                 this.scenarioSelected = this.mazeList[Math.floor(Math.random() * this.mazeList.length)]
+                listaSeleccionada = this.mazeList;
                 break;
             case 'cuarteles':
                 this.scenarioSelected = this.cuartelesList[Math.floor(Math.random() * this.cuartelesList.length)]
+                listaSeleccionada = this.cuartelesList;
                 break;
             case 'tower':
                 this.scenarioSelected = this.torreList[Math.floor(Math.random() * this.torreList.length)]
+                listaSeleccionada = this.torreList;
                 break;
             case 'market':
                 this.scenarioSelected = this.mercadoList[Math.floor(Math.random() * this.mercadoList.length)]
+                listaSeleccionada = this.mercadoList;
                 break;
             case 'inn':
+                listaSeleccionada = this.posadaList;
                 this.scenarioSelected = this.posadaList[Math.floor(Math.random() * this.posadaList.length)]
                 break;
             default:
-                this.scenarioSelected = this.cuartelesList[Math.floor(Math.random() * this.monasterioList.length)]
+                listaSeleccionada = this.mazeList;
+                this.scenarioSelected = this.mazeList[Math.floor(Math.random() * this.mazeList.length)]
         }
-        console.log(this.scenarioSelected);
-        return this.scenarioSelected;
+        this.randomize(listaSeleccionada)
+       
     }
 
-    randomize(){
+    randomize(listaSeleccionada : ScenarioPlace[]){
+        this.scenarioSelected = {
+            nombre: listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].nombre,
+            historia: listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].historia,
+            descripcion: listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].descripcion,
+            evento1: listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].evento1,
+            evento2: listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].evento2,
+            noticia: listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].noticia,
+            visitante: {
+                descripcion:listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].visitante.descripcion,
+                personalidad:listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].visitante.personalidad,
+                motivo:listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].visitante.motivo,
+            },
+            habitante: {
+                descripcion:listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].habitante.descripcion,
+                personalidad:listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].habitante.personalidad,
+                motivo:listaSeleccionada[Math.floor(Math.random() * listaSeleccionada.length)].habitante.motivo,
+            },
+        }
 
     }
 
