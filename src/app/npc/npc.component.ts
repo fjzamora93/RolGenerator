@@ -19,10 +19,16 @@ export class NpcComponent {
     ){};
 
     personaje?: Personaje = this.npc.personaje;
+    editing: boolean = false;
 
     generate(){
         this.npc.randomize();
         this.personaje = this.npc.personaje;
+    }
+
+
+    edit(){
+        this.editing = !this.editing;
     }
 
     revelar(event: Event) {

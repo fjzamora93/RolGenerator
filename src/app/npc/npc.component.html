@@ -9,10 +9,23 @@
     <div class="personajes-info">
         <img src="img/company-images/person.png" alt="Company" class="img-npc" (click)="generate()"/>
         <div class="info-container">
-            <span class="item-info">
-                <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>
-                <span class="texto-descripcion"><b>Nombre: </b>{{ personaje?.nombre }}</span>
-            </span>
+
+            @if (editing===false) {
+                <span class="item-info">
+                    <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>
+                    <span class="texto-descripcion"><b>Nombre: </b>{{ personaje?.nombre }}</span>
+                    <button (click)="edit()"> Editar </button>
+                </span>
+            } @else {
+                <span class="item-info">
+                    <input type="text" [(ngModel)]="personaje!.nombre" style="display: inline"> 
+                    <button (click)="edit()"> Confirmar </button>
+                </span>
+            }
+            
+
+
+
 
             <span class="item-info">
                 <img (click)="revelar($event)" class="button-reveal" src="img/company-images/investigar.png"/>

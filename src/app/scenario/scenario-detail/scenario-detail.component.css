@@ -47,10 +47,17 @@ h4:hover {
 }
 
 .ocultar {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.mostrar {
+    max-height: 500px; /* Ajusta esto según el contenido que esperes */
 }
 
 p:hover {
     color: #333;
     cursor: pointer;
 }
+
