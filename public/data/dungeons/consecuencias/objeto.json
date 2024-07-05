@@ -1,0 +1,102 @@
+[
+    {
+        "accion": "Provocar un derrumbe",
+        "descripcion": "El objeto estaba estabilizando la estructura, y al ser retirado, el techo comienza a colapsar, obligándoos a escapar rápidamente.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Activar una trampa",
+        "descripcion": "Al recoger el objeto, se activa una trampa oculta que dispara dardos venenosos desde las paredes.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Desatar una maldición",
+        "descripcion": "El objeto está maldito, y al tocarlo, uno de vosotros recibe una maldición que afecta sus habilidades o puntos de vida.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Desencadenar un combate",
+        "descripcion": "Al tomar el objeto, una puerta secreta se abre y libera a un grupo de monstruos que os atacan.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Despertar un guardián mágico",
+        "descripcion": "El objeto estaba protegido por un guardián mágico que se despierta y desafía a vuestro grupo para probar su valía.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Emitir un sonido hipnótico",
+        "descripcion": "El objeto emite un sonido hipnótico que os afecta, induciéndoos a comportaros de manera extraña o revelar información oculta.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Liberar una criatura atrapada",
+        "descripcion": "El objeto estaba sellando a una criatura poderosa, que al ser liberada, intenta atacaros o negociar con vosotros.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "El jugador queda atrapado",
+        "descripcion": "Al manipular el objeto, quedas atrapado en una especie de prisión mental compuesta por tus peores miedos... a los que ahora deberás enfrentarte.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Desencadenar un cambio en el entorno",
+        "descripcion": "Al tomar el objeto, la sala se transforma mágicamente, cambiando su estructura o transportándoos a una réplica invertida o alternativa.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Despertar un antiguo mecanismo",
+        "descripcion": "El objeto activa un mecanismo antiguo que altera el diseño de la mazmorra, abriendo nuevos pasajes o cerrando otros.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Revelar un mapa oculto",
+        "descripcion": "Al inspeccionar el objeto, descubrís un mapa oculto que revela la ubicación de una sala secreta o tesoro.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Generar una visión",
+        "descripcion": "Al tocar el objeto, recibís una visión que os proporciona pistas sobre la historia de la mazmorra o vuestro próximo objetivo.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Conceder un poder temporal",
+        "descripcion": "El objeto os otorga un poder especial temporal, como mayor fuerza, velocidad o resistencia a ciertos tipos de daño.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Activar una barrera mágica",
+        "descripcion": "Al recoger el objeto, se activa una barrera mágica que bloquea la salida de la sala, atrapándoos hasta que resolváis un enigma.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Invocar un espectro guardián",
+        "descripcion": "Al tocar el objeto, un espectro guardián aparece y ofrece su protección o guía a vuestro grupo durante un tiempo limitado.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Recibir una bendición",
+        "descripcion": "El objeto os concede una bendición, mejorando temporalmente vuestras habilidades o protección contra daños.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Curar a los jugadores",
+        "descripcion": "El objeto tiene propiedades curativas y al recogerlo, recuperáis puntos de vida o elimináis efectos negativos.",
+        "informacion-master": ""
+    },
+    {
+        "accion": "Abrir un portal",
+        "descripcion": "El objeto actúa como una llave mágica que abre un portal hacia otra parte de la mazmorra",
+        "informacion-master": "Si los jugadores están separados, pueden reencontrarse. Si están juntos, se desvelará un nodo adicional de la historia."
+    },
+    {
+        "accion": "Revelar la presencia de un aliado oculto",
+        "descripcion": "El objeto revela la presencia de un aliado oculto en la mazmorra, que puede ofreceros ayuda, información o unirse a vuestra misión.",
+        "informacion-master": "Un NPC o un personaje que haya aparecido anteriormente en la historia puede recuperarse en este momento."
+    },
+    {
+        "accion": "Desbloquear un recuerdo perdido",
+        "descripcion": "El objeto desbloquea un recuerdo perdido.",
+        "informacion-master": "El jugador puede describir el recuerdo según considere de su propia historia personal y de su pasado. El máster, en consecuencia, proporcionará datos adicionales sobre la misión personal de dicho jugador."
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "accion": "Examinar el entorno",
+        "descripcion": "Los jugadores pueden inspeccionar la sala en busca de pistas, trampas, secretos u objetos ocultos. Esta acción puede implicar una tirada de Percepción o Investigación."
+    },
+    {
+        "accion": "Detectar magia",
+        "descripcion": "Utilizando un hechizo o una habilidad, los jugadores pueden intentar detectar la presencia de magia en la sala, lo cual puede revelar objetos encantados, runas ocultas o trampas mágicas."
+    },
+    {
+        "accion": "Hablar con un NPC",
+        "descripcion": "Si la sala contiene un NPC, como un prisionero, un guardián o una figura encapuchada, los jugadores pueden interactuar con ellos para obtener información, negociar o persuadirlos."
+    },
+    {
+        "accion": "Interaccionar con objetos",
+        "descripcion": "Los jugadores pueden manipular objetos dentro de la sala, como mover estatuas, abrir cofres, tirar de palancas o pulsar botones, para revelar secretos o activar mecanismos."
+    },
+    {
+        "accion": "Realizar un ritual",
+        "descripcion": "En salas con altares, símbolos o círculos mágicos, los jugadores pueden realizar un ritual para invocar, sellar, o contactar con entidades sobrenaturales, o para purificar un área."
+    },
+    {
+        "accion": "Descansar y recuperarse",
+        "descripcion": "Los jugadores pueden decidir tomar un breve descanso (short rest) o un descanso prolongado (long rest) en la sala, si consideran que es seguro, para recuperar puntos de vida y habilidades."
+    },
+    {
+        "accion": "Recoger objetos",
+        "descripcion": "Los jugadores pueden buscar y recoger objetos valiosos, útiles o curiosos dentro de la sala, como armas, armaduras, pociones, pergaminos o monedas."
+    },
+
+    {
+        "accion": "Investigar símbolos, inscripciones, libros o pergaminos",
+        "descripcion": "Los jugadores pueden estudiar cualquier inscripción, símbolo, o artefacto para descifrar su significado, aprender más sobre la historia de la mazmorra o descubrir pistas sobre cómo proceder."
+    },
+
+    {
+        "accion": "Probar alimentos o pociones",
+        "descripcion": "Los jugadores pueden encontrar alimentos o pociones en la sala y decidir probarlos, lo cual puede tener efectos variados, desde la curación hasta maldiciones o transformaciones."
+    }
+]

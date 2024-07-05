@@ -1,0 +1,55 @@
+<h3>{{ trama.descripcion.nombre }}</h3>
+
+    
+    
+    <div class="item-info">
+        <h4>El lugar</h4>{{ trama.descripcion.descripcion }}
+        <h4>Historia y economía</h4>
+        <p>
+            {{ trama.descripcion.historia }}
+            {{ trama.descripcion.economia }}
+        </p>
+        <h4>Sociedad</h4>
+        <p>{{ trama.descripcion.clases_sociales }}</p>
+    </div>
+
+    <div class="item-info">
+        <h3>Inicio</h3>
+        Os encontráis en
+        {{ trama.inicio.punto_de_inicio }}
+        {{ trama.inicio.descripcion_del_lugar }}
+        {{ trama.inicio.eventos_anteriores }}
+        <p>
+            {{ trama.inicio.otros_personajes }}
+        </p>
+        
+    </div>
+
+    
+    <div class="item-info">
+        <h3>... y entonces sucede algo ...</h3>
+        <p>{{ trama.detonante.detonante }} {{ trama.detonante.descripcion }}</p>
+    </div>
+    
+    
+<!--     LOS OBJETIVOS INTERFIEREN CON EL 'SUCEDE ALGO'. 
+    <div class="item-info">
+        <h3>Objetivo</h3>
+        <p>
+            {{ trama.objetivo.objetivo }}.
+            {{ trama.objetivo.descripcion }}
+            {{ trama.objetivo.detalles }}
+        </p>
+        @for (rumor of trama.objetivo.rumores; track rumor){
+            <li>{{ rumor }}</li>
+        }
+    </div> -->
+    
+    <div class="item-info">
+        <h3>Personajes involucrados</h3>
+        {{ trama.involucrado.nombre }}
+        {{ trama.involucrado.descripcion_fisica }}
+        {{ trama.involucrado.personalidad }} <br><br>
+        Fue visto por última vez: {{ trama.involucrado.ultimo_visto }}
+    </div>
+    

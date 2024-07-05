@@ -9,6 +9,18 @@ https://www.deviantart.com/ai-postcards/art/Medieval-Town-The-City-Hall-94772321
 # Plan y Propuesta de Arquitectura
 ## Componentes Principales
 
+
+SISTEMA DE TOKENES
+
+Hay que implementar un sistema de token que permita crear un hilo conductor.
+
+Crear un botón que diga 'tokenizar'.
+Si lo hacen, un elemento de ese servicio se guardará y 
+servirá de hilo conductor para el resto de historias que puedan salir.
+
+Tiene que haber un token genérico o DEFAULT, para indicar que no tiene nada especial o se adapta a cualquier historia -ya que no todos los elementos van a estar tokenizados.
+
+
     Escenarios
         Listado de escenarios.
         Detalle de un escenario seleccionado.

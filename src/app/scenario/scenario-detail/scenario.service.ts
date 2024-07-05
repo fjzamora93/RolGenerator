@@ -51,7 +51,7 @@ export class ScenarioService{
                 this.scenarioSelected = this.mazeList[Math.floor(Math.random() * this.mazeList.length)]
                 listaSeleccionada = this.mazeList;
                 break;
-            case 'cuarteles':
+            case 'town':
                 this.scenarioSelected = this.cuartelesList[Math.floor(Math.random() * this.cuartelesList.length)]
                 listaSeleccionada = this.cuartelesList;
                 break;

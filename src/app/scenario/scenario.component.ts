@@ -11,12 +11,22 @@ import { R3SelectorScopeMode } from '@angular/compiler';
 })
 export class ScenarioComponent {
 
-    selectedScenario = signal('1');
+    selectedScenario = signal('city');
+
+    
 
     onSelectScenario(event : Event){
-        const seleccion = event.target as HTMLImageElement;
-        this.selectedScenario.update(value => seleccion.alt);
+        const seleccion = event.currentTarget as HTMLElement;
+        const childImg = seleccion.querySelector('img') as HTMLImageElement;
+
+        this.selectedScenario.update(value => '0');
+        setTimeout(() => {
+            this.selectedScenario.update(value => childImg.alt);
+            console.log("Esto se ejecuta después de 0.1 segundos");
+          }, 100);
+        
         console.log(this.selectedScenario)
     }
+
 
 }

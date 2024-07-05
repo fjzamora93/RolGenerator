@@ -5,12 +5,36 @@
         <p class="section-subtitle">Genera de forma aleatoria un escenario. </p>
     </div>
     <div class="gallery">
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-church-2.png" alt="church"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-maze-2.png" alt="maze"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-city-2.png" alt="cuarteles"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-tower-1.png" alt="tower"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-market-2.png" alt="market"/>
-        <img (click)= "onSelectScenario($event)" src="img/gallery-images/medieval/medieval-tabern-1.png" alt="inn"/>
+
+        <figure (click)= "onSelectScenario($event)">
+            <img  src="img/gallery-images/medieval/medieval-church-2.png" alt="church"/>
+            <figcaption> La Iglesia </figcaption>    
+        </figure>
+
+        <figure (click)= "onSelectScenario($event)" >
+            <img src="img/gallery-images/medieval/medieval-maze-2.png" alt="maze"/>
+            <figcaption> Las mazmorras </figcaption>
+        </figure>
+
+        <figure (click)= "onSelectScenario($event)">
+            <img  src="img/gallery-images/medieval/medieval-city-2.png" alt="town"/>
+            <figcaption> Cuarteles </figcaption>
+        </figure>
+
+        <figure (click)= "onSelectScenario($event)">
+            <img  src="img/gallery-images/medieval/medieval-tower-1.png" alt="tower"/>
+            <figcaption> La Torre </figcaption>
+        </figure>
+
+        <figure (click)= "onSelectScenario($event)">
+            <img  src="img/gallery-images/medieval/medieval-market-2.png" alt="market"/>
+            <figcaption> El Mercado </figcaption>
+        </figure>
+
+        <figure (click)= "onSelectScenario($event)">
+            <img  src="img/gallery-images/medieval/medieval-inn-1.png" alt="inn"/>
+            <figcaption> La Posada </figcaption>
+        </figure>
     </div>
 
     <app-scenario-detail [escenario]="selectedScenario()"/>

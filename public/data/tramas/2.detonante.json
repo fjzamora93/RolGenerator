@@ -1,42 +1,42 @@
 [
     {
-        "detonante": "Alguien grita por la calle una noticia impactante",
-        "descripcion": "Un mensajero corre por la calle principal, gritando sobre un ataque reciente a una aldea cercana."
+        "detonante": "Alguien grita una noticia impactante.",
+        "descripcion": "Un mensajero corre gritando sobre un ataque reciente a una aldea cercana. La gente se arremolina a su alrededor, tratando de escuchar más detalles mientras el pánico comienza a propagarse. El mensajero, visiblemente agotado, continúa describiendo la devastación y las llamas que aún arden."
     },
     {
-        "detonante": "Encontráis un cartel clavado en la puerta de la iglesia",
-        "descripcion": "Un cartel anuncia una recompensa para quien recupere una reliquia sagrada robada del templo."
+        "detonante": "Encontráis un cartel clavado.",
+        "descripcion": "Un cartel anuncia una recompensa para quien recupere una reliquia sagrada robada del templo. El cartel describe la reliquia como un antiguo artefacto de inmenso valor histórico y espiritual. Se sospecha que los ladrones son miembros de una banda infame que se esconde en las colinas cercanas."
     },
     {
-        "detonante": "Una figura encapuchada entrega un mensaje encriptado",
-        "descripcion": "Un desconocido encapuchado entrega un mensaje cifrado que debe ser descifrado para entender su importancia."
+        "detonante": "Una figura encapuchada entrega un mensaje encriptado.",
+        "descripcion": "Un desconocido encapuchado entrega un mensaje cifrado que debe ser descifrado para entender su importancia. La figura se desvanece en la multitud antes de que se pueda hacer alguna pregunta. El mensaje parece estar escrito en un código antiguo que solo unos pocos pueden interpretar."
     },
     {
-        "detonante": "Un extraño evento celestial ocurre",
-        "descripcion": "Un cometa cruza el cielo y los ancianos del pueblo insisten en que es una señal de un gran cambio."
+        "detonante": "Un extraño evento celestial ocurre.",
+        "descripcion": "Un cometa cruza el cielo y los ancianos del pueblo insisten en que es una señal de un gran cambio. El cometa brilla con una intensidad inusual, llenando el cielo nocturno de colores vibrantes. Las historias antiguas hablan de un evento similar que precedió grandes catástrofes y cambios monumentales."
     },
     {
-        "detonante": "Un noble llega al pueblo buscando ayuda",
-        "descripcion": "Un noble herido llega al pueblo, pidiendo ayuda para rescatar a su familia de una banda de bandidos."
+        "detonante": "Un noble llega al pueblo buscando ayuda.",
+        "descripcion": "Un noble herido llega al pueblo, pidiendo ayuda para rescatar a su familia de una banda de bandidos. El noble, vestido con ropas finas pero desgarradas, cuenta cómo fue emboscado en el camino. Su voz está cargada de desesperación mientras describe el peligro en el que se encuentra su familia."
     },
     {
-        "detonante": "Se descubre un cadáver con una extraña marca",
-        "descripcion": "El cuerpo de una persona desconocida, marcado con un símbolo extraño, es encontrado en la plaza del pueblo."
+        "detonante": "Se descubre un cadáver con una extraña marca.",
+        "descripcion": "El cuerpo de una persona desconocida, marcado con un símbolo extraño, es encontrado en la plaza del pueblo. El símbolo parece ser de origen arcano, y nadie en el pueblo puede identificarlo. La aparición del cadáver ha generado miedo y especulación entre los habitantes, quienes temen que sea un mal presagio."
     },
     {
-        "detonante": "Un comerciante ofrece una recompensa por una mercancía perdida",
-        "descripcion": "Un comerciante desesperado ofrece una generosa recompensa a quien encuentre su caravana perdida."
+        "detonante": "Un comerciante ofrece una recompensa por una mercancía perdida.",
+        "descripcion": "Un comerciante desesperado ofrece una generosa recompensa a quien encuentre su caravana perdida. El comerciante explica que la caravana contiene mercancías valiosas y personales de gran importancia. La última vez que fue vista, la caravana estaba atravesando un bosque denso conocido por sus peligros."
     },
     {
-        "detonante": "Un niño corre pidiendo ayuda",
-        "descripcion": "Un niño llega corriendo al pueblo, pidiendo ayuda porque su aldea está siendo atacada por monstruos."
+        "detonante": "Un niño corre pidiendo ayuda.",
+        "descripcion": "Un niño llega pidiendo ayuda porque su aldea está siendo atacada por monstruos. Entre sollozos, el niño describe criaturas horribles que surgieron de la oscuridad, causando estragos y destrucción. La angustia en su voz deja claro que el peligro es real y urgente."
     },
     {
-        "detonante": "Una carta urgente llega de un viejo amigo",
-        "descripcion": "Una carta de un viejo amigo llega, pidiendo ayuda urgente y mencionando un gran peligro inminente."
+        "detonante": "Una carta urgente llega de un viejo amigo.",
+        "descripcion": "Una carta de un viejo amigo llega, pidiendo ayuda urgente y mencionando un gran peligro inminente. La carta, escrita con mano temblorosa, detalla una serie de eventos preocupantes que han estado ocurriendo. El amigo implora que se acuda a su lado lo más rápido posible, temiendo por su vida."
     },
     {
-        "detonante": "Un anciano cuenta una profecía en la taberna",
-        "descripcion": "Un anciano misterioso en la taberna recita una profecía que sugiere que los personajes tienen un papel crucial en los eventos por venir."
+        "detonante": "Un anciano cuenta una profecía en la taberna.",
+        "descripcion": "Un anciano misterioso en la taberna recita una profecía que sugiere que los personajes tienen un papel crucial en los eventos por venir. La profecía, aunque vaga, menciona signos y presagios que coinciden con eventos recientes. Los parroquianos escuchan con atención, algunos escépticos y otros visiblemente perturbados."
     }
 ]

@@ -1,0 +1,151 @@
+[
+    {
+        "habitacion": "Sala del Trono Abandonada",
+        "descripcion": "La sala que tenéis ante vosotros es un antiguo salón del trono, con paredes cubiertas de tapices rasgados y estatuas de reyes olvidados. El trono en el centro está cubierto de polvo y telarañas, y el aire huele a moho y decadencia.",
+        "token": ""
+    },
+    {
+        "habitacion": "Biblioteca Encantada",
+        "descripcion": "La sala que tenéis ante vosotros es una biblioteca con estanterías que se extienden hasta el techo, llenas de libros antiguos. Algunos libros flotan en el aire, movidos por una fuerza mágica invisible. El lugar está iluminado por candelabros que nunca se apagan.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara de Torturas",
+        "descripcion": "La sala que tenéis ante vosotros es una cámara de torturas, con paredes de piedra oscura y manchadas de sangre seca. En el centro hay un potro de tortura, grilletes y otros instrumentos de dolor. Un eco inquietante resuena por la habitación.",
+        "token": ""
+    },
+    {
+        "habitacion": "Jardín Subterráneo",
+        "descripcion": "La sala que tenéis ante vosotros es un jardín subterráneo, lleno de plantas exóticas y bioluminiscentes que iluminan el espacio con un resplandor suave. Una pequeña cascada cae desde una roca en la esquina, llenando la sala con el sonido relajante del agua.",
+        "token": ""
+    },
+    {
+        "habitacion": "Santuario Secreto",
+        "descripcion": "La sala que tenéis ante vosotros es un santuario secreto, con altares dedicados a deidades olvidadas. La luz de velas negras parpadea, proyectando sombras danzantes en las paredes. El aire está cargado con el aroma de incienso y magia antigua.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Tesoro",
+        "descripcion": "La sala que tenéis ante vosotros es una sala del tesoro, con montones de oro y joyas esparcidos por el suelo. Cofres llenos de riquezas y artefactos mágicos están apilados en las esquinas. El resplandor del tesoro ilumina la sala con una luz dorada.",
+        "token": ""
+    },
+    {
+        "habitacion": "Laboratorio Alquímico",
+        "descripcion": "La sala que tenéis ante vosotros es un laboratorio alquímico, con mesas llenas de frascos, retortas y ingredientes exóticos. Un caldero burbujea en el centro, emanando un vapor de colores brillantes. El aire está lleno de olores extraños y potentes.",
+        "token": ""
+    },
+    {
+        "habitacion": "Gran Comedor",
+        "descripcion": "La sala que tenéis ante vosotros es un gran comedor, con una larga mesa de madera rodeada de sillas talladas. Platos y copas de oro están dispuestos en la mesa, como si una gran cena estuviera a punto de comenzar. La habitación está iluminada por un gran candelabro.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Guardián",
+        "descripcion": "La sala que tenéis ante vosotros es la sala del guardián, con armaduras antiguas y armas colgadas en las paredes. Un gran escudo con el emblema del guardián está colgado sobre una chimenea apagada. El ambiente es solemne y lleno de historia.",
+        "token": ""
+    },
+    {
+        "habitacion": "Galería de Retratos",
+        "descripcion": "La sala que tenéis ante vosotros es una galería de retratos, con cuadros de personajes antiguos colgando en las paredes. Los ojos de los retratos parecen seguir vuestros movimientos. La sala está en silencio, con un aire de misterio y reverencia.",
+        "token": ""
+    },{
+        "habitacion": "Cámara del Guardián de las Sombras",
+        "descripcion": "La sala que tenéis ante vosotros está envuelta en sombras. Una figura encapuchada se encuentra en el centro, guardando un cofre misterioso. Las paredes están decoradas con runas antiguas que brillan débilmente.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Espejo Mágico",
+        "descripcion": "La sala que tenéis ante vosotros contiene un enorme espejo en la pared opuesta. La superficie del espejo es líquida y parece ondular suavemente. Refleja imágenes que no coinciden con la realidad, mostrando posibles futuros o pasados alternativos.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Golem de Piedra",
+        "descripcion": "La sala que tenéis ante vosotros está presidida por un golem de piedra inmenso, aparentemente inerte. Las paredes están marcadas con arañazos y golpes, como testimonio de antiguas batallas. El suelo está cubierto de polvo y fragmentos de roca.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara del Sacrificio",
+        "descripcion": "La sala que tenéis ante vosotros está llena de altares ensangrentados y símbolos oscuros pintados en las paredes. En el centro, un altar mayor de piedra está cubierto de manchas de sangre seca. La atmósfera es opresiva y llena de horror.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala de los Ecos Perdidos",
+        "descripcion": "La sala que tenéis ante vosotros tiene paredes de cristal que reflejan y amplifican cada sonido. El menor susurro resuena como un trueno. Unos extraños artefactos están dispuestos alrededor de la sala, resonando con energía mágica.",
+        "token": ""
+    },
+    {
+        "habitacion": "Habitación de las Estrellas",
+        "descripcion": "La sala que tenéis ante vosotros parece un cielo estrellado. El techo y las paredes están decorados con constelaciones que brillan con una luz propia. El suelo es de mármol negro pulido, reflejando las estrellas como un espejo.",
+        "token": ""
+    },
+    {
+        "habitacion": "Santuario del Dragón",
+        "descripcion": "La sala que tenéis ante vosotros es un santuario dedicado a un dragón antiguo. En el centro, una estatua imponente del dragón se eleva hacia el techo. El suelo está cubierto de monedas de oro y joyas esparcidas. El aire está cargado de magia antigua.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala de los Portales",
+        "descripcion": "La sala que tenéis ante vosotros contiene varios portales arcanos, cada uno resplandeciendo con un color diferente. Las paredes están cubiertas de inscripciones mágicas que describen destinos lejanos y misteriosos.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara del Tiempo Detenido",
+        "descripcion": "La sala que tenéis ante vosotros está llena de relojes antiguos, todos detenidos a la misma hora. Un reloj de arena gigante en el centro parece congelado, con granos de arena suspendidos en el aire. El lugar emana una sensación de quietud y eternidad.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Bosque Encantado",
+        "descripcion": "La sala que tenéis ante vosotros es un pequeño bosque encantado, con árboles altos y un suelo cubierto de musgo. La luz del sol parece filtrarse desde un cielo inexistente, y el canto de los pájaros llena el aire. Un riachuelo atraviesa la habitación, burbujeando suavemente.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara del Trono de Cristal",
+        "descripcion": "La sala que tenéis ante vosotros es impresionante, con un trono de cristal en el centro que refleja la luz en un caleidoscopio de colores. Las paredes están hechas de cristal tallado, y el suelo de mármol blanco brillante. El ambiente es frío y silencioso.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cuarto del Arte Perdido",
+        "descripcion": "La sala que tenéis ante vosotros está llena de pinturas, esculturas y artefactos antiguos. Las paredes están cubiertas de obras de arte que representan escenas de épocas olvidadas. Una sensación de nostalgia y misterio llena el aire.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Mapa Viviente",
+        "descripcion": "La sala que tenéis ante vosotros contiene un enorme mapa en el suelo, con figuras que se mueven lentamente sobre él, representando ejércitos y caravanas. Las paredes están decoradas con mapas antiguos y pergaminos.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara del Fénix",
+        "descripcion": "La sala que tenéis ante vosotros está dominada por una estatua de un fénix en pleno vuelo. Las paredes están cubiertas de mosaicos que representan llamas y cenizas. Un cálido resplandor emana de la estatua, iluminando la sala con una luz dorada.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala de los Susurros",
+        "descripcion": "La sala que tenéis ante vosotros está llena de voces susurrantes. Las paredes están cubiertas de inscripciones en lenguas antiguas. Al caminar, los susurros parecen aumentar, susurrando secretos y enigmas en vuestros oídos.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara de los Elementos",
+        "descripcion": "La sala que tenéis ante vosotros está dividida en cuatro secciones, cada una representando uno de los elementos: tierra, aire, fuego y agua. Cada sección tiene su propia atmósfera y clima, cambiando a medida que os movéis por la sala.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Consejo de los Magos",
+        "descripcion": "La sala que tenéis ante vosotros es una gran cámara con un techo abovedado, donde se reunían antiguos magos. Un gran círculo mágico está dibujado en el suelo, rodeado de asientos tallados en piedra. El aire está cargado de energía arcana.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara del Dragón Durmiente",
+        "descripcion": "La sala que tenéis ante vosotros contiene un dragón durmiente, su cuerpo enorme cubierto de escamas relucientes. Las paredes están decoradas con frescos que cuentan historias de dragones y héroes. Un leve ronquido retumba en la habitación.",
+        "token": ""
+    },
+    {
+        "habitacion": "Sala del Juicio",
+        "descripcion": "La sala que tenéis ante vosotros parece una sala de juicio, con un estrado elevado y filas de bancos. En el centro, una balanza gigante de oro se encuentra equilibrada, y las paredes están cubiertas de tapices que representan escenas de justicia.",
+        "token": ""
+    },
+    {
+        "habitacion": "Cámara del Cristal Oscuro",
+        "descripcion": "La sala que tenéis ante vosotros está iluminada por un cristal oscuro que emite una luz tenue y misteriosa. Las paredes están hechas de piedra negra, y el suelo parece absorber la luz. La atmósfera es opresiva y llena de secretos oscuros.",
+        "token": ""
+    }
+]

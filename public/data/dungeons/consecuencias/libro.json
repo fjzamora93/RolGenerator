@@ -1,0 +1,101 @@
+[{
+    "accion": "Desatar una maldición",
+    "descripcion": "Al intentar leer el libro, una maldición se activa y afecta a uno de vosotros, reduciendo sus habilidades o puntos de vida.",
+    "informacion-master": "El máster puede describir la naturaleza exacta de la maldición y sus efectos sobre el jugador, así como posibles métodos para contrarrestarla."
+},
+{
+    "accion": "Provocar un ataque psíquico",
+    "descripcion": "Las inscripciones contienen un hechizo psíquico que ataca vuestras mentes, causando confusión y dolor.",
+    "informacion-master": "El máster puede narrar cómo afecta el ataque psíquico a los personajes, revelando también la posible fuente de este ataque dentro del lore del mundo de juego."
+},
+{
+    "accion": "Invocar un espectro hostil",
+    "descripcion": "Al leer el texto, un espectro hostil es invocado y os ataca de inmediato, defendiendo los secretos del libro.",
+    "informacion-master": "El máster puede detallar las habilidades y motivaciones del espectro invocado, así como proporcionar pistas sobre cómo disipar o derrotar al espectro."
+},
+{
+    "accion": "Activar una trampa mágica",
+    "descripcion": "Las palabras desencadenan una trampa mágica que os envuelve en llamas o rayos, causando daño a quienes están cerca.",
+    "informacion-master": "El máster puede explicar cómo los jugadores pueden mitigar los daños de la trampa o buscar una manera de desactivarla, además de las consecuencias si fallan en hacerlo."
+},
+{
+    "accion": "Perder la vista temporalmente",
+    "descripcion": "El libro o las inscripciones emiten un brillo cegador, y quienes intentan leerlo pierden la vista temporalmente.",
+    "informacion-master": "El máster puede guiar a los jugadores en cómo manejar la ceguera temporal y cómo pueden resolverla dentro del contexto del juego."
+},
+{
+    "accion": "Provocar la aparición de un guardián",
+    "descripcion": "El acto de leer el libro despierta a un guardián mágico que desafía a vuestro grupo en combate para proteger el conocimiento.",
+    "informacion-master": "El máster puede detallar las habilidades y debilidades del guardián mágico, así como ofrecer pistas sobre su naturaleza y origen."
+},
+{
+    "accion": "Abrir un portal inestable",
+    "descripcion": "Las palabras abren un portal inestable que puede transportar a los jugadores a un lugar desconocido o traer algo peligroso a la sala.",
+    "informacion-master": "El máster puede describir las consecuencias de usar el portal inestable, así como las oportunidades y amenazas que podrían surgir del otro lado."
+},
+{
+    "accion": "Alterar la percepción del tiempo",
+    "descripcion": "El texto altera vuestra percepción del tiempo, haciendo que los minutos parezcan horas o viceversa, complicando la navegación por la mazmorra.",
+    "informacion-master": "El máster puede utilizar esta alteración temporal para crear desafíos adicionales o revelar secretos ocultos que solo son accesibles bajo ciertas condiciones temporales."
+},
+{
+    "accion": "Revelar una visión aterradora",
+    "descripcion": "Al leer las inscripciones, tenéis una visión de un futuro aterrador o de los horrores que ocurrieron en el pasado en ese lugar.",
+    "informacion-master": "El máster puede narrar la visión aterradora de manera vívida, conectándola con la historia principal del juego o las motivaciones de los antagonistas."
+},
+{
+    "accion": "Provocar una explosión de energía",
+    "descripcion": "Las palabras liberan una explosión de energía mágica que puede dañar a todos en la sala o destruir partes de la estructura.",
+    "informacion-master": "El máster puede detallar los efectos destructivos de la explosión mágica, así como las oportunidades que ofrece para cambiar el curso del juego."
+},
+{
+    "accion": "Despertar un conocimiento antiguo",
+    "descripcion": "Al leer el libro, adquirís un conocimiento antiguo que os proporciona pistas vitales para avanzar en la mazmorra.",
+    "informacion-master": "El máster puede revelar detalles cruciales sobre la historia del mundo de juego o proporcionar pistas esenciales que ayuden a resolver desafíos futuros."
+},
+{
+    "accion": "Aprender un hechizo nuevo",
+    "descripcion": "El libro contiene la descripción de un hechizo que uno de vosotros puede aprender y utilizar.",
+    "informacion-master": "El máster puede explicar los requisitos y el proceso para que un personaje aprenda y use el nuevo hechizo dentro de las reglas del juego."
+},
+{
+    "accion": "Obtener una bendición",
+    "descripcion": "El texto concede una bendición que mejora temporalmente vuestras habilidades o protección contra daños.",
+    "informacion-master": "El máster puede describir los beneficios específicos de la bendición y su duración, así como las implicaciones en la narrativa del juego."
+},
+{
+    "accion": "Revelar un mapa oculto",
+    "descripcion": "Las inscripciones revelan un mapa oculto que muestra la ubicación de salas secretas o tesoros en la mazmorra.",
+    "informacion-master": "El máster puede ofrecer detalles adicionales sobre las salas secretas o tesoros marcados en el mapa, así como las dificultades o recompensas asociadas con cada descubrimiento."
+},
+{
+    "accion": "Curar heridas",
+    "descripcion": "El libro contiene un hechizo curativo que al leerlo, cura vuestras heridas o elimina efectos negativos.",
+    "informacion-master": "El máster puede detallar los efectos curativos del hechizo y cómo afecta a los personajes heridos, además de cualquier costo o limitación asociada."
+},
+{
+    "accion": "Despertar un aliado espiritual",
+    "descripcion": "Las palabras invocan a un aliado espiritual que os ofrece su protección o guía durante un tiempo limitado.",
+    "informacion-master": "El máster puede describir la naturaleza del aliado espiritual invocado y su relación con la mazmorra o los personajes, así como sus habilidades y motivaciones."
+},
+{
+    "accion": "Recibir una visión reveladora",
+    "descripcion": "Al leer el texto, recibís una visión que os proporciona pistas cruciales sobre la historia de la mazmorra o vuestro próximo objetivo.",
+    "informacion-master": "El máster puede usar la visión para revelar secretos ocultos o proporcionar direcciones claras para avanzar en la historia principal del juego."
+},
+{
+    "accion": "Obtener un objeto mágico",
+    "descripcion": "El libro describe la ubicación de un objeto mágico oculto en la mazmorra, que podéis buscar y reclamar.",
+    "informacion-master": "Llegado el momento, se puede generar un objeto aleatorio con la máxima tirada (20)."
+},
+{
+    "accion": "Revelar la presencia de un tesoro",
+    "descripcion": "Las inscripciones indican la ubicación de un tesoro escondido en la mazmorra, proporcionando detalles específicos para encontrarlo.",
+    "informacion-master": "El máster puede ofrecer pistas adicionales sobre el tesoro escondido, así como los riesgos y recompensas asociados con su búsqueda y recuperación."
+},
+{
+    "accion": "Desbloquear un recuerdo olvidado",
+    "descripcion": "El texto desbloquea un recuerdo olvidado en uno de vosotros, proporcionando pistas cruciales para la misión o revelando su historia personal.",
+    "informacion-master": "El máster puede permitir que el jugador explore su pasado personal a través del recuerdo desbloqueado, ofreciendo detalles significativos que afecten a la narrativa y al desarrollo del personaje."
+}
+]

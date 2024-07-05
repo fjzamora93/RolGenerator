@@ -1,0 +1,101 @@
+[{
+    "accion": "Desatar una maldición",
+    "descripcion": "Al intentar completar el ritual, una maldición se activa y afecta a uno de los presentes.",
+    "informacion-master": "La maldición es permanente. El máster puede describir su naturaleza y cómo afecta al jugador."
+},
+{
+    "accion": "Provocar un ataque psíquico",
+    "descripcion": "Las inscripciones contienen un hechizo psíquico que ataca la mente de todos los presentes durante el ritual, causando confusión y dolor.",
+    "informacion-master": "Los jugadores deben narrar un episodio doloroso de su pasado. El máster impone una desventaja o penalización a cada jugador que haya partido en el ritual."
+},
+{
+    "accion": "Invocar un espectro hostil",
+    "descripcion": "Al completar el ritual, un espectro hostil es invocado y os ataca de inmediato, defendiendo los secretos del libro.",
+    "informacion-master": "El máster puede detallar las habilidades y motivaciones del espectro invocado, así como proporcionar pistas sobre cómo disipar o derrotar al espectro."
+},
+{
+    "accion": "Activar una trampa mágica",
+    "descripcion": "El ritual desencadena una trampa mágica que os envuelve en llamas, causando daño a quienes están cerca.",
+    "informacion-master": "El máster puede explicar cómo los jugadores pueden mitigar los daños de la trampa o buscar una manera de desactivarla, además de las consecuencias si fallan en hacerlo."
+},
+{
+    "accion": "Perder el oído temporalmente",
+    "descripcion": "Al terminar el ritual un silbido vibrante retumba contra las paredes, y quienes realizaron el ritual quedan ensordecidos temporalmente.",
+    "informacion-master": "El máster decide las condiciones en que se ha producido esta pérdida."
+},
+{
+    "accion": "Provocar la aparición de un guardián",
+    "descripcion": "El ritual despierta a un guardián mágico que desafía a vuestro grupo en combate para proteger el conocimiento.",
+    "informacion-master": "El máster puede detallar las habilidades y debilidades del guardián mágico, así como ofrecer pistas sobre su naturaleza y origen."
+},
+{
+    "accion": "Abrir un portal inestable",
+    "descripcion": "El ritual abre un portal inestable que puede transportar a la mitad de los jugadores a un lugar desconocido diviendo al equipo en dos grupos.",
+    "informacion-master": "El máster puede definir la naturaleza del lugar al que han ido."
+},
+{
+    "accion": "Alterar la percepción del tiempo",
+    "descripcion": "El ritual desdibuja los límites del tiempo, haciendo que los minutos parezcan horas o viceversa. Desaparece cualquier noción sobre el paso del tiempo.",
+    "informacion-master": "El máster puede usar esta alteración para cambiar cualquier aspecto narrativo relacionado con el tiempo (excepto viajar al pasado o al futuro)."
+},
+{
+    "accion": "Revelar un futuro incierto",
+    "descripcion": "Al completar todos los pasos, tenéis una visión de un futuro aterrador. A juzgar por estas visiones, parece que aún podéis impedirlo",
+    "informacion-master": "Los eventos descritos por el máster pueden evitarse."
+},
+{
+    "accion": "Revelar un futuro inevitable",
+    "descripcion": "Al completar todos los pasos, tenéis una visión de un futuro aterrador y que es completamente inevitable. Dentro de vosotros tenéis la absoluta certeza de que lo que habéis visto va a suceder.",
+    "informacion-master": "Los eventos descritos por el máster son completamente inevitables y acabarán sucediendo."
+},
+{
+    "accion": "Viajar al pasado",
+    "descripcion": "Al completar todos los pasos, veis cómo las paredes se empiezan a plegar sobre vosotros hasta perder el conocimiento. Al despertar, estáis fuera de la mazmorra en un lugar ligeramente familiar...",
+    "informacion-master": "Los jugadores han viajado al pasado pero no lo saben."
+},
+{
+    "accion": "Viaje a un pasado remoto",
+    "descripcion": "Todo a vuestro alrededor comienza a dar vueltas y, por un momento, perdéis la noción del tiempo. Cuando el remolino para, seguís en el mismo lugar, pero es ligeramente distinto.",
+    "informacion-master": "Los jugadores han viajado a un pasado relacionado con alguno de los nodos o la trama principal de la aventura. Este viaje al pasado puede ser un recuerdo."
+},
+{
+    "accion": "Obtener una bendición",
+    "descripcion": "El ritual concede una bendición que mejora temporalmente vuestras habilidades o protección contra daños.",
+    "informacion-master": "El máster puede describir los beneficios específicos de la bendición y su duración, así como las implicaciones en la narrativa del juego."
+},
+{
+    "accion": "Revelar un mapa oculto",
+    "descripcion": "Las inscripciones revelan un mapa oculto donde hay una breve descripción del contenido de algunas de las habitaciones.",
+    "informacion-master": "El máster puede revelar el contenido de las próximas habitaciones que serán abiertas antes de que los jugadores atraviesen la puerta."
+},
+{
+    "accion": "Viaje a una habitación pasada",
+    "descripcion": "El ritual os transporta a otra habitación en la que habíais estado anteriormente... aunque es como si nada hubiese cambiado allí.",
+    "informacion-master": "El máster puede reconducir las decisiones de los jugadores a una habitación anterior. Lo que haya sucedido allí puede corregirse (o empeorar)."
+},
+{
+    "accion": "Una visita desde el más allá",
+    "descripcion": "Un personaje que haya muerto a lo largo de la aventura hace su aparición con una importante revelación.",
+    "informacion-master": "El máster puede describir la naturaleza de dicho personaje. Si ninguna a muerto, será algún conocido de los jugadores."
+},
+{
+    "accion": "Recibir una visión reveladora",
+    "descripcion": "Recibís una visión que os proporciona pistas cruciales sobre la historia de la mazmorra o vuestro próximo objetivo.",
+    "informacion-master": "El máster puede usar la visión para revelar secretos ocultos o proporcionar direcciones claras para avanzar en la historia principal del juego."
+},
+{
+    "accion": "Pacto demoníaco",
+    "descripcion": "Un poderoso demonio aparece en escena para ofrecer un pacto bastante ambiguo, donde no queda claro del todo qué es lo que recibe el demonio a cambio.",
+    "informacion-master": "El demonio vinculará a los jugadores que hayan participado en el ritual con un pacto con términos poco claros y bastante enrevesados. Si no aceptan el pacto, comenzará un combate."
+},
+{
+    "accion": "Posesión demoníaca",
+    "descripcion": "Los que habéis participado en el ritual, sentís un leve mareo y cómo una bocanada de aire gélido entra a través de vuestra boca. Una oleada de pensamientos invasivos desatan vuestros más oscuros deseos... ¿de verdad esos son vuestros deseos?.",
+    "informacion-master": "Los jugadores son poseídos por una entidad maligna. El máster decidirá de qué manera los influirá y qué tiradas tienen que superar para reprimir dichas pulsiones ."
+},
+{
+    "accion": "Pacto juramentado",
+    "descripcion": "Al terminar el ritual, unas letras aparecen en el aire sobre vuestros ojos. El pacto está sellado : el ritual ofrece un gran poder, pero a cambio exige un compromiso muy concreto por vuestra parte...",
+    "informacion-master": "El jugador puede proponer qué quiere recibir, y el máster, dependiendo de lo que haya pedido, puede exigir algo a cambio. No hay letra pequeña, lo que se promete es lo que se da."
+}
+]
