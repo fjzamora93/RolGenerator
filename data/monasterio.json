@@ -1,7 +1,7 @@
 [{
-    "nombre" : "El Sagrado Corazón",
+    "nombre" : "Basílica del Sagrado Corazón",
     "historia": "Fundado tras una serie de trágicos eventos, los monjes que lo habitan dedican sus vidas a rezar por las almas perdidas. Cada rincón del lugar parece guardar una memoria de dolor, y los cantos fúnebres resuenan en sus muros, recordando constantemente los tiempos oscuros que dieron origen a este refugio espiritual.",
-    "descripcion" : "La tristeza impregna cada rincón del monasterio. Los monjes caminan en silencio por los pasillos oscuros, y el viento que sopla a través de las ventanas rotas parece llevar consigo lamentos de épocas pasadas",
+    "descripcion" : "La tristeza impregna cada rincón del lugar. Los monjes caminan en silencio por los pasillos oscuros, y el viento que sopla a través de las ventanas rotas parece llevar consigo lamentos de épocas pasadas",
     "evento1" : "Un monje está sentado en un banco del jardín, mirando melancólicamente las flores marchitas. No hay más que tristeza en su rostro",
     "evento2" : "En la lejanía, se escuchan susurros ininteligibles que parecen provenir de las paredes del monasterio, creando una atmósfera inquietante.",
     "noticia" : "Un visitante misterioso llega al monasterio, buscando refugio y revelando una peligrosa misión que necesita la ayuda de los monjes",
@@ -19,8 +19,8 @@
 },
 
 {   
-    "nombre" : "La Trinidad",
-    "historia": "Construido en un valle aislado, la abadía es un santuario de tranquilidad. Durante siglos, ha sido un lugar de retiro para aquellos que buscan paz interior y reflexión. Sus jardines y fuentes proporcionan un entorno sereno, donde los monjes meditan y encuentran armonía, lejos del bullicio del mundo exterior.",
+    "nombre" : "Monasterio de la Trinidad",
+    "historia": "Construido en un valle aislado, este santuario es un santuario de tranquilidad. Durante siglos, ha sido un lugar de retiro para aquellos que buscan paz interior y reflexión. Sus jardines y fuentes proporcionan un entorno sereno, donde los monjes meditan y encuentran armonía, lejos del bullicio del mundo exterior.",
     "descripcion" : "Una profunda tranquilidad envuelve el monasterio. El canto suave de los monjes resuena en la capilla, mezclándose con el murmullo de un arroyo cercano, creando una atmósfera de paz y serenidad.",
     "evento1" : "Los monjes caminando lentamente por el claustro, parecen disfrutar de la tranquilidad del entorno mientras recitan oraciones en voz baja.",
     "evento2" : "Una vela, que está a escasos metros de vosotros, se apaga sin explicación, dejando la estancia en la oscuridad total por unos momentos antes de que la luz regrese misteriosamente.",
@@ -40,8 +40,8 @@
 },
 
 {   
-    "nombre" : "Corpus Cristi",
-    "historia": "La abadía tiene una historia oscura y está rodeada de terror. Antaño, fue escenario de misteriosas desapariciones y eventos sobrenaturales. Los registros antiguos hablan de sombras que se movían por los pasillos y susurros en la oscuridad. Hoy en día, pocos se atreven a visitarla, más allá de los que allí habitan, y aquellos que lo hacen, lo abandonan rápidamente, llevándose consigo historias de encuentros inquietantes",
+    "nombre" : "Capilla del Corpus Cristi",
+    "historia": "Este santuario tiene una historia oscura y está rodeada de terror. Antaño, fue escenario de misteriosas desapariciones y eventos sobrenaturales. Los registros antiguos hablan de sombras que se movían por los pasillos y susurros en la oscuridad. Hoy en día, pocos se atreven a visitarla, más allá de los que allí habitan, y aquellos que lo hacen, lo abandonan rápidamente, llevándose consigo historias de encuentros inquietantes",
     "descripcion" : "Las sombras se alargan en los pasillos, y los susurros inaudibles parecen seguir a quienes se aventuran en su interior. La sensación de ser observado nunca desaparece.",
     "evento1" : "Un grupo de monjes se sobresalta por el crujido de una puerta antigua, atribuyéndolo a viejas leyendas de terror del monasterio.",
     "evento2" : "Un libro antiguo cae de una estantería sin que nadie lo toque, abriéndose en una página con una advertencia críptica escrita en un idioma que os es completamente desconocido.",
@@ -63,8 +63,8 @@
 
 
 {   
-    "nombre" : "Finisterre",
-    "historia": "Este monasterio está marcado por la incertidumbre desde su fundación. Los documentos históricos son escasos y confusos, llenos de contradicciones. Los monjes actuales viven en un estado de constante búsqueda, intentando desentrañar los misterios de su propia existencia y la de su hogar, sin nunca llegar a una conclusión definitiva.",
+    "nombre" : "Ermita de los caídos",
+    "historia": "Este lugar está marcado por la incertidumbre desde su fundación. Los documentos históricos son escasos y confusos, llenos de contradicciones. Los monjes actuales viven en un estado de constante búsqueda, intentando desentrañar los misterios de su propia existencia y la de su hogar, sin nunca llegar a una conclusión definitiva.",
     "descripcion" : "Los corredores laberínticos y las puertas que se abren a habitaciones desconocidas crean una sensación de desorientación constante.",
     "evento1" : "Los monjes se reúnen en la biblioteca, discutiendo en voz baja sobre un pasaje ambiguo en un manuscrito antiguo, creando un aire de incertidumbre.",
     "evento2" : "Las campanas del monasterio comienzan a sonar. Esto no debería resultar extraño, salvo porque ya os pareció haberlas escuchado hace unos minuto, y sin embargo, tanto el ritmo y el número de campanadas es exactamente igual. ",
@@ -83,8 +83,8 @@
     
 },
 {   
-    "nombre" : "Santa María de las Flores",
-    "historia": "Fundado en un lugar inesperado, ha revelado a lo largo de los años tesoros ocultos y conocimientos perdidos. Sus visitantes suelen encontrarse con hallazgos inesperados y maravillas arquitectónicas que desafían la comprensión, dejando una impresión duradera de asombro y admiración.",
+    "nombre" : "Abadía de Santa María de las Flores",
+    "historia": "Fundado en un lugar poco común, ha revelado a lo largo de los años tesoros ocultos y conocimientos perdidos. Sus visitantes suelen encontrarse con hallazgos inesperados y maravillas arquitectónicas que desafían la comprensión, dejando una impresión duradera de asombro y admiración.",
     "descripcion" : "Da la sensación de que al cruzar cada esquina, uno puede encontrarse con una magnífica biblioteca oculta o una sala secreta llena de tesoros artísticos",
     "evento1" : "Un monje encuentra una flor silvestre creciendo entre las piedras del patio, su expresión de sorpresa al descubrir algo tan hermoso en un lugar tan austero.",
     "evento2" : "Un monje, mientras barre el patio, se detiene de repente y mira fijamente al suelo, luego susurra algo incomprensible antes de alejarse rápidamente",
@@ -103,9 +103,9 @@
     
 },
 {   
-    "nombre" : "La Santa Cruzada",
+    "nombre" : "Monasterio de la Santa Cruzada",
     "historia": "Nacido en tiempos de guerra y conflicto, ha sido un bastión de resistencia. Los monjes, en lugar de solo orar, se entrenaban en las artes marciales, defendiendo su hogar con ferocidad. Las cicatrices de batallas pasadas aún se ven en sus muros, testimonio de la furia y el coraje de sus habitantes.",
-    "descripcion" : "El monasterio está impregnado de ira contenida. Las marcas de batalla en las paredes y los restos de objetos rotos sugieren un pasado lleno de conflictos y tensiones no resueltas.",
+    "descripcion" : "Este lugar, sin embargo, está impregnado de ira contenida. Las marcas de batalla en las paredes y los restos de objetos rotos sugieren un pasado lleno de conflictos y tensiones no resueltas.",
     "evento1" : "Un monje, visiblemente frustrado, golpea con suavidad una mesa de trabajo después de fallar en la transcripción de un manuscrito, reflejando su ira contenida.",
     "evento2" : "Un grupo de monjes cantando en la capilla se detiene abruptamente y todos miran hacia la misma esquina oscura, como si hubieran visto algo aterrador.",
     "noticia" : "Un noble rico y su séquito visitan el monasterio, trayendo consigo lujo y tensión mientras buscan negociar una donación significativa. ",
@@ -123,9 +123,9 @@
     
 },
 {   
-    "nombre" : "Cirilia",
-    "historia": "El monasterio refleja una opulencia pasada. Los muros están decorados con frescos dorados, y las habitaciones están llenas de tapices ricos y muebles de lujo, recordando la antigua gloria del lugar.",
-    "descripcion" : "Fundado por un noble adinerado, el monasterio es un ejemplo de opulencia. Durante siglos, ha acumulado riquezas y artefactos invaluables. Sus salones están adornados con obras de arte y sus bibliotecas albergan manuscritos raros. Este lugar no solo era un refugio espiritual, sino también un símbolo de poder y riqueza.",
+    "nombre" : "Iglesia de Cirilia",
+    "historia": "Fundado por un noble adinerado, el monasterio es un ejemplo de opulencia. Durante siglos, ha acumulado riquezas y artefactos invaluables. Sus salones están adornados con obras de arte y sus bibliotecas albergan manuscritos raros. Este lugar no solo era un refugio espiritual, sino también un símbolo de poder y riqueza.",
+    "descripcion" : "El monasterio refleja una opulencia pasada. Los muros están decorados con frescos dorados, y las habitaciones están llenas de tapices ricos y muebles de lujo, recordando la antigua gloria del lugar.",
     "evento1" : "Un monje observa con admiración los tapices dorados y las decoraciones del salón principal, como si esperase encontrar allí algo.",
     "evento2" : "Un cuervo se posa en una ventana abierta, y al mirarlo directamente a los ojos, parece susurrar un mensaje oscuro antes de volar de repente ",
     "noticia" : "El abad del monasterio es encontrado muerto en circunstancias sospechosas, y los monjes deben resolver el misterio mientras mantienen la calma en la comunidad.",
@@ -142,9 +142,9 @@
       }
     
 },{   
-    "nombre" : "Heremita",
-    "historia": "El monasterio evoca una profunda nostalgia. Fundado por una comunidad que buscaba preservar sus tradiciones en tiempos de cambio, se ha convertido en un guardián del pasado. Los monjes viven siguiendo antiguas costumbres, y el lugar parece congelado en el tiempo, recordando a todos los visitantes un mundo que ya no existe, pero que vive en la memoria de sus muros.",
-    "descripcion" : "Una profunda nostalgia impregna el monasterio. Los ecos de tiempos mejores resuenan en los corredores vacíos, y los viejos retratos de monjes fallecidos miran con tristeza desde las paredes.",
+    "nombre" : "Catedral de El Salvador",
+    "historia": "Este santuarion evoca una profunda nostalgia. Fundado por una comunidad que buscaba preservar sus tradiciones en tiempos de cambio, se ha convertido en un guardián del pasado. Los monjes viven siguiendo antiguas costumbres, y el lugar parece congelado en el tiempo, recordando a todos los visitantes un mundo que ya no existe, pero que vive en la memoria de sus muros.",
+    "descripcion" : "Una profunda nostalgia impregna el lugar. Los ecos de tiempos mejores resuenan en los corredores vacíos, y los viejos retratos de monjes fallecidos miran con tristeza desde las paredes.",
     "evento1" : "Un monje mayor enseña a los más jóvenes en la sala de estudio, compartiendo su conocimiento y sabiduría mientras copian textos antiguos.",
     "evento2" : "Un monje pasa corriendo, con la cara pálida de miedo, y se esconde rápidamente en una celda, cerrando la puerta con un golpe sordo.",
     "noticia" : "Un monje experimenta una visión divina y se convierte en objeto de reverencia y controversia, provocando debates sobre el significado de sus palabras y acciones.",
@@ -161,8 +161,8 @@
       }
     
 }, {   
-    "nombre" : "San Jordi",
-    "historia": "El monasterio es un monumento a la antigüedad. Establecido hace muchos siglos, ha sido testigo de innumerables eventos históricos. Sus crónicas, preservadas en pergaminos, cuentan historias de imperios caídos y épocas de grandeza. Cada piedra del monasterio parece susurrar historias de tiempos lejanos, conectando el presente con un pasado remoto.",
+    "nombre" : "Capilla de San Jordi",
+    "historia": "La capilla es un monumento a la antigüedad. Establecido hace muchos siglos, ha sido testigo de innumerables eventos históricos. Sus crónicas, preservadas en pergaminos, cuentan historias de imperios caídos y épocas de grandeza. Cada piedra del monasterio parece susurrar historias de tiempos lejanos, conectando el presente con un pasado remoto.",
     "descripcion" : "La antigüedad se percibe en cada piedra del monasterio. Las estructuras están cubiertas de musgo y las inscripciones en latín antiguo apenas son legibles, hablando de siglos de historia acumulada.",
     "evento1" : "Un monje se detiene frente a un retrato antiguo de un abad fallecido, su expresión llena de nostalgia mientras recuerda historias del pasado.",
     "evento2" : "Un gato negro cruza el camino del espectador, deteniéndose momentáneamente para mirarlo con ojos brillantes y luego desaparece entre las sombras.",
@@ -180,9 +180,9 @@
       }
     
 }, {   
-    "nombre" : "El Dangarion",
-    "historia": "Conocido como un faro de sabiduría, el monasterio ha sido centro de aprendizaje y conocimiento. Los monjes, dedicados a la copia y preservación de textos antiguos, han acumulado una vasta colección de saberes. El lugar atrae a eruditos de todas partes, convirtiéndose en un punto de referencia para aquellos que buscan iluminar sus mentes y almas.",
-    "descripcion" : "La sabiduría reina en el monasterio. Las estanterías llenas de libros antiguos y los monjes dedicados a la lectura y la copia de manuscritos muestran un profundo compromiso con el conocimiento.",
+    "nombre" : "Templo del Redentor",
+    "historia": "Conocido como un faro de sabiduría, el templo ha sido centro de aprendizaje y conocimiento. Los monjes, dedicados a la copia y preservación de textos antiguos, han acumulado una vasta colección de saberes. El lugar atrae a eruditos de todas partes, convirtiéndose en un punto de referencia para aquellos que buscan iluminar sus mentes y almas.",
+    "descripcion" : "La sabiduría reina en este lugar. Las estanterías llenas de libros antiguos y los monjes dedicados a la lectura y la copia de manuscritos muestran un profundo compromiso con el conocimiento.",
     "evento1" : "Un viento frío pasa por el claustro, llevando consigo un susurro que suena como un nombre, haciendo que los monjes se miren entre ellos con preocupación.",
     "evento2" : "Un monje parece estar hablando solo en el jardín, pero cuando el espectador se acerca, el monje se gira bruscamente y dice que no debe escuchar.",
     "noticia" : "Un incendio accidental estalla en la cocina del monasterio, amenazando con destruir una parte del edificio y poniendo a prueba la habilidad de los monjes para manejar emergencias.",

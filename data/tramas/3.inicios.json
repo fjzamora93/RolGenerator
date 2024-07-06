@@ -1,62 +1,62 @@
 [
     {
-        "punto_de_inicio": "Taberna del Dragón Dorado",
+        "punto_de_inicio": "Taberna del Dragón Dorado.",
         "descripcion_del_lugar": "Una taberna bulliciosa y acogedora, con mesas de madera desgastadas y una gran chimenea que ilumina la estancia con un cálido resplandor.",
-        "eventos_anteriores": "Los personajes estaban disfrutando de una cena y bebida, escuchando las historias de un viejo trovador que narraba leyendas locales.",
+        "eventos_anteriores": "Estáis disfrutando de una cena y bebida, escuchando las historias de un viejo trovador que narraba leyendas locales.",
         "otros_personajes": "Además del trovador, hay varios aldeanos, comerciantes y aventureros compartiendo historias y risas alrededor de las mesas."
     },
     {
-        "punto_de_inicio": "Plaza del Mercado",
+        "punto_de_inicio": "Plaza del Mercado.",
         "descripcion_del_lugar": "Una plaza llena de vida, con puestos de venta de frutas, verduras, tejidos y artículos artesanales. El aroma de especias y comida recién hecha flota en el aire.",
-        "eventos_anteriores": "Los personajes estaban comprando provisiones y admirando las exhibiciones de varios comerciantes locales.",
-        "otros_personajes": "La plaza está llena de gente: mercaderes vendiendo sus productos, niños corriendo y jugando, y clientes regateando precios."
+        "eventos_anteriores": "Os encontráis comprando provisiones y admirando las exhibiciones de varios comerciantes locales.",
+        "otros_personajes": "A vuestro alrededor, la plaza está llena de gente: mercaderes vendiendo sus productos, niños corriendo y jugando, y clientes regateando precios."
     },
     {
-        "punto_de_inicio": "Puertas de la Ciudad",
+        "punto_de_inicio": "Puertas de la Ciudad.",
         "descripcion_del_lugar": "Una entrada imponente con grandes puertas de madera reforzadas con hierro, flanqueadas por torres de vigilancia y guardias atentos.",
-        "eventos_anteriores": "Los personajes acababan de llegar a la ciudad, mostrando sus permisos de entrada a los guardias y escuchando las últimas noticias sobre la región.",
-        "otros_personajes": "Guardias de la ciudad, viajeros y comerciantes entrando y saliendo, algunos mendigos pidiendo limosna cerca de la entrada."
+        "eventos_anteriores": "Acabáis de llegar a la ciudad, mostrando sus permisos de entrada a los guardias y escuchando las últimas noticias sobre la región.",
+        "otros_personajes": "Podéis ver guardias de la ciudad, viajeros y comerciantes entrando y saliendo, algunos mendigos pidiendo limosna cerca de la entrada."
     },
     {
-        "punto_de_inicio": "Templo de la Luz",
+        "punto_de_inicio": "Templo de la Luz.",
         "descripcion_del_lugar": "Un templo majestuoso con altos vitrales que filtran la luz, creando un ambiente sereno y sagrado. El olor a incienso llena el aire.",
-        "eventos_anteriores": "Los personajes estaban buscando bendiciones y consejo de los sacerdotes, rezando y meditando en el santuario.",
-        "otros_personajes": "Sacerdotes realizando rituales, fieles rezando en silencio, y algunos peregrinos descansando en los bancos del templo."
+        "eventos_anteriores": "Tras un largo viaje, os encontráis en el santuraio buscando recibir bendiciones y consejo de los sacerdotes. O por lo menos esa era la idea original, porque ahora qué habéis llegado, os preguntáis si  de verdad merecía la pena el viaje.",
+        "otros_personajes": "En el templo hay sacerdotes realizando rituales, fieles rezando en silencio, y algunos peregrinos descansando en los bancos del templo."
     },
     {
-        "punto_de_inicio": "Biblioteca Arcana",
+        "punto_de_inicio": "Biblioteca Arcana.",
         "descripcion_del_lugar": "Una gran sala con estanterías llenas de libros y pergaminos antiguos. El silencio es casi total, roto solo por el suave paso de los estudiosos.",
-        "eventos_anteriores": "Los personajes estaban investigando en los libros antiguos, buscando información sobre una leyenda o un objeto mágico.",
-        "otros_personajes": "Eruditos y magos consultando manuscritos, el bibliotecario organizando libros y algunos aprendices estudiando en mesas cercanas."
+        "eventos_anteriores": "Os encontráis allí investigando en los libros antiguos, buscando información sobre una leyenda que llegó a vuestros oídos y que avivó vuestra curiosidad.",
+        "otros_personajes": "A vuestro alrededor hay eruditos y magos consultando manuscritos, el bibliotecario organizando libros y algunos aprendices estudiando en mesas cercanas."
     },
     {
-        "punto_de_inicio": "Casa del Alcalde",
+        "punto_de_inicio": "Casa del Alcalde.",
         "descripcion_del_lugar": "Una gran mansión con jardines bien cuidados y guardias en la entrada. Dentro, las salas están decoradas con tapices y mobiliario lujoso.",
-        "eventos_anteriores": "Los personajes estaban esperando una audiencia con el alcalde para discutir un asunto urgente o una misión oficial.",
-        "otros_personajes": "Guardias vigilando la entrada, sirvientes moviéndose discretamente por las salas, y otros ciudadanos esperando su turno para ser atendidos."
+        "eventos_anteriores": "Llegasteis a la alcaldía esperando una audiencia con el alcalde para discutir un asunto urgente... aunque cabría discutir qué tan urgente se trataba el asunto cuando lleváis horas y aún no ha aparecido.",
+        "otros_personajes": "Hay guardias vigilando la entrada, sirvientes moviéndose discretamente por las salas, y otros ciudadanos esperando su turno para ser atendidos."
     },
     {
-        "punto_de_inicio": "Gremio de Aventureros",
+        "punto_de_inicio": "Gremio de Aventureros.",
         "descripcion_del_lugar": "Un edificio robusto con una gran sala común llena de trofeos y mapas. El ambiente es animado, con aventureros compartiendo historias y planes.",
-        "eventos_anteriores": "Los personajes estaban revisando el tablón de misiones, discutiendo posibles trabajos y escuchando las hazañas de otros aventureros.",
-        "otros_personajes": "Varios aventureros de diferentes razas y profesiones, el maestro del gremio dando instrucciones y algunos mercaderes ofreciendo suministros."
+        "eventos_anteriores": "En estos momentos os encontrábais revisando el tablón de misiones, discutiendo posibles trabajos y escuchando las hazañas de otros aventureros.",
+        "otros_personajes": "Con vosotros, también hay varios aventureros de diferentes razas y profesiones, el maestro del gremio dando instrucciones y algunos mercaderes ofreciendo suministros."
     },
     {
-        "punto_de_inicio": "Torre del Mago",
+        "punto_de_inicio": "Torre del Mago.",
         "descripcion_del_lugar": "Una torre alta y misteriosa, con laboratorios llenos de frascos, libros y artefactos mágicos. La atmósfera está cargada de energía arcana.",
-        "eventos_anteriores": "Los personajes estaban consultando con un mago sobre un objeto mágico o un problema sobrenatural.",
-        "otros_personajes": "El mago residente, algunos aprendices trabajando en experimentos y un familiar mágico observando desde una esquina."
+        "eventos_anteriores": "Decidísteis acudir a la torre para consutlar al mago sobre un objeto mágico que encontrásteis hace unas semanas y cuya naturaleza aún no habéis conseguido desentrañar.",
+        "otros_personajes": "Allí están el mago residente, algunos aprendices trabajando en experimentos y un familiar mágico observando desde una esquina."
     },
     {
-        "punto_de_inicio": "Cuartel de la Guardia",
+        "punto_de_inicio": "Cuartel de la Guardia.",
         "descripcion_del_lugar": "Un edificio fortificado con patios de entrenamiento y barracones. El lugar está siempre en actividad con guardias entrenando y patrullando.",
-        "eventos_anteriores": "Los personajes estaban informando a la guardia sobre un crimen o buscando ayuda para una misión peligrosa.",
-        "otros_personajes": "Guardias en entrenamiento, oficiales discutiendo tácticas y algunos prisioneros bajo custodia."
+        "eventos_anteriores": "Llegasteis al cuartel ya hace un rato como sospechosos de una situación un tanto incómoda y estáis a la espera de la vista del general.",
+        "otros_personajes": "Podéis ver guardias en entrenamiento, oficiales discutiendo tácticas y algunos prisioneros bajo custodia."
     },
     {
-        "punto_de_inicio": "Bosque Prohibido",
-        "descripcion_del_lugar": "Un bosque denso y oscuro, lleno de árboles antiguos y senderos ocultos. La sensación de estar observados es constante.",
-        "eventos_anteriores": "Los personajes estaban explorando el bosque en busca de hierbas raras o siguiendo pistas sobre un misterio.",
-        "otros_personajes": "El bosque parece desierto, pero se siente la presencia de criaturas ocultas y la posible vigilancia de druidas o espíritus del bosque."
+        "punto_de_inicio": "El Jardín.",
+        "descripcion_del_lugar": "Un jardín denso y oscuro, lleno de árboles antiguos y senderos ocultos. La sensación de ser observados es constante.",
+        "eventos_anteriores": "Los personajes se encontraban en los jardines de una de las familias nobles de la ciudad, a la espera de ser atendidos.",
+        "otros_personajes": "A pesar de que estábais citados, el jardín parece desierto, pero se siente la presencia de 'alguien' oculto y la posible vigilancia por parte de quien os ha llamado."
     }
 ]

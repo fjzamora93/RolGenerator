@@ -8,7 +8,7 @@
         "noticia": "Los guardias descubren que las cadenas de las celdas se mueven por sí solas durante la noche, liberando a criaturas esqueléticas que acechan en las sombras.",
         "visitante": {
             "descripcion": "El Espíritu de la Noche, una figura encapuchada con ojos que brillan en la oscuridad y manos frías como el hielo.",
-            "habilidades": "Puede manipular sombras y causar pesadillas en aquellos que se atreven a entrar en su dominio.",
+            "personalidad": "Puede manipular sombras y causar pesadillas en aquellos que se atreven a entrar en su dominio.",
             "motivo": "Busca venganza por las injusticias cometidas contra él en vida, atrapado en la mazmorra por la eternidad."
         },
         "habitante": {
@@ -26,7 +26,7 @@
         "noticia": "Se descubre un cuarto secreto lleno de tesoros encantados, pero cada riqueza tiene un precio mortal que los intrusos deben pagar.",
         "visitante": {
             "descripcion": "El Cazador Espectral, un espectro alto y esquelético armado con una lanza en llamas y ojos vacíos que brillan con una malicia ancestral.",
-            "habilidades": "Puede atravesar paredes y proyectar ilusiones terroríficas para confundir y aterrorizar a sus presas.",
+            "personalidad": "Puede atravesar paredes y proyectar ilusiones terroríficas para confundir y aterrorizar a sus presas.",
             "motivo": "Caza intrusos para alimentar su propia energía oscura y mantener el equilibrio entre el mundo de los vivos y los muertos."
         },
         "habitante": {
@@ -44,7 +44,7 @@
         "noticia": "Se descubre un pasadizo secreto que conduce a un mundo subterráneo de vastos tesoros, pero también a la guarida de un dragón durmiente.",
         "visitante": {
             "descripcion": "El Cuervo de la Oscuridad, un cuervo gigante con ojos brillantes como carbones ardientes y un pico afilado como una guadaña.",
-            "habilidades": "Puede manipular las sombras para cegar a sus enemigos y convocar tormentas de plumas afiladas como cuchillas.",
+            "personalidad": "Puede manipular las sombras para cegar a sus enemigos y convocar tormentas de plumas afiladas como cuchillas.",
             "motivo": "Guarda la cripta como un guardián de los dioses del inframundo, asegurándose de que los intrusos paguen el precio por profanar su santuario."
         },
         "habitante": {
@@ -62,7 +62,7 @@
         "noticia": "Se descubre un antiguo manuscrito encantado que revela el verdadero origen de la Sombra Errante y la forma de sellarla para siempre en el laberinto.",
         "visitante": {
             "descripcion": "La Sombra Errante, una entidad oscura sin forma definida pero con ojos brillantes y una risa que hiela la sangre.",
-            "habilidades": "Puede manipular las sombras para crear ilusiones y formas terroríficas que atormentan a los intrusos hasta la locura.",
+            "personalidad": "Puede manipular las sombras para crear ilusiones y formas terroríficas que atormentan a los intrusos hasta la locura.",
             "motivo": "Busca alimentarse de la desesperación y el miedo de los que se pierden en el laberinto, absorbiendo su energía vital para fortalecer su dominio."
         },
         "habitante": {
@@ -80,7 +80,7 @@
         "noticia": "Se descubre un diario perdido de un carcelero que narra los horrores que presenció y cometió en la prisión, desatando una maldición sobre aquellos que lo leen.",
         "visitante": {
             "descripcion": "El Espectro del Verdugo, una figura encapuchada con una guillotina en llamas y ojos vacíos que brillan con un odio eterno.",
-            "habilidades": "Puede invocar tormentas de cuchillas fantasmales y manipular las cadenas de la prisión para atrapar a sus presas.",
+            "personalidad": "Puede invocar tormentas de cuchillas fantasmales y manipular las cadenas de la prisión para atrapar a sus presas.",
             "motivo": "Busca venganza por las injusticias cometidas contra los prisioneros durante su vida mortal, perpetuando su papel como verdugo en la muerte."
         },
         "habitante": {
@@ -98,7 +98,7 @@
         "noticia": "Se descubre un tesoro sagrado protegido por guardianes elementales, pero cada riqueza tiene un precio mortal que los intrusos deben pagar para obtenerla.",
         "visitante": {
             "descripcion": "El Espíritu del Druida Vengativo, un anciano con una barba larga y ojos brillantes como esmeraldas, con el poder de controlar la tierra y las plantas.",
-            "habilidades": "Puede invocar raíces retorcidas y rocas afiladas para atrapar y aplastar a sus enemigos, defendiendo la montaña sagrada con ferocidad.",
+            "personalidad": "Puede invocar raíces retorcidas y rocas afiladas para atrapar y aplastar a sus enemigos, defendiendo la montaña sagrada con ferocidad.",
             "motivo": "Busca proteger los secretos ancestrales de los druidas y la magia antigua que reside en la montaña, impidiendo que los intrusos profanen su santuario."
         },
         "habitante": {
@@ -116,7 +116,7 @@
         "noticia": "Se descubre un portal antiguo que lleva a un reino de fuego y lava, donde las almas perdidas de los valientes se enfrentan a juicios de fuego antes de alcanzar la libertad eterna.",
         "visitante": {
             "descripcion": "La Serpiente de Fuego, una criatura colosal con escamas resplandecientes como el cobre y ojos que arden con fuego eterno.",
-            "habilidades": "Puede lanzar bolas de fuego y envolver a sus enemigos en llamas azules que queman incluso las almas más valientes.",
+            "personalidad": "Puede lanzar bolas de fuego y envolver a sus enemigos en llamas azules que queman incluso las almas más valientes.",
             "motivo": "Protege el tesoro ancestral que yace en la mazmorra, defendiendo su dominio con ferocidad y sin piedad contra los intrusos."
         },
         "habitante": {
@@ -134,7 +134,7 @@
         "noticia": "Se descubre un naufragio antiguo lleno de tesoros olvidados y reliquias malditas, atrayendo a los codiciosos y a los valientes por igual hacia el abrazo mortal de la niebla.",
         "visitante": {
             "descripcion": "El Capitán Fantasma, un marinero espectral con un sombrero emplumado y un sable oxidado, con ojos brillantes como faros perdidos en la niebla.",
-            "habilidades": "Puede controlar la niebla y convocar tormentas marinas para proteger la isla encantada y sus tesoros olvidados.",
+            "personalidad": "Puede controlar la niebla y convocar tormentas marinas para proteger la isla encantada y sus tesoros olvidados.",
             "motivo": "Guarda el laberinto de la niebla eterna como un vigilante de las almas perdidas, ofreciendo salvación o condena dependiendo de la pureza del corazón de los intrusos."
         },
         "habitante": {
@@ -152,7 +152,7 @@
         "noticia": "Se descubre un espejo antiguo que contiene un portal hacia el pasado y el futuro, permitiendo a los intrusos ver sus propios destinos antes de decidir si buscar la verdad o la ilusión eterna.",
         "visitante": {
             "descripcion": "El Ilusionista Encantado, un hechicero con una capa de seda y ojos que brillan como diamantes, con el poder de crear ilusiones y espejismos que confunden y desorientan a sus enemigos.",
-            "habilidades": "Puede controlar los espejos y las ilusiones, cambiando la realidad a su antojo para proteger su laberinto de los intrusos y aquellos que buscan descubrir sus secretos.",
+            "personalidad": "Puede controlar los espejos y las ilusiones, cambiando la realidad a su antojo para proteger su laberinto de los intrusos y aquellos que buscan descubrir sus secretos.",
             "motivo": "Guarda el laberinto de los espejismos como un juguete de su ego y un monumento a su poder, desafiando a los intrusos a enfrentar sus peores temores antes de permitirles escapar o perderse en la oscuridad de los reflejos."
         },
         "habitante": {
@@ -170,7 +170,7 @@
         "noticia": "Se descubre un antiguo libro de hechizos maldito que contiene la clave para liberar las pesadillas atrapadas y desatar un ejército de terrores en el mundo de los vivos.",
         "visitante": {
             "descripcion": "El Devorador de Sueños, una criatura con tentáculos retorcidos y ojos vacíos que brillan con una luz enfermiza, con el poder de devorar las almas atrapadas en las pesadillas.",
-            "habilidades": "Puede manipular las sombras y proyectar ilusiones terroríficas que conducen a los intrusos a la locura antes de consumir sus almas.",
+            "personalidad": "Puede manipular las sombras y proyectar ilusiones terroríficas que conducen a los intrusos a la locura antes de consumir sus almas.",
             "motivo": "Guarda la cámara de las pesadillas como un carcelero eterno de las almas perdidas, buscando alimentarse del miedo y la desesperación de aquellos que se aventuran en su dominio."
         },
         "habitante": {
@@ -188,7 +188,7 @@
         "noticia": "Se descubre un arsenal antiguo lleno de armas mágicas y reliquias de batallas pasadas, atrayendo a los valientes y a los codiciosos hacia el peligro mortal de la venganza de los espíritus perdidos.",
         "visitante": {
             "descripcion": "El Guerrero Fantasma, un espíritu encapuchado con una espada rota y ojos vacíos que brillan con la furia de mil batallas perdidas.",
-            "habilidades": "Puede convocar a sus antiguos compañeros de armas para formar un ejército de sombras que luchan junto a él, defendiendo la caverna de los espíritus perdidos con ferocidad.",
+            "personalidad": "Puede convocar a sus antiguos compañeros de armas para formar un ejército de sombras que luchan junto a él, defendiendo la caverna de los espíritus perdidos con ferocidad.",
             "motivo": "Busca venganza contra aquellos que profanaron su tierra sagrada y se atrevieron a desafiar el honor y la memoria de los guerreros caídos."
         },
         "habitante": {
@@ -206,7 +206,7 @@
         "noticia": "Se descubre un artefacto místico que puede alterar el flujo del tiempo, atrayendo a los intrépidos y a los locos por igual hacia el abrazo mortal de un destino incierto.",
         "visitante": {
             "descripcion": "El Guardián del Tiempo, un ser encapuchado con una guadaña de reloj y ojos vacíos que brillan con la eternidad, con el poder de manipular el tiempo y el espacio dentro del laberinto.",
-            "habilidades": "Puede cambiar la dirección de los pasillos y alterar el flujo del tiempo, condenando a los intrusos a una prisión temporal donde cada segundo es una eternidad.",
+            "personalidad": "Puede cambiar la dirección de los pasillos y alterar el flujo del tiempo, condenando a los intrusos a una prisión temporal donde cada segundo es una eternidad.",
             "motivo": "Guarda el laberinto del tiempo perdido como un carcelero eterno, atrapando a los intrusos en un bucle de tiempo y espacio para proteger los secretos de la percepción y el destino."
         },
         "habitante": {

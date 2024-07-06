@@ -1,0 +1,159 @@
+[
+    {
+        "accion": "Al abrir la puerta, se activa una trampa.",
+        "descripcion": "Cuando queréis daros cuenta, se ha activado una trampa que dispara flechas envenenadas desde las paredes."
+    },
+    {
+        "accion": "Al abrir la puerta, descubrís una sala oculta.",
+        "descripcion": "Cuando abrís la puerta, descubrís una sala oculta llena de tesoros antiguos y trampas mortales."
+    },
+    {
+        "accion": "Al abrir la puerta, enfrentáis una emboscada.",
+        "descripcion": "Cuando abrís la puerta, sois emboscados por un grupo de enemigos que estaban esperando en la oscuridad. ¡Comienza el combate!"
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un prisionero.",
+        "descripcion": "Cuando abrís la puerta, encontráis a un prisionero encadenado, pidiendo ayuda desesperadamente."
+    },
+    {
+        "accion": "Al abrir la puerta, descubrís un laboratorio de alquimia.",
+        "descripcion": "Cuando abrís la puerta, descubrís un laboratorio de alquimia con pociones burbujeantes y equipos extraños."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un enemigo poderoso.",
+        "descripcion": "Cuando abrís la puerta, os enfrentáis a un enemigo poderoso, como un mago oscuro o un golem guardián."
+    },
+    {
+        "accion": "Al abrir la puerta, se revela un portal mágico.",
+        "descripcion": "Cuando abrís la puerta, encontráis un portal mágico que lleva a una dimensión desconocida."
+    },
+    {
+        "accion": "Al abrir la puerta, descubrís un almacén de provisiones.",
+        "descripcion": "Cuando abrís la puerta, encontráis un almacén lleno de provisiones, armas y objetos útiles para vuestra aventura."
+    },
+    {
+        "accion": "Al abrir la puerta, se desencadena un derrumbe.",
+        "descripcion": "Cuando abrís la puerta, provocáis un derrumbe parcial del techo, bloqueando parcialmente la salida."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un mapa antiguo.",
+        "descripcion": "Cuando abrís la puerta, encontráis un mapa antiguo que revela la ubicación de otros tesoros y peligros en la mazmorra."
+    },{
+        "accion": "Al abrir la puerta, encontráis un altar oscuro.",
+        "descripcion": "Cuando abrís la puerta, encontráis un altar oscuro rodeado de velas negras y símbolos inquietantes."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una estatua de un dragón antiguo.",
+        "descripcion": "Cuando abrís la puerta, encontráis una estatua imponente de un dragón antiguo, con ojos que parecen seguir vuestros movimientos."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un pasadizo inundado.",
+        "descripcion": "Cuando abrís la puerta, encontráis un pasadizo inundado por aguas oscuras y un olor a humedad y podredumbre."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un libro encantado.",
+        "descripcion": "Cuando abrís la puerta, encontráis un libro encantado que brilla con una luz misteriosa y parece contener conocimientos arcanos."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un grupo de esqueletos animados.",
+        "descripcion": "Cuando abrís la puerta, encontráis un grupo de esqueletos animados que se levantan de sus tumbas y se preparan para atacar."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una fuente de agua cristalina.",
+        "descripcion": "Cuando abrís la puerta, encontráis una fuente de agua cristalina que emite un suave resplandor y parece tener propiedades curativas."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un tesoro escondido.",
+        "descripcion": "Cuando abrís la puerta, encontráis un cofre antiguo lleno de monedas de oro, gemas brillantes y objetos mágicos."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un mapa estelar grabado en el suelo.",
+        "descripcion": "Cuando abrís la puerta, encontráis un mapa estelar detallado grabado en el suelo, con constelaciones que parecen moverse."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un portal dimensional.",
+        "descripcion": "Cuando abrís la puerta, encontráis un portal dimensional que emite destellos de luz y sonidos extraños desde el otro lado."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un antiguo guardián durmiente.",
+        "descripcion": "Cuando abrís la puerta, encontráis a un antiguo guardián dormido, envuelto en telarañas y con un brillo débil en sus ojos."
+    },{
+        "accion": "Al abrir la puerta, encontráis un pozo profundo y oscuro.",
+        "descripcion": "Cuando abrís la puerta, encontráis un pozo profundo y oscuro cuyo fondo no podéis ver, lleno de un eco inquietante."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una estatua de un antiguo dios olvidado.",
+        "descripcion": "Cuando abrís la puerta, encontráis una estatua colosal de un antiguo dios olvidado, con ojos vacíos que parecen observaros."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una habitación con murales proféticos.",
+        "descripcion": "Cuando abrís la puerta, encontráis una habitación decorada con murales que narran una profecía oscura y perturbadora."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una maraña de raíces entrelazadas.",
+        "descripcion": "Cuando abrís la puerta, encontráis una maraña de raíces entrelazadas que se extienden por el suelo y las paredes, como si fueran venas de la propia mazmorra."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una fuente de energía arcana pulsante.",
+        "descripcion": "Cuando abrís la puerta, encontráis una fuente de energía arcana pulsante que ilumina la habitación con destellos de magia pura."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un espejo antiguo y empañado.",
+        "descripcion": "Cuando abrís la puerta, encontráis un espejo antiguo y empañado que refleja imágenes distorsionadas y movimientos que no corresponden con los vuestros."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un sarcófago sellado con jeroglíficos antiguos.",
+        "descripcion": "Cuando abrís la puerta, encontráis un sarcófago sellado con jeroglíficos antiguos que parecen contener secretos y peligros desconocidos."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un rastro de sangre fresca en el suelo.",
+        "descripcion": "Cuando abrís la puerta, encontráis un rastro de sangre fresca en el suelo que conduce hacia una oscuridad ominosa."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una habitación con runas encantadas en las paredes.",
+        "descripcion": "Cuando abrís la puerta, encontráis una habitación con runas encantadas brillando en las paredes, emitiendo un zumbido mágico constante."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una antorcha ardiendo sin consumirse.",
+        "descripcion": "Cuando abrís la puerta, encontráis una antorcha ardiendo intensamente sin consumirse, iluminando una sala que parece suspendida en el tiempo."
+    },{
+        "accion": "Al abrir la puerta, encontráis una estatua animada de un guardián antiguo.",
+        "descripcion": "Cuando abrís la puerta, encontráis una estatua de piedra que cobra vida, con ojos brillantes y una espada lista para atacar."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una neblina espesa que cubre el suelo.",
+        "descripcion": "Cuando abrís la puerta, encontráis una neblina espesa que envuelve el suelo, dificultando la visibilidad y el movimiento."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un esqueleto de dragón ancestral.",
+        "descripcion": "Cuando abrís la puerta, encontráis el esqueleto de un dragón antiguo, con huesos que brillan con un brillo misterioso."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una habitación con cadáveres en descomposición.",
+        "descripcion": "Cuando abrís la puerta, encontráis una habitación llena de cadáveres en diferentes estados de descomposición, con un olor nauseabundo."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis un pozo de lava burbujeante.",
+        "descripcion": "Cuando abrís la puerta, encontráis un pozo de lava burbujeante que ilumina la habitación con una luz rojiza y calor sofocante."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una esfera de cristal flotante.",
+        "descripcion": "Cuando abrís la puerta, encontráis una esfera de cristal flotante que contiene imágenes de lugares lejanos y eventos pasados y futuros."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una estantería llena de libros malditos.",
+        "descripcion": "Cuando abrís la puerta, encontráis una estantería llena de libros con encuadernaciones negras y símbolos prohibidos que parecen susurrar en la oscuridad."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una fuente de poder mágico incontrolable.",
+        "descripcion": "Cuando abrís la puerta, encontráis una fuente de poder mágico que emite descargas de energía descontrolada, haciendo que el aire zumbre con electricidad."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una red de túneles subterráneos.",
+        "descripcion": "Cuando abrís la puerta, encontráis una red de túneles subterráneos que se extienden en múltiples direcciones, llevando a lugares desconocidos y peligrosos."
+    },
+    {
+        "accion": "Al abrir la puerta, encontráis una estrella de mar gigante adherida al techo.",
+        "descripcion": "Cuando abrís la puerta, encontráis una estrella de mar gigante adherida al techo, con tentáculos que se retuercen y brillan con un resplandor bioluminiscente."
+    }
+]
