@@ -43,5 +43,14 @@
         </figure>
     </div>
 
-    <app-scenario-detail [escenario]="selectedScenario()"/>
+    
+
+    @if (isDungeon){
+        <app-mazmorreo/>
+    } @else {
+        <app-scenario-detail [escenario]="selectedScenario()"/>
+    }
+    
+    
 </div>
+

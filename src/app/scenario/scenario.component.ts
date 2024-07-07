@@ -2,17 +2,19 @@ import { Component, EventEmitter, Output, effect, signal } from '@angular/core';
 import { ScenarioDetailComponent } from './scenario-detail/scenario-detail.component';
 import { R3SelectorScopeMode } from '@angular/compiler';
 import { TramaComponent } from './trama/trama.component';
+import { MazmorreoComponent } from "./mazmorreo/mazmorreo.component";
 
 @Component({
-  selector: 'app-scenario',
-  standalone: true,
-  imports: [ScenarioDetailComponent, TramaComponent],
-  templateUrl: './scenario.component.html',
-  styleUrl: './scenario.component.css'
+    selector: 'app-scenario',
+    standalone: true,
+    templateUrl: './scenario.component.html',
+    styleUrl: './scenario.component.css',
+    imports: [ScenarioDetailComponent, TramaComponent, MazmorreoComponent]
 })
 export class ScenarioComponent {
 
-    selectedScenario = signal('city');
+    selectedScenario = signal<string>('city');
+    isDungeon = false;
 
     
 
@@ -25,8 +27,9 @@ export class ScenarioComponent {
             this.selectedScenario.update(value => childImg.alt);
             console.log("Esto se ejecuta después de 0.1 segundos");
           }, 100);
-        
-        console.log(this.selectedScenario)
+
+        this.isDungeon = (childImg.alt ==='maze' ? true : false)
+
     }
 
 

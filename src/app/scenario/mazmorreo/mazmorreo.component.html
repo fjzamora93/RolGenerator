@@ -1,0 +1,92 @@
+
+
+<div appHideDetails> <!-- Recuerda que appHideDetails es una directiva para ocultar-->
+
+    <div class="item-info">
+       
+        <h3>{{ roomService.roomSelected.habitacion }} </h3> 
+        <p>{{ roomService.roomSelected.descripcion }} </p>    
+        <button (click)="randomize($event)"> Generar Habitación </button>
+        <button> Ampliar detalles </button>
+    </div>
+
+
+    <div class="ocultar">
+        <div class="item-info">
+            <h3> Nodo central de la habitación </h3>
+            <p> {{ roomService.roomSelected.nodoCentral }} </p>
+   
+            <h4> Pista: {{ roomService.roomSelected.objeto1.elemento }} </h4>
+            <p> {{ roomService.roomSelected.objeto1.relacion }} </p>
+    
+            <h4> Pista: {{ roomService.roomSelected.objeto2.elemento }} </h4>
+            <p> {{ roomService.roomSelected.objeto2.relacion }} </p>
+
+            <h4> Pista: {{ roomService.roomSelected.objeto3.elemento }} </h4>
+            <p> {{ roomService.roomSelected.objeto3.relacion }} </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- <h1>Mazmorreo</h1>
+
+<h3>La Zona de Exclusión</h3>
+
+<div>
+    Inspirado en el juego de rol con este mismo nombre, la Zona de Exclusión busca penalizar a los jugadores según avanzan en la mazmorra.
+    El equipo parte de la Zona Nº1, donde antes de avanzar en la mazmorra es necesario realizar una tirada. 
+    El resultado de la tirada debe ser MAYOR al Número de la Zona. Es decir, para la Zona 1, será necesario obtener un 2; para la Zona 2, será necesario un 3. Y así sucesivamente.
+
+    Puede usarse cualquier dado, aunque lo recomendable es establecer 5 zonas y usar un D6. Es decir, en la última zona, será necesario sacar un 6.
+
+    <h4>¿Y qué sucede si no se supera la tirada?</h4>
+    <p>
+        Se establecerá una penalización al jugador por cada tirada fallida. La penalización dependerá del tipo de campaña qu estéis realizando, aunque aquí van algunas ideas:
+        -Perder puntos de cordura o de vida.
+        -El personaje perderá habilidades o jugará con desventaja.
+        -Se puede establecer algún tipo de mutación, influencia maligna o maldición.
+    </p>
+
+    <h4>¿Demasiado complicado?</h4>
+    <p>
+        Es posible establecer mecánicas adicionales para complicar o facilitar el juego.
+        Por ejemplo, se puede determinar que en las Zonas más avanzadas (donde es casi imposible salir indemne), se permita una 'tirada de salvación' para resistir una parte del efecto negativo, 
+        o cambiar el tipo de dado para disminuir las probabilidades de fracaso.
+    </p>
+
+    <h4>¿Demasiado fácil?</h4>
+    <p>
+        Simplemente impide que se pueda regresar a una zona anterior o haz que los encuentros de cada zona sean más peligrosos.
+    </p>
+</div>
+
+<h3>La torre </h3>
+
+<div>
+    Imagínate una torre que desciende hasta lo más profundo... ¿Qué habrá allí abajo? En este tipo de aventura lo que se pretende es ir aumentando la dificultad
+    según se avanza dentro de la mazmorra. 
+
+    Dado que las mazmorras se generan de forma aleatoria, aquí hay truco: las puntuaciones de dado más altas a la hora de interactuar con las habitaciones,
+    tienen mayor probabilidad de obtener resultados positivos. 
+
+    Para hacer una mazmorra más compleja, puedes disminuir la puntuación del dado u obligar un dado distinto al D20  (más bajo).
+
+
+</div>
+
+
+<h3>Contrarreloj</h3>
+
+<div>
+    Los jugadores deben resolver todas las pruebas de cada fase de la mazmorra antes de avanzar en un periodo de tiempo determinado.
+    No existe la posibilidad de "abrir otra habitación" o dar marcha atrás. Dado un set de habitaciones, es necesario resolver el nodo que establezca el Game Máster para proseguir con la historia.
+
+    <h4>Penalizando el tiempo</h4>
+    Establece penalización al paso del tiempo. Cada acción fallida, puede provocar un efecto no deseado que sea acumulativo.
+    Lógicamente, cada fracaso puede provocar cierta "ayuda" para evitar que queden atascados, o incluso dejar que las soluciones creativas de los jugadores sean válidas.
+
+</div> -->

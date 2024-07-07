@@ -1,0 +1,87 @@
+:host {
+    padding-top: 30px;
+    display: block;
+}
+
+
+
+h3, h4 {
+    color: #333;
+    line-height: 1.2;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #666;
+}
+
+p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+h3::after, h4::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #333;
+    margin: 10px 0;
+}
+
+h4:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+.img-details{
+    display: inline;
+    float: right;
+    max-width: 50%;
+    border: 5px groove rgb(101, 99, 99);
+    border-radius: 10px;
+    margin: 30px;
+    
+}
+
+.item-info {
+    background-color: rgb(219, 216, 205);
+    font-weight: 100;
+    border: 2px inset rgb(122, 117, 102);
+    font-style: italic;
+    color: black;
+    padding: 10px 10%;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    margin:10px;
+    display: block;
+}
+
+.ocultar {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.mostrar {
+    max-height: 5000px; /* Ajusta esto según el contenido que esperes */
+}
+
+p:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .img-details{
+        display: block;
+        float: none;
+        max-width: 100%;
+    }
+}
