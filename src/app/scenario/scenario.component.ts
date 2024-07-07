@@ -1,11 +1,12 @@
 import { Component, EventEmitter, Output, effect, signal } from '@angular/core';
 import { ScenarioDetailComponent } from './scenario-detail/scenario-detail.component';
 import { R3SelectorScopeMode } from '@angular/compiler';
+import { TramaComponent } from './trama/trama.component';
 
 @Component({
   selector: 'app-scenario',
   standalone: true,
-  imports: [ScenarioDetailComponent],
+  imports: [ScenarioDetailComponent, TramaComponent],
   templateUrl: './scenario.component.html',
   styleUrl: './scenario.component.css'
 })

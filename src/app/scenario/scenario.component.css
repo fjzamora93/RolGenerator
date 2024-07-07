@@ -47,3 +47,10 @@
 .gallery figcaption:hover{
     cursor: pointer;
 }
+
+
+
+
+.mostrar {
+    max-height: 500px; /* Ajusta esto según el contenido que esperes */
+}

@@ -1,3 +1,8 @@
+
+button{
+    display: inline;
+}
+
 :host {
     padding-top: 30px;
     display: block;
@@ -21,7 +26,7 @@ h4 {
 }
 
 p {
-    color: #666;
+    color: #363636;
     margin-bottom: 10px;
 }
 
@@ -68,15 +73,10 @@ h4:hover {
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
 }
-
 .mostrar {
-    max-height: 500px; /* Ajusta esto según el contenido que esperes */
+    max-height: 5000px; /* Ajusta esto según el contenido que esperes */
 }
 
-p:hover {
-    color: #333;
-    cursor: pointer;
-}
 
 @media (max-width: 600px) {
     .img-details{

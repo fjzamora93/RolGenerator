@@ -6,7 +6,7 @@ import { ScenarioComponent } from './scenario/scenario.component';
 import { ItemsComponent } from './items/items.component';
 import { FormsModule } from '@angular/forms';
 import { NpcComponent } from "./npc/npc.component";
-import { TramaComponent } from "./trama/trama.component";
+import { TramaComponent } from "./scenario/trama/trama.component";
 
 
 @Component({
