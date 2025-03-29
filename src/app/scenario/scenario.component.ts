@@ -3,13 +3,14 @@ import { ScenarioDetailComponent } from './scenario-detail/scenario-detail.compo
 import { R3SelectorScopeMode } from '@angular/compiler';
 import { TramaComponent } from './trama/trama.component';
 import { MazmorreoComponent } from "./mazmorreo/mazmorreo.component";
+import { BannerComponent } from '../template/banner/banner.component';
 
 @Component({
     selector: 'app-scenario',
     standalone: true,
     templateUrl: './scenario.component.html',
     styleUrl: './scenario.component.css',
-    imports: [ScenarioDetailComponent, TramaComponent, MazmorreoComponent]
+    imports: [ScenarioDetailComponent, TramaComponent, MazmorreoComponent, BannerComponent]
 })
 export class ScenarioComponent {
 

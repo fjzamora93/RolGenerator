@@ -1,0 +1,132 @@
+[
+    {
+    "name": "Entrada del Templo",
+    "description": "Os encontráis ante una bifurcación de dos pasillos estrechos, cuyas paredes de piedra erosionada muestran siglos de abandono. Las antorchas, ya apagadas, sugieren que este lugar fue una vez frecuentado. Unas escaleras descendentes, parcialmente cubiertas por telarañas, prometen acceso a una sala subterránea, pero algo en el aire os advierte que no será un camino fácil.",
+    "events": [
+        {
+            "cause": "Al avanzar, vuestros pies rozan unas placas de piedra ligeramente elevadas en el suelo. Su diseño geométrico no parece natural en este entorno. ¿Será una trampa preparada para intrusos?",
+            "effects": [
+                "Si activan la placa: Las paredes de ambos pasillos emiten un brillo azulado al encenderse runas druídicas ocultas. Las inscripciones muestran claras advertencias sobre una 'maldición verde' que devora lo impuro.",
+                "Si evitan la placa o la desactivan: La oscuridad permanece, aumentando un 20% la probabilidad de sufrir 1d6 de daño por caídas o trampas ocultas en los siguientes 10 minutos."
+            ]
+        },
+        {
+            "cause": "Al descender hacia la sala subterránea, unas raíces anormalmente gruesas -casi como tentáculos- bloquean completamente el acceso. Parecen latir levemente, y al tocarlas, notáis que su superficie está cálida y húmeda.",
+            "effects": [
+                "Si cortan las raíces violentamente: Estas sangran un líquido ámbar que huele a miel fermentada. El sonido gutural que emiten atrae a 1d4 insectos gigantes en 2 turnos. Además, todas las plantas en 50 metros se vuelven hostiles durante 1 hora.",
+                "Si las atraviesan con cuidado: Acceden a la sala subterránea."
+            ]
+        }
+    ]
+},
+    
+    {
+    "name": "Sala subterránea",
+    "description": "Os adentráis en una sala tan oscura que vuestras fuentes de luz apenas iluminan unos centímetros alrededor vuestro, como si la negrura absorbiera activamente cualquier resplandor. El aire huele a tierra húmeda y musgo, pero notáis una corriente fría que os rodea, sugiriendo que la sala está ventilada por algún conducto invisible. De repente, unos ojos brillantes se abren en la penumbra, y una figura se mueve con un crujido inquietante de patas contra la piedra. Un ser mitad hombre, mitad araña emerge, alzando una mano arrugada en señal de advertencia. Su voz, áspera pero no amenazante, rompe el silencio: 'Este no es lugar para los vivos...'",
+    "events": [
+        {
+            "cause": "Manteniendo la calma, alguno de vosotros alza las manos en señal de paz o intenta hablar con la criatura.",
+            "effects": [
+                "El druida arácnido os cuenta entre susurros que fue convertido en esto por la maldición del templo. Si los jugadores insisten en entrar, se volverá hostil (combate con ventaja para él por conocimiento del terreno).",
+                "Con un chequeo de Persuasión DC 14, revela el origen de la maldición en un objeto que está en lo más profundo del templo: 'Destruidlo... y libradme'. Este objeto es el mismo que deben encontrar en la misión principal."
+            ]
+        },
+        {
+            "cause": "Uno de vosotros desenvaina un arma, lanza un hechizo o la situación escala por acciones previas (ej: haber cortado raíces violentamente).",
+            "effects": [
+                "Combate inmediato. Estadísticas del Druida Arácnido: 12 HP, Armadura Natural 14, Ataque 'Mordisco Venenoso' (1d6 + efecto: Con DC 12 Constitución o desventaja en la siguiente acción).",
+                "Cada 2 rondas, invoca 1d3 arañas gigantes (4 HP, agarre con telaraña en impacto). Si los jugadores huyen, el druida no persigue más allá de la sala."
+            ]
+        }
+    ]
+},
+
+  {
+    "name": "Sala del Consejo",
+    "description": "El pasillo os deposita en una cámara que parece contener la esencia misma de lo primigenio. Cuatro pilares desnudos, marcados por runas que se retuercen como serpientes al débil resplandor azul de las antorchas, custodian una mesa de mármol tan negra que devora la luz. En la penumbra del fondo, la estatua del Hombre Desnudo os observa con ojos de esmeralda cuyo brillo palpita al ritmo de vuestros propios latidos. El aire espeso sabe a raíces recién arrancadas y a promesas olvidadas.",
+    "events": [
+        {
+            "cause": "Las esmeraldas de la estatua os llaman con un magnetismo casi doloroso. Su pulsar se acelera cuando os acercáis, y una voz susurra en el límite de vuestra conciencia: 'Tómalas... son tuyas'. Vuestros dedos se tensan con un deseo ajeno.",
+            "effects": [
+                "Si cedéis al impulso: Las gemas se funden con vuestra carne, y de pronto el mundo se llena de susurros vegetales. Las sombras se retuercen en formas de ramas sedientas, y vuestros aliados adquieren rostros de corteza y savia. La locura os abraza con raíces mentales.",
+                "Si resistís: La estatua exhala un verso en lengua antigua. Las antorchas estallan en llamas blancas, iluminando inscripciones que narran una verdad olvidada: solo quien se vacíe de miedo verá lo que el velo oculta.",
+                "Si escucháis con el corazón: El latir de las esmeraldas os hipnotiza. Una sabiduría ancestral os habla de los cuatro pilares de la vida, de cómo toda existencia nace, arde, fluye y asciende."
+            ]
+        },
+        {
+            "cause": "La mesa de mármol os atrae como un espejo de aguas profundas. Vuestros reflejos se deforman al acercaros, mostrando figuras que se agitan bajo la superficie, como ahogados intentando romper el cristal líquido de la piedra.",
+            "effects": [
+                "Al tocar su frialdad: Las sombras se apiñan bajo vuestras palmas, sus bocas mudas gritando advertencias que no podéis oír. Sabéis, sin saber cómo, que fueron druidas que ofrendaron demasiado.",
+                "Si invocáis magia: La mesa canta. El sonido os perfora los huesos, llenando vuestras mentes de visiones de bosques que crecen demasiado rápido, devorando ciudades y dioses. Las antorchas bailan al unísono, hipnóticas."
+            ]
+        },
+        {
+            "cause": "La mesa parece sedienta. Cuando la sangre o el agua caen sobre ella, el mármol bebe con avidez, dejando tras de sí patrones geométricos que os producen náuseas al mirarlos fijamente.",
+            "effects": [
+                "Con metal o piedra: Vuestras herramientas son engullidas lentamente, como si la mesa las saboreara. Un dolor punzante os advierte que lo perdido no volverá.",
+                "Con líquidos sagrados: Las llamas azules envejecen en un instante, volviéndose doradas y sabias. Por un momento, creéis ver una puerta donde antes solo había piedra... pero ¿era real?"
+            ]
+        }
+    ]
+},
+
+
+   {
+    "name": "Sala del Cofre Secreto",
+    "description": "El aire espeso y rancio os golpea al entrar, mezclando el hedor a carne podrida con el moho de siglos. En el centro yace el cadáver de un aventurero, su armadura oxidada y su expresión congelada en un último grito silencioso. Tres cofres macizos, adornados con runas desgastadas, se alinean contra la pared como tumbas verticales. Una puerta con engranajes oxidados rechina levemente, como si respirara. Cada paso hace crujir cristales bajo vuestras botas: esporas secas que brillan débilmente en la penumbra.",
+    "events": [
+        {
+            "cause": "El cadáver parece contener algo en su mano cerrada con fuerza. Sus dedos agarrotados sugieren que murió protegiendo algo... o quizás siendo víctima de ello.",
+            "effects": [
+                "Si revisáis el cuerpo: Entre sus dedos encontráis un pergamino medio quemado con símbolos druídicos. Las marcas de garras en el papel indican que alguien más lo buscó desesperadamente. Quien lo estudie sentirá que las runas parecen moverse, prometiendo un secreto que duele recordar.",
+                "Si lo dejáis intacto: Las esporas bajo vuestros pies brillan más intensamente, revelando que el cuerpo está cubierto por una red de hongos luminiscentes. Sabéis, por instinto, que perturbar este ecosistema sería un error."
+            ]
+        },
+        {
+            "cause": "Los cofres os observan. Sus cerraduras, aunque oxidadas, muestran marcas de intentos recientes de ser forzadas. El tercero tiene una mancha oscura que parece latir levemente al acercaros.",
+            "effects": [
+                "Si lográis abrirlos: Solo contienen piedras talladas con rostros agonizantes. Pero al moverlas, descubrís que el fondo del tercer cofre es falsa. Una llave de hueso yace allí, todavía caliente al tacto.",
+                "Si falláis o forzáis las cerraduras: Un crujido metálico retumba bajo vuestros pies. El suelo se inclina peligrosamente, revelando que los cofres están encadenados a algo mucho más grande bajo las piedras..."
+            ]
+        },
+        {
+            "cause": "La puerta con engranajes parece ser vuestra única salida. Pero cada vez que alguien se acerca, los mecanismos gimen como si estuvieran a punto de activarse.",
+            "effects": [
+                "Si os precipitáis: La puerta se cierra de golpe. Un silbido agudo llena la sala mientras un vapor verdoso comienza a filtrarse por las juntas de las paredes. El cadáver del aventurero se disuelve ante vuestros ojos, convertido en una masa burbujeante.",
+                "Si actuáis con precaución: Notáis que los engranajes están conectados a tubos que recorren el techo. Con paciencia, podéis hacer que el mecanismo trabaje a vuestro favor, purgando el veneno hacia otras partes del templo donde quizá... sea útil."
+            ]
+        }
+    ]
+}
+    ,
+
+{
+    "name": "La Cámara del Relicario Perdido",
+    "description": "La estancia es amplia y húmeda, iluminada por un resplandor verdoso que emana de tres fuentes dispuestas en un cuadrado. Sus aguas cristalinas caen en un gran manantial ante vosotros... . Al fondo de la sala, un colosal lagarto de piedra —sus escamas convertidas en roca— vigila con ojos ámbar que siguen vuestros movimientos. Bajo sus garras petrificadas, una puerta de bronce oxidado muestra una cerradura en forma de hoja. El aire huele a salitre y electricidad estática.",
+    "events": [
+        {
+            "cause": "Las tres fuentes funcionan, pero el manantial central permanece seco. En cada una podéis ver una runa distinta grabada: una montaña (Tierra), una llama (Fuego) y una ola (Agua). Recordáis las palabras del Hombre Desnudo: 'La vida comienza en la Tierra, se nutre del Fuego, fluye como el Agua...' Os falta el Aire. Al buscar por la sala, encontráis la cuarta fuente —con un remolino tallado— tirada cerca del lagarto, cubierta de musgo.",
+            "effects": [
+                "Si colocáis la fuente faltante y activáis las runas en el orden correcto (Tierra, Fuego, Agua, Aire): El manantial emite un sonido armónico. La puerta bajo el lagarto se abre con un chasquido, revelando escaleras descendentes. Los ojos del guardián parpadean, pero no se mueve.",
+                "Si falláis el orden o ignoráis el ritual: Un trueno retumba en la sala. Las grietas comienzan a extenderse por el cuerpo pétreo del lagarto. Tenéis aproximadamente el tiempo que tarda en quemarse una antorcha (10 minutos) antes de que despierte por completo."
+            ]
+        },
+        {
+            "cause": "La puerta entreabierta revela un relicario oculto. Allí, sobre un cojín de terciopelo carcomido, descansa la reliquia: una corona de espinas de ébano con una gema negra que absorbe la luz. Al tocarla, sentís un escalofrío que os recorre la columna vertebral.",
+            "effects": [
+                "Si tomáis la reliquia con sigilo (usando la llave de hueso para evitar ruidos): Un crujido lejano os alerta —el lagarto mueve una garra— pero aún está medio petrificado. Podéis huir ahora o buscar más tesoros... con riesgo.",
+                "Si la cogéis bruscamente: El guardián ruge al romper su petrificación. La puerta comienza a cerrarse. Para escapar, deberéis esquivar sus garras (que rompen el suelo a cada embestida) y atravesar la puerta antes de que se selle (3 rondas)."
+            ]
+        },
+        {
+            "cause": "El lagarto despierto es ahora una tormenta de escamas y furia. Su cola derriba pilares y sus ojos brillan con la misma luz negra que la gema de la corona.",
+            "effects": [
+                "Si intentáis combatirlo: Sus escamas reflejan hechizos como un espejo. Solo las armas físicas parecen dañarlo, pero cada golpe que recibe hace que la gema en la corona emita un pulso de energía oscura (daño en área).",
+                "Si huís: El guardián os perseguirá hasta los límites del templo. Encuentros futuros ocurrirán en terrenos más favorables para él —como pasajes inundados o puentes colgantes— donde su tamaño sea una ventaja."
+            ]
+        }
+    ]
+}
+
+
+]

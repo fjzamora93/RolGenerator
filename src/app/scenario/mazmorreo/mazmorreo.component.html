@@ -1,9 +1,65 @@
 
 
-<div appHideDetails> <!-- Recuerda que appHideDetails es una directiva para ocultar-->
 
+
+
+
+
+
+
+<div appHideDetails> <!-- Recuerda que appHideDetails es una directiva para ocultar-->
+    <div class="container my-4">
+        <h1 class="text-center text-brown fw-bold mb-4" style="font-family: serif;">📜 Las colinas de la mano 📜</h1>
+        
+        <div class="row">
+            <div class="col-12" *ngFor="let adventure of roomService.adventures">
+                <div class="card mb-4 shadow-lg border-warning bg-light" style="border-radius: 10px;">
+                    <div class="card-body">
+                        <h2 class="card-title text-dark fw-bold fst-italic">{{ adventure.name }}</h2>
+                        <p class="card-text text-brown">{{ adventure.description }}</p>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered bg-secondary-subtle">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th scope="col" class="text-brown">⚔ Evento</th>
+                                        <th scope="col" class="text-brown">🔮 Consecuencias</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let event of adventure.events; let last = last">
+                                        <td class="text-brown fw-bold">
+                                            📖 {{ event.cause }}
+                                        </td>
+                                        <td>
+                                            <ul class="list-unstyled">
+                                                <li *ngFor="let consequence of event.effects">
+                                                    <p class="text-muted fst-italic">→ {{ consequence }}</p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <!-- Separador tipo pergamino -->
+                                    <tr >
+                                        <td colspan="2">
+                                            <hr class="my-3 border border-secondary border-3">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+    <!--- GENERACIÓN ALEATORIA DE MAZMORRAS  -->
     <div class="item-info">
-       
+
         <h3>{{ roomService.roomSelected.habitacion }} </h3> 
         <p>{{ roomService.roomSelected.descripcion }} </p>    
         <button (click)="randomize($event)"> Generar Habitación </button>

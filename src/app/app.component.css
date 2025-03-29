@@ -1,4 +1,12 @@
-
+app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .main-content {
+    flex: 1;
+  }
+  
 
 .container {
     width: 80%;
