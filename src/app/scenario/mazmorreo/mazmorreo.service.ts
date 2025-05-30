@@ -31,7 +31,7 @@ export class MazmorreoService{
             console.error(error);
             return this.adventures[0]; 
         }
-        
+
     }
 }
 

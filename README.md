@@ -1,6 +1,6 @@
 # RolGenerator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4..
 
 ## Development server
 
@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+npm run build -- --base-href "https://fjzamora93.github.io/RolGenerator/"
+
+npx angular-cli-ghpages --dir=dist/rol-generator/browser
