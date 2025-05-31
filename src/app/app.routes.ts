@@ -5,6 +5,7 @@ import { NpcComponent } from './npc/npc.component';
 
 
 export const routes: Routes = [
+    { path: '', redirectTo: 'scenario', pathMatch: 'full' }, 
     { path: 'scenario', component: ScenarioComponent },
     { path: 'items', component: ItemsComponent },
     {  path: 'npc', component: NpcComponent },
