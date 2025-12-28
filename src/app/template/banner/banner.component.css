@@ -1,16 +1,23 @@
 .row {
     display: flex;
     flex-wrap: nowrap;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
   }
   
 #poster {
     max-width: 40vw;
-    height: auto; 
-   
+    height: auto;
+    flex-shrink: 0;
   }
   
 #banner-description{
-    margin-left: 20px;
+    margin-left: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .button {
@@ -26,9 +33,14 @@
 }
 
   
-  /* Media query for screens under 500px */
-  @media (max-width: 500px) {
+  /* Media query for small screens */
+  @media (max-width: 768px) {
     #poster {
       display: none;
+    }
+    
+    #banner-description {
+      margin-left: 0;
+      width: 100%;
     }
   }

@@ -1,0 +1,43 @@
+<div class="container mt-4">
+
+        <!-- INPUT DE NÚMERO DE JUGADORES -->
+        <div class="mb-3">
+          <label class="form-label fw-bold">Número de jugadores</label>
+      
+          <div class="input-group">
+            <input type="number"
+                   class="form-control"
+                   [(ngModel)]="numPlayers"
+                   min="1"
+                   placeholder="Ej: 6">
+            <button class="btn btn-primary"
+                    (click)="submitPlayers()">
+              Generar
+            </button>
+          </div>
+        </div>
+      
+      
+        <!-- LISTA DE JUGADORES -->
+        <div *ngIf="submitted" class="mt-4">
+      
+          <div *ngFor="let result of results; let i = index"
+               class="mb-2">
+      
+            <!-- BOTÓN DEL JUGADOR -->
+            <button class="btn btn-outline-dark w-100 text-start"
+                    type="button"
+                    (click)="toggleItem(i)">
+              Jugador {{ i + 1 }}
+            </button>
+      
+            <!-- CONTENIDO REVELADO -->
+            <div id="player-{{i}}" class="border rounded p-2 mt-1 d-none">
+              <span class="fw-bold">{{ result }}</span>
+            </div>
+          </div>
+      
+        </div>
+      
+      </div>
+      
