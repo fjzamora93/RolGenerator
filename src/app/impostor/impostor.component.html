@@ -1,28 +1,84 @@
 <div class="container mt-4">
 
-        <!-- INPUT DE NÚMERO DE JUGADORES -->
+        <!-- DIFICULTAD -->
         <div class="mb-3">
-          <label class="form-label fw-bold">Número de jugadores</label>
+          <label class="form-label fw-bold">Nivel de dificultad</label>
+          <div class="d-flex gap-2 flex-wrap">
       
-          <div class="input-group">
-            <input type="number"
-                   class="form-control"
-                   [(ngModel)]="numPlayers"
-                   min="1"
-                   placeholder="Ej: 6">
-            <button class="btn btn-primary"
-                    (click)="submitPlayers()">
-              Generar
+            <button class="btn btn-outline-secondary"
+                    [class.active]="difficulty === 1"
+                    (click)="difficulty = 1">
+              Fácil
             </button>
+      
+            <button class="btn btn-outline-secondary"
+                    [class.active]="difficulty === 2"
+                    (click)="difficulty = 2">
+              Normal
+            </button>
+      
+            <button class="btn btn-outline-secondary"
+                    [class.active]="difficulty === 3"
+                    (click)="difficulty = 3">
+              Medio
+            </button>
+      
+            <button class="btn btn-outline-secondary"
+                    [class.active]="difficulty === 4"
+                    (click)="difficulty = 4">
+              Difícil
+            </button>
+      
+            <button class="btn btn-outline-secondary"
+                    [class.active]="difficulty === 5"
+                    (click)="difficulty = 5">
+              Extremo
+            </button>
+      
           </div>
         </div>
+
+
+        <div class="alert alert-info mt-2" *ngIf="difficulty">
+                <ng-container [ngSwitch]="difficulty">
+                  <span *ngSwitchCase="1">Palabras comunes y pista bastante aproximada para el impostor.</span>
+                  <span *ngSwitchCase="2">Palabras poco comunes y pista aproximada para el impostor.</span>
+                  <span *ngSwitchCase="3">Palabras poco comunes y pista ambigua para el impostor.</span>
+                  <span *ngSwitchCase="4">Palabras bastante rebuscadas y pista ambigua para el impostor.</span>
+                  <span *ngSwitchCase="5">Palabras muy rebuscadas y pista muy ambigua para el impostor.</span>
+                </ng-container>
+              </div>
+              
       
+        
+        <!-- INPUT DE NÚMERO DE JUGADORES -->
+        <div class="mb-3">
+                <label class="form-label fw-bold">Número de jugadores</label>
+              
+                <div class="input-group">
+                  <input type="number"
+                         class="form-control"
+                         [(ngModel)]="numPlayers"
+                         min="3"
+                         placeholder="Ej: 6">
+              
+                  <button class="btn btn-primary"
+                          (click)="submitPlayers(difficulty)">
+                    Generar
+                  </button>
+                </div>
+              
+                <!-- mensaje de error -->
+                <div *ngIf="error" class="text-danger mt-1">
+                  {{ error }}
+                </div>
+              </div>
+              
       
         <!-- LISTA DE JUGADORES -->
         <div *ngIf="submitted" class="mt-4">
       
-          <div *ngFor="let result of results; let i = index"
-               class="mb-2">
+          <div *ngFor="let result of results; let i = index" class="mb-2">
       
             <!-- BOTÓN DEL JUGADOR -->
             <button class="btn btn-outline-dark w-100 text-start"
@@ -35,6 +91,7 @@
             <div id="player-{{i}}" class="border rounded p-2 mt-1 d-none">
               <span class="fw-bold">{{ result }}</span>
             </div>
+      
           </div>
       
         </div>

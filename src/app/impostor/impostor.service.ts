@@ -1,29 +1,38 @@
 // impostor.service.ts
 import { Injectable } from '@angular/core';
-import IMPOSTOR_WORDS_LIST from '../../../public/data/impostor.json';
-import { ImpostorWord } from './impostor.interface';
 
 @Injectable({ providedIn: 'root' }) 
 export class ImpostorService {
 
-  public impostorWord : ImpostorWord[] = IMPOSTOR_WORDS_LIST;
+  // 🔢 número total de lotes disponibles
+  private readonly TOTAL_LOTES = 1;
 
-  shuffleImpostor(numPlayers: number): string[] {
+  async shuffleImpostor(numPlayers: number, level: number): Promise<string[]> {
     const results: string[] = [];
 
-    // 1️⃣ Elegimos palabra/pista aleatoria
-    const randomIndex = Math.floor(Math.random() * this.impostorWord.length);
-    const selected = this.impostorWord[randomIndex];
+  
+    // 📥 import dinámico del JSON correspondiented
+    const { default: impostorWords } = await import(
+      `../../../public/data/impostor_word/impostor_${level}.json`
+    );
 
-    // 2️⃣ Elegimos un impostor al azar entre los jugadores
+    // impostorWords ahora es un JSON del tipo { palabra: pista }
+    const palabras = Object.keys(impostorWords);
+
+    // 🎯 elegimos palabra y pista aleatoria
+    const randomIndex = Math.floor(Math.random() * palabras.length);
+    const palabraSeleccionada = palabras[randomIndex];
+    const pistaSeleccionada = impostorWords[palabraSeleccionada];
+
+    // 🕵️‍♂️ quién es el impostor
     const impostorPlayer = Math.floor(Math.random() * numPlayers);
 
-    // 3️⃣ Repartimos roles
+    // 🧩 repartimos
     for (let i = 0; i < numPlayers; i++) {
       if (i === impostorPlayer) {
-        results.push(`IMPOSTOR — pista: ${selected.pista}`);
+        results.push(`IMPOSTOR — pista: ${pistaSeleccionada}`);
       } else {
-        results.push(`palabra clave: ${selected.palabra}`);
+        results.push(`palabra clave: ${palabraSeleccionada}`);
       }
     }
 
