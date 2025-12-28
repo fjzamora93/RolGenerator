@@ -1,5 +1,26 @@
 # RolGenerator
 
+
+
+# Deployment:
+
+EL despliegue se hace en dos sencillos pasos:
+
+```bash
+# Compilar
+ng build --configuration production --base-href /RolGenerator/
+
+# Publicar en githubpages
+npx angular-cli-ghpages --dir=dist/rol-generator/browser
+
+```
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4..
 
 ## Development server
@@ -28,6 +49,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-npm run build -- --base-href "https://fjzamora93.github.io/RolGenerator/"
+# O usar el script de npm:
+npm run build
 
+# Y luego publicar:
 npx angular-cli-ghpages --dir=dist/rol-generator/browser

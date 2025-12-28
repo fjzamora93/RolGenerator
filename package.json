@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href 'https://github.com/fjzamora93/RolGenerator/'",
+    "build": "ng build --configuration production --base-href '/RolGenerator/'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
